@@ -1,0 +1,10 @@
+builtins_platform=JS
+unique_name=com.app.composeweb\:site
+compiler_version=1.8.20
+depends=com.varabyte.kobweb\:kobweb-silk com.varabyte.kobwebx\:kobwebx-markdown com.varabyte.kobweb\:kobweb-core com.varabyte.kobweb\:kobweb-silk-icons-fa com.varabyte.kobweb\:kobweb-silk-widgets com.varabyte.kobweb\:kobweb-compose com.varabyte.kobweb\:compose-html-ext org.jetbrains.compose.html\:html-core org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.compose.runtime\:runtime org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu kotlin org.jetbrains.kotlin\:kotlinx-atomicfu-runtime
+serializedKlibFingerprint=2e4zkyzq8lqr.35jfieu3r9dyw
+serializedIrFileFingerprints=SerializedIrFileFingerprint(fileFingerprint\=k3tth719ixq1.1gmhw9401qhdo) SerializedIrFileFingerprint(fileFingerprint\=114lj6meg8fj3.3295oglhspw6o) SerializedIrFileFingerprint(fileFingerprint\=tp7a8vdgrgh.2ygtcpbtiplv9) SerializedIrFileFingerprint(fileFingerprint\=wulyqg8mmlq9.djypom820u8s) SerializedIrFileFingerprint(fileFingerprint\=35eesg1zg2i4f.2czcsbdlplp30) SerializedIrFileFingerprint(fileFingerprint\=19ii11e9rjs1x.3rq8uzl5hmq4h) SerializedIrFileFingerprint(fileFingerprint\=34rt11i3l2mku.2e3x4t3y05u6) SerializedIrFileFingerprint(fileFingerprint\=376dpi44ynq5w.q0xnduhhq65w)
+jsOutputName=composeweb
+abi_version=1.7.0
+metadata_version=1.4.1
+ir_version=1.0.0

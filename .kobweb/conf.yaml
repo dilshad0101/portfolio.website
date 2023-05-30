@@ -1,0 +1,14 @@
+site:
+  title: "Dilshad"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/composeweb.js"
+      api: "build/libs/composeweb.jar"
+    prod:
+      script: "build/distributions/composeweb.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
