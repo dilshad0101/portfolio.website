@@ -1,0 +1,6 @@
+2023-05-30 13:03:32.251 [main] INFO  ktor.application - Autoreload is disabled because the development mode is off.
+2023-05-30 13:03:32.377 [main] INFO  ktor.application - API jar found and will be loaded: "build\libs\composeweb.jar"
+2023-05-30 13:03:32.503 [main] INFO  ktor.application - Application started in 0.32 seconds.
+2023-05-30 13:03:33.176 [main] INFO  ktor.application - Responding at http://127.0.0.1:8081
+2023-05-30 13:04:01.367 [main] INFO  ktor.application - Kobweb server shutting down...
+2023-05-30 13:04:03.562 [main] INFO  ktor.application - Server finished shutting down.
