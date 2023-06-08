@@ -1,6 +1,7 @@
 package com.app.composeweb
 
 import androidx.compose.runtime.*
+import com.varabyte.kobweb.compose.css.CSSBackground
 import com.varabyte.kobweb.compose.css.CSSColor
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
@@ -24,6 +25,7 @@ fun initSilk(ctx: InitSilkContext) {
     ctx.config.initialColorMode =  ColorMode.DARK
 
     ctx.stylesheet.registerBaseStyle("body") {
+        Modifier.background(CSSBackground(color = BlackColor))
         Modifier.fontFamily(
 	    "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
             "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif"
@@ -35,14 +37,7 @@ fun initSilk(ctx: InitSilkContext) {
 @Composable
 fun MyApp(content: @Composable () -> Unit) {
     SilkApp {
-        val colorMode = getColorMode()
-        LaunchedEffect(colorMode) {
-            localStorage.setItem(COLOR_MODE_KEY, colorMode.name)
-        }
-
-        Surface(SmoothColorStyle.toModifier().minHeight(100.vh)) {
-            content()
-        }
+        content()
     }
 }
 

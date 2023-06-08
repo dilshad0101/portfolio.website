@@ -18,39 +18,39 @@
 }(this, function (_, kotlin_kotlin, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core) {
   'use strict';
   //region block: imports
-  var protoOf = kotlin_kotlin.$_$.p5;
-  var Unit_getInstance = kotlin_kotlin.$_$.r1;
-  var ensureNotNull = kotlin_kotlin.$_$.h7;
-  var classMeta = kotlin_kotlin.$_$.v4;
-  var VOID = kotlin_kotlin.$_$.r7;
-  var setMetadataFor = kotlin_kotlin.$_$.q5;
+  var protoOf = kotlin_kotlin.$_$.q5;
+  var Unit_getInstance = kotlin_kotlin.$_$.s1;
+  var ensureNotNull = kotlin_kotlin.$_$.j7;
+  var classMeta = kotlin_kotlin.$_$.w4;
+  var VOID = kotlin_kotlin.$_$.u7;
+  var setMetadataFor = kotlin_kotlin.$_$.r5;
   var AbstractApplier = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d;
-  var THROW_CCE = kotlin_kotlin.$_$.c7;
+  var THROW_CCE = kotlin_kotlin.$_$.e7;
   var onBeginChanges = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e;
   var onEndChanges = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.o;
-  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
-  var CoroutineImpl = kotlin_kotlin.$_$.m4;
+  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g1;
+  var CoroutineImpl = kotlin_kotlin.$_$.n4;
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.i;
-  var isInterface = kotlin_kotlin.$_$.i5;
+  var isInterface = kotlin_kotlin.$_$.j5;
   var SupervisorJob = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.l;
   var CoroutineScope_0 = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.h;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.f;
-  var objectMeta = kotlin_kotlin.$_$.o5;
+  var objectMeta = kotlin_kotlin.$_$.p5;
   var CoroutineDispatcher = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.g;
-  var plus = kotlin_kotlin.$_$.l4;
-  var get = kotlin_kotlin.$_$.d4;
-  var fold = kotlin_kotlin.$_$.h4;
-  var minusKey = kotlin_kotlin.$_$.e4;
+  var plus = kotlin_kotlin.$_$.m4;
+  var get = kotlin_kotlin.$_$.e4;
+  var fold = kotlin_kotlin.$_$.i4;
+  var minusKey = kotlin_kotlin.$_$.f4;
   var get_DefaultMonotonicFrameClock = kotlin_org_jetbrains_compose_runtime_runtime.$_$.i;
-  var Recomposer = kotlin_org_jetbrains_compose_runtime_runtime.$_$.n;
+  var Recomposer = kotlin_org_jetbrains_compose_runtime_runtime.$_$.o;
   var CoroutineStart_UNDISPATCHED_getInstance = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.a;
   var ControlledComposition = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h;
   var composableLambdaInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a;
-  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.y3;
-  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.y;
-  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.q;
-  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
+  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.z3;
+  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a1;
+  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.r;
+  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   //endregion
   //region block: pre-declaration
   setMetadataFor(DomNodeWrapper, 'DomNodeWrapper', classMeta);
@@ -62,30 +62,30 @@
   setMetadataFor(renderComposable$composable$scope$1, VOID, classMeta);
   //endregion
   function DomNodeWrapper(node) {
-    this.t1o_1 = node;
-    this.u1o_1 = 0;
+    this.v1p_1 = node;
+    this.w1p_1 = 0;
   }
-  protoOf(DomNodeWrapper).v1o = function () {
-    return this.t1o_1;
+  protoOf(DomNodeWrapper).x1p = function () {
+    return this.v1p_1;
   };
-  protoOf(DomNodeWrapper).w1o = function (index, nodeWrapper) {
-    var length = this.v1o().childNodes.length;
+  protoOf(DomNodeWrapper).y1p = function (index, nodeWrapper) {
+    var length = this.x1p().childNodes.length;
     if (index < length) {
-      var tmp = this.v1o();
-      var tmp_0 = nodeWrapper.v1o();
+      var tmp = this.x1p();
+      var tmp_0 = nodeWrapper.x1p();
       var tmp$ret$1;
       // Inline function 'org.w3c.dom.get' call
-      var tmp0_get = this.v1o().childNodes;
+      var tmp0_get = this.x1p().childNodes;
       var tmp$ret$0;
       // Inline function 'kotlin.js.asDynamic' call
       tmp$ret$0 = tmp0_get;
       tmp$ret$1 = tmp$ret$0[index];
       tmp.insertBefore(tmp_0, ensureNotNull(tmp$ret$1));
     } else {
-      this.v1o().appendChild(nodeWrapper.v1o());
+      this.x1p().appendChild(nodeWrapper.x1p());
     }
   };
-  protoOf(DomNodeWrapper).np = function (index, count) {
+  protoOf(DomNodeWrapper).qp = function (index, count) {
     // Inline function 'kotlin.repeat' call
     // Inline function 'kotlin.contracts.contract' call
     var inductionVariable = 0;
@@ -94,10 +94,10 @@
         var index_0 = inductionVariable;
         inductionVariable = inductionVariable + 1 | 0;
         // Inline function 'org.jetbrains.compose.web.internal.runtime.DomNodeWrapper.remove.<anonymous>' call
-        var tmp = this.v1o();
+        var tmp = this.x1p();
         var tmp$ret$1;
         // Inline function 'org.w3c.dom.get' call
-        var tmp0_get = this.v1o().childNodes;
+        var tmp0_get = this.x1p().childNodes;
         var tmp$ret$0;
         // Inline function 'kotlin.js.asDynamic' call
         tmp$ret$0 = tmp0_get;
@@ -106,7 +106,7 @@
       }
        while (inductionVariable < count);
   };
-  protoOf(DomNodeWrapper).op = function (from, to, count) {
+  protoOf(DomNodeWrapper).rp = function (from, to, count) {
     if (from === to) {
       return Unit_getInstance();
     }
@@ -117,19 +117,19 @@
         inductionVariable = inductionVariable + 1 | 0;
         var fromIndex = from > to ? from + i | 0 : from;
         var toIndex = from > to ? to + i | 0 : (to + count | 0) - 2 | 0;
-        var tmp = this.v1o();
+        var tmp = this.x1p();
         var tmp$ret$1;
         // Inline function 'org.w3c.dom.get' call
-        var tmp0_get = this.v1o().childNodes;
+        var tmp0_get = this.x1p().childNodes;
         var tmp$ret$0;
         // Inline function 'kotlin.js.asDynamic' call
         tmp$ret$0 = tmp0_get;
         tmp$ret$1 = tmp$ret$0[fromIndex];
         var child = tmp.removeChild(ensureNotNull(tmp$ret$1));
-        var tmp_0 = this.v1o();
+        var tmp_0 = this.x1p();
         var tmp$ret$3;
         // Inline function 'org.w3c.dom.get' call
-        var tmp1_get = this.v1o().childNodes;
+        var tmp1_get = this.x1p().childNodes;
         var tmp$ret$2;
         // Inline function 'kotlin.js.asDynamic' call
         tmp$ret$2 = tmp1_get;
@@ -140,80 +140,80 @@
   };
   function DomApplier(root) {
     AbstractApplier.call(this, root);
-    this.b1p_1 = 0;
+    this.d1q_1 = 0;
   }
-  protoOf(DomApplier).c1p = function (index, instance) {
+  protoOf(DomApplier).e1q = function (index, instance) {
   };
-  protoOf(DomApplier).lp = function (index, instance) {
-    return this.c1p(index, instance instanceof DomNodeWrapper ? instance : THROW_CCE());
+  protoOf(DomApplier).op = function (index, instance) {
+    return this.e1q(index, instance instanceof DomNodeWrapper ? instance : THROW_CCE());
   };
-  protoOf(DomApplier).d1p = function (index, instance) {
-    this.gp().w1o(index, instance);
+  protoOf(DomApplier).f1q = function (index, instance) {
+    this.jp().y1p(index, instance);
   };
-  protoOf(DomApplier).mp = function (index, instance) {
-    return this.d1p(index, instance instanceof DomNodeWrapper ? instance : THROW_CCE());
+  protoOf(DomApplier).pp = function (index, instance) {
+    return this.f1q(index, instance instanceof DomNodeWrapper ? instance : THROW_CCE());
   };
-  protoOf(DomApplier).np = function (index, count) {
-    this.gp().np(index, count);
+  protoOf(DomApplier).qp = function (index, count) {
+    this.jp().qp(index, count);
   };
-  protoOf(DomApplier).op = function (from, to, count) {
-    this.gp().op(from, to, count);
+  protoOf(DomApplier).rp = function (from, to, count) {
+    this.jp().rp(from, to, count);
   };
   function synchronize($this) {
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_forEach = $this.j1p_1;
+    var tmp0_forEach = $this.l1q_1;
     var tmp0_iterator = tmp0_forEach.c();
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'org.jetbrains.compose.web.internal.runtime.GlobalSnapshotManager.synchronize.<anonymous>' call
       element();
     }
-    $this.j1p_1.d6();
-    $this.k1p_1 = false;
+    $this.l1q_1.d6();
+    $this.m1q_1 = false;
   }
   function schedule($this, block) {
-    $this.j1p_1.a(block);
-    if (!$this.k1p_1) {
-      $this.k1p_1 = true;
-      launch($this.h1p_1, VOID, VOID, GlobalSnapshotManager$schedule$slambda_0(null));
+    $this.l1q_1.a(block);
+    if (!$this.m1q_1) {
+      $this.m1q_1 = true;
+      launch($this.j1q_1, VOID, VOID, GlobalSnapshotManager$schedule$slambda_0(null));
     }
   }
   function GlobalSnapshotManager$globalWriteObserver$lambda(it) {
-    if (!GlobalSnapshotManager_getInstance().f1p_1) {
-      GlobalSnapshotManager_getInstance().f1p_1 = true;
+    if (!GlobalSnapshotManager_getInstance().h1q_1) {
+      GlobalSnapshotManager_getInstance().h1q_1 = true;
       var tmp = GlobalSnapshotManager_getInstance();
       schedule(tmp, GlobalSnapshotManager$globalWriteObserver$lambda$lambda);
     }
     return Unit_getInstance();
   }
   function GlobalSnapshotManager$globalWriteObserver$lambda$lambda() {
-    GlobalSnapshotManager_getInstance().f1p_1 = false;
-    Companion_getInstance().y18();
+    GlobalSnapshotManager_getInstance().h1q_1 = false;
+    Companion_getInstance().c1a();
     return Unit_getInstance();
   }
   function GlobalSnapshotManager$schedule$slambda(resultContinuation) {
     CoroutineImpl.call(this, resultContinuation);
   }
-  protoOf(GlobalSnapshotManager$schedule$slambda).l19 = function ($this$launch, $completion) {
-    var tmp = this.m19($this$launch, $completion);
-    tmp.nc_1 = Unit_getInstance();
-    tmp.oc_1 = null;
-    return tmp.uc();
+  protoOf(GlobalSnapshotManager$schedule$slambda).v18 = function ($this$launch, $completion) {
+    var tmp = this.w18($this$launch, $completion);
+    tmp.qc_1 = Unit_getInstance();
+    tmp.rc_1 = null;
+    return tmp.xc();
   };
-  protoOf(GlobalSnapshotManager$schedule$slambda).gd = function (p1, $completion) {
-    return this.l19((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  protoOf(GlobalSnapshotManager$schedule$slambda).jd = function (p1, $completion) {
+    return this.v18((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
   };
-  protoOf(GlobalSnapshotManager$schedule$slambda).uc = function () {
-    var suspendResult = this.nc_1;
+  protoOf(GlobalSnapshotManager$schedule$slambda).xc = function () {
+    var suspendResult = this.qc_1;
     $sm: do
       try {
-        var tmp = this.lc_1;
+        var tmp = this.oc_1;
         if (tmp === 0) {
-          this.mc_1 = 1;
+          this.pc_1 = 1;
           synchronize(GlobalSnapshotManager_getInstance());
           return Unit_getInstance();
         } else if (tmp === 1) {
-          throw this.oc_1;
+          throw this.rc_1;
         }
       } catch ($p) {
         var e = $p;
@@ -221,39 +221,39 @@
       }
      while (true);
   };
-  protoOf(GlobalSnapshotManager$schedule$slambda).m19 = function ($this$launch, completion) {
+  protoOf(GlobalSnapshotManager$schedule$slambda).w18 = function ($this$launch, completion) {
     var i = new GlobalSnapshotManager$schedule$slambda(completion);
-    i.u1p_1 = $this$launch;
+    i.w1q_1 = $this$launch;
     return i;
   };
   function GlobalSnapshotManager$schedule$slambda_0(resultContinuation) {
     var i = new GlobalSnapshotManager$schedule$slambda(resultContinuation);
     var l = function ($this$launch, $completion) {
-      return i.l19($this$launch, $completion);
+      return i.v18($this$launch, $completion);
     };
     l.$arity = 1;
     return l;
   }
   function GlobalSnapshotManager() {
     GlobalSnapshotManager_instance = this;
-    this.e1p_1 = false;
-    this.f1p_1 = false;
-    this.g1p_1 = null;
-    this.h1p_1 = CoroutineScope_0((new JsMicrotasksDispatcher()).z3(SupervisorJob()));
+    this.g1q_1 = false;
+    this.h1q_1 = false;
+    this.i1q_1 = null;
+    this.j1q_1 = CoroutineScope_0((new JsMicrotasksDispatcher()).b4(SupervisorJob()));
     var tmp = this;
-    tmp.i1p_1 = GlobalSnapshotManager$globalWriteObserver$lambda;
+    tmp.k1q_1 = GlobalSnapshotManager$globalWriteObserver$lambda;
     var tmp_0 = this;
     var tmp$ret$0;
     // Inline function 'kotlin.collections.mutableListOf' call
     tmp$ret$0 = ArrayList_init_$Create$();
-    tmp_0.j1p_1 = tmp$ret$0;
-    this.k1p_1 = false;
-    this.l1p_1 = 8;
+    tmp_0.l1q_1 = tmp$ret$0;
+    this.m1q_1 = false;
+    this.n1q_1 = 8;
   }
-  protoOf(GlobalSnapshotManager).v1p = function () {
-    if (!this.e1p_1) {
-      this.e1p_1 = true;
-      this.g1p_1 = Companion_getInstance().s1j(this.i1p_1);
+  protoOf(GlobalSnapshotManager).x1q = function () {
+    if (!this.g1q_1) {
+      this.g1q_1 = true;
+      this.i1q_1 = Companion_getInstance().u1k(this.k1q_1);
     }
   };
   var GlobalSnapshotManager_instance;
@@ -264,15 +264,15 @@
   }
   function JsMicrotasksDispatcher$dispatch$lambda($block) {
     return function (it) {
-      $block.uh();
+      $block.xh();
       return Unit_getInstance();
     };
   }
   function JsMicrotasksDispatcher() {
     CoroutineDispatcher.call(this);
-    this.x1p_1 = 0;
+    this.z1q_1 = 0;
   }
-  protoOf(JsMicrotasksDispatcher).di = function (context, block) {
+  protoOf(JsMicrotasksDispatcher).gi = function (context, block) {
     var tmp = Promise.resolve(Unit_getInstance());
     tmp.then(JsMicrotasksDispatcher$dispatch$lambda(block));
   };
@@ -281,40 +281,40 @@
   }
   function renderComposable$composable_0(root, monotonicFrameClock, content) {
     monotonicFrameClock = monotonicFrameClock === VOID ? get_DefaultMonotonicFrameClock() : monotonicFrameClock;
-    GlobalSnapshotManager_getInstance().v1p();
-    var context = monotonicFrameClock.z3(new JsMicrotasksDispatcher());
+    GlobalSnapshotManager_getInstance().x1q();
+    var context = monotonicFrameClock.b4(new JsMicrotasksDispatcher());
     var recomposer = new Recomposer(context);
     var tmp = CoroutineScope_0(context);
     var tmp_0 = CoroutineStart_UNDISPATCHED_getInstance();
     launch(tmp, VOID, tmp_0, renderComposable$composable$slambda_0(recomposer, null));
     var composition = ControlledComposition(new DomApplier(new DomNodeWrapper(root)), recomposer);
     var scope = new renderComposable$composable$scope$1(root);
-    composition.k16(ComposableLambda$invoke$ref(composableLambdaInstance(-1520853124, true, renderComposable$composable$lambda(content, scope))));
+    composition.n16(ComposableLambda$invoke$ref(composableLambdaInstance(-1520853124, true, renderComposable$composable$lambda(content, scope))));
     return composition;
   }
   function renderComposable$composable$slambda($recomposer, resultContinuation) {
-    this.g1q_1 = $recomposer;
+    this.i1r_1 = $recomposer;
     CoroutineImpl.call(this, resultContinuation);
   }
-  protoOf(renderComposable$composable$slambda).l19 = function ($this$launch, $completion) {
-    var tmp = this.m19($this$launch, $completion);
-    tmp.nc_1 = Unit_getInstance();
-    tmp.oc_1 = null;
-    return tmp.uc();
+  protoOf(renderComposable$composable$slambda).v18 = function ($this$launch, $completion) {
+    var tmp = this.w18($this$launch, $completion);
+    tmp.qc_1 = Unit_getInstance();
+    tmp.rc_1 = null;
+    return tmp.xc();
   };
-  protoOf(renderComposable$composable$slambda).gd = function (p1, $completion) {
-    return this.l19((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
+  protoOf(renderComposable$composable$slambda).jd = function (p1, $completion) {
+    return this.v18((!(p1 == null) ? isInterface(p1, CoroutineScope) : false) ? p1 : THROW_CCE(), $completion);
   };
-  protoOf(renderComposable$composable$slambda).uc = function () {
-    var suspendResult = this.nc_1;
+  protoOf(renderComposable$composable$slambda).xc = function () {
+    var suspendResult = this.qc_1;
     $sm: do
       try {
-        var tmp = this.lc_1;
+        var tmp = this.oc_1;
         switch (tmp) {
           case 0:
-            this.mc_1 = 2;
-            this.lc_1 = 1;
-            suspendResult = this.g1q_1.z1b(this);
+            this.pc_1 = 2;
+            this.oc_1 = 1;
+            suspendResult = this.i1r_1.b1d(this);
             if (suspendResult === get_COROUTINE_SUSPENDED()) {
               return suspendResult;
             }
@@ -323,45 +323,45 @@
           case 1:
             return Unit_getInstance();
           case 2:
-            throw this.oc_1;
+            throw this.rc_1;
         }
       } catch ($p) {
         var e = $p;
-        if (this.mc_1 === 2) {
+        if (this.pc_1 === 2) {
           throw e;
         } else {
-          this.lc_1 = this.mc_1;
-          this.oc_1 = e;
+          this.oc_1 = this.pc_1;
+          this.rc_1 = e;
         }
       }
      while (true);
   };
-  protoOf(renderComposable$composable$slambda).m19 = function ($this$launch, completion) {
-    var i = new renderComposable$composable$slambda(this.g1q_1, completion);
-    i.h1q_1 = $this$launch;
+  protoOf(renderComposable$composable$slambda).w18 = function ($this$launch, completion) {
+    var i = new renderComposable$composable$slambda(this.i1r_1, completion);
+    i.j1r_1 = $this$launch;
     return i;
   };
   function renderComposable$composable$slambda_0($recomposer, resultContinuation) {
     var i = new renderComposable$composable$slambda($recomposer, resultContinuation);
     var l = function ($this$launch, $completion) {
-      return i.l19($this$launch, $completion);
+      return i.v18($this$launch, $completion);
     };
     l.$arity = 1;
     return l;
   }
   function renderComposable$composable$scope$1($root) {
-    this.i1q_1 = $root;
+    this.k1r_1 = $root;
   }
   function ComposableLambda$invoke$ref($boundThis) {
     return function (p0, p1) {
-      return $boundThis.l11(p0, p1);
+      return $boundThis.o11(p0, p1);
     };
   }
   function renderComposable$composable$lambda($content, $scope) {
     return function ($composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
-      if (!(($changed & 11) === 2) ? true : !$composer_0.n11()) {
+      if (!(($changed & 11) === 2) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
           traceEventStart(-1520853124, $changed, -1, 'org.jetbrains.compose.web.renderComposable$composable.<anonymous> (renderComposable.kt:59)');
         }
@@ -373,19 +373,19 @@
         }
         tmp = tmp_0;
       } else {
-        $composer_0.mw();
+        $composer_0.pw();
         tmp = Unit_getInstance();
       }
       return Unit_getInstance();
     };
   }
   //region block: post-declaration
-  protoOf(DomApplier).hp = onBeginChanges;
-  protoOf(DomApplier).ip = onEndChanges;
-  protoOf(JsMicrotasksDispatcher).z3 = plus;
-  protoOf(JsMicrotasksDispatcher).s3 = get;
-  protoOf(JsMicrotasksDispatcher).y3 = fold;
-  protoOf(JsMicrotasksDispatcher).x3 = minusKey;
+  protoOf(DomApplier).kp = onBeginChanges;
+  protoOf(DomApplier).lp = onEndChanges;
+  protoOf(JsMicrotasksDispatcher).b4 = plus;
+  protoOf(JsMicrotasksDispatcher).u3 = get;
+  protoOf(JsMicrotasksDispatcher).a4 = fold;
+  protoOf(JsMicrotasksDispatcher).z3 = minusKey;
   //endregion
   //region block: exports
   _.$_$ = _.$_$ || {};

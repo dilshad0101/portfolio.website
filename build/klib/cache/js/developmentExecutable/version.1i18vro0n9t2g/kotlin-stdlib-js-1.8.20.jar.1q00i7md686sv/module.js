@@ -57,6 +57,12 @@ if (typeof Math.clz32 === 'undefined') {
     };
   }(Math.log, Math.LN2);
 }
+if (typeof String.prototype.startsWith === 'undefined') {
+  Object.defineProperty(String.prototype, 'startsWith', {value: function (searchString, position) {
+    position = position || 0;
+    return this.lastIndexOf(searchString, position) === position;
+  }});
+}
 if (typeof String.prototype.endsWith === 'undefined') {
   Object.defineProperty(String.prototype, 'endsWith', {value: function (searchString, position) {
     var subjectString = this.toString();
@@ -66,12 +72,6 @@ if (typeof String.prototype.endsWith === 'undefined') {
     position -= searchString.length;
     var lastIndex = subjectString.indexOf(searchString, position);
     return lastIndex !== -1 && lastIndex === position;
-  }});
-}
-if (typeof String.prototype.startsWith === 'undefined') {
-  Object.defineProperty(String.prototype, 'startsWith', {value: function (searchString, position) {
-    position = position || 0;
-    return this.lastIndexOf(searchString, position) === position;
   }});
 }
 (function () {
@@ -469,6 +469,7 @@ if (typeof Math.imul === 'undefined') {
   setMetadataFor(sam$kotlin_Comparator$0_1, 'sam$kotlin_Comparator$0', classMeta, VOID, [Comparator]);
   setMetadataFor(ExceptionTraceBuilder, 'ExceptionTraceBuilder', classMeta);
   setMetadataFor(DurationUnit, 'DurationUnit', classMeta, Enum);
+  setMetadataFor(EventListenerHandler, 'EventListenerHandler', classMeta);
   setMetadataFor(BitMask, 'BitMask', classMeta);
   setMetadataFor(DefaultConstructorMarker, 'DefaultConstructorMarker', objectMeta);
   setMetadataFor(arrayIterator$1, VOID, classMeta, VOID, [Iterator_3]);
@@ -861,6 +862,19 @@ if (typeof Math.imul === 'undefined') {
     truncated = truncated === VOID ? '...' : truncated;
     transform = transform === VOID ? null : transform;
     return joinTo(_this__u8e3s4, StringBuilder_init_$Create$_1(), separator, prefix, postfix, limit, truncated, transform).toString();
+  }
+  function last(_this__u8e3s4, predicate) {
+    var inductionVariable = _this__u8e3s4.length - 1 | 0;
+    if (0 <= inductionVariable)
+      do {
+        var index = inductionVariable;
+        inductionVariable = inductionVariable + -1 | 0;
+        var element = _this__u8e3s4[index];
+        if (predicate(element))
+          return element;
+      }
+       while (0 <= inductionVariable);
+    throw NoSuchElementException_init_$Create$_0('Array contains no element matching the predicate.');
   }
   function contains_3(_this__u8e3s4, element) {
     return indexOf_1(_this__u8e3s4, element) >= 0;
@@ -1402,7 +1416,7 @@ if (typeof Math.imul === 'undefined') {
     tmp$ret$0 = tmp0_flatMapTo;
     return tmp$ret$0;
   }
-  function last(_this__u8e3s4) {
+  function last_0(_this__u8e3s4) {
     if (_this__u8e3s4.isEmpty_y1axqb_k$())
       throw NoSuchElementException_init_$Create$_0('List is empty.');
     return _this__u8e3s4.get_fkrdnv_k$(get_lastIndex_4(_this__u8e3s4));
@@ -2131,7 +2145,7 @@ if (typeof Math.imul === 'undefined') {
        while (0 <= inductionVariable);
     return -1;
   }
-  function last_0(_this__u8e3s4) {
+  function last_1(_this__u8e3s4) {
     var tmp$ret$0;
     // Inline function 'kotlin.text.isEmpty' call
     tmp$ret$0 = charSequenceLength(_this__u8e3s4) === 0;
@@ -8855,7 +8869,7 @@ if (typeof Math.imul === 'undefined') {
             var prevUnit_0 = null;
             var afterFirst = false;
             var allowSpaces = !hasSign;
-            if ((hasSign ? equals_0(new Char(charSequenceGet(value, index)), new Char(_Char___init__impl__6a9atx(40))) : false) ? equals_0(new Char(last_0(value)), new Char(_Char___init__impl__6a9atx(41))) : false) {
+            if ((hasSign ? equals_0(new Char(charSequenceGet(value, index)), new Char(_Char___init__impl__6a9atx(40))) : false) ? equals_0(new Char(last_1(value)), new Char(_Char___init__impl__6a9atx(41))) : false) {
               allowSpaces = true;
               index = index + 1 | 0;
               var tmp_4 = index;
@@ -19136,6 +19150,24 @@ if (typeof Math.imul === 'undefined') {
       _this__u8e3s4.removeChild(ensureNotNull(_this__u8e3s4.firstChild));
     }
   }
+  function EventListener(handler) {
+    return new EventListenerHandler(handler);
+  }
+  function _get_handler__z70553($this) {
+    return $this.handler_1;
+  }
+  function EventListenerHandler(handler) {
+    this.handler_1 = handler;
+  }
+  protoOf(EventListenerHandler).handleEvent_78xx5q_k$ = function (event) {
+    this.handler_1(event);
+  };
+  protoOf(EventListenerHandler).handleEvent = function (event) {
+    return this.handleEvent_78xx5q_k$(event);
+  };
+  protoOf(EventListenerHandler).toString = function () {
+    return 'EventListenerHandler(' + this.handler_1 + ')';
+  };
   function get_2(_this__u8e3s4, index) {
     var tmp$ret$0;
     // Inline function 'kotlin.js.asDynamic' call
@@ -23032,7 +23064,7 @@ if (typeof Math.imul === 'undefined') {
   _.$_$.v3 = joinToString;
   _.$_$.w3 = get_lastIndex_4;
   _.$_$.x3 = lastIndexOf;
-  _.$_$.y3 = last;
+  _.$_$.y3 = last_0;
   _.$_$.z3 = listOfNotNull;
   _.$_$.a4 = listOf_1;
   _.$_$.b4 = listOf;
@@ -23180,11 +23212,13 @@ if (typeof Math.imul === 'undefined') {
   _.$_$.n9 = rotateLeft;
   _.$_$.o9 = rotateRight;
   _.$_$.p9 = takeLowestOneBit;
-  _.$_$.q9 = throwUninitializedPropertyAccessException;
-  _.$_$.r9 = toString_0;
-  _.$_$.s9 = to;
-  _.$_$.t9 = clear;
-  _.$_$.u9 = VOID;
+  _.$_$.q9 = throwKotlinNothingValueException;
+  _.$_$.r9 = throwUninitializedPropertyAccessException;
+  _.$_$.s9 = toString_0;
+  _.$_$.t9 = to;
+  _.$_$.u9 = clear;
+  _.$_$.v9 = VOID;
+  _.$_$.w9 = EventListener;
   //endregion
   return _;
 }));

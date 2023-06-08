@@ -30,36 +30,36 @@
 }(this, function (_, kotlin_org_jetbrains_compose_runtime_runtime, kotlin_com_varabyte_kobweb_kobweb_silk_widgets, kotlin_kotlin, kotlin_com_varabyte_kobweb_kobweb_core, kotlin_com_varabyte_kobweb_kobweb_compose, kotlin_org_jetbrains_compose_html_html_core, kotlin_com_varabyte_kobweb_compose_html_ext) {
   'use strict';
   //region block: imports
-  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
-  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.u;
-  var initSilk = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.p;
+  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
+  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
+  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
+  var initSilk = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.o;
   var Unit_getInstance = kotlin_kotlin.$_$.w1;
-  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
+  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.l1;
   var THROW_CCE = kotlin_kotlin.$_$.b9;
   var isObject = kotlin_kotlin.$_$.q6;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
-  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
-  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
+  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
+  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u2;
   var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.v8;
-  var SilkStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.x;
-  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
-  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
+  var SilkStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.y;
+  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
+  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z2;
   var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
   var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
   var get_ImageStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.b;
-  var toModifier$composable = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.l;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n2;
+  var toModifier$composable = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.k;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
   var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.r8;
-  var get_LinkStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.e;
+  var get_LinkStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.d;
   var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
   var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.w8;
   var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y;
   var protoOf = kotlin_kotlin.$_$.y6;
   var Annotation = kotlin_kotlin.$_$.q8;
   var classMeta = kotlin_kotlin.$_$.c6;
-  var VOID = kotlin_kotlin.$_$.u9;
+  var VOID = kotlin_kotlin.$_$.v9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   //endregion
   //region block: pre-declaration

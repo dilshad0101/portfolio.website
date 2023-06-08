@@ -24,23 +24,23 @@
   var imul = Math.imul;
   var protoOf = kotlin_kotlin.$_$.y6;
   var interfaceMeta = kotlin_kotlin.$_$.m6;
-  var VOID = kotlin_kotlin.$_$.u9;
+  var VOID = kotlin_kotlin.$_$.v9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   var objectMeta = kotlin_kotlin.$_$.x6;
-  var Unit_getInstance = kotlin_kotlin.$_$.w1;
-  var classMeta = kotlin_kotlin.$_$.c6;
-  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
-  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.u;
+  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
+  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
+  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
-  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j1;
+  var Unit_getInstance = kotlin_kotlin.$_$.w1;
+  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.l1;
   var THROW_CCE = kotlin_kotlin.$_$.b9;
   var isObject = kotlin_kotlin.$_$.q6;
   var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.p8;
-  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
+  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
+  var classMeta = kotlin_kotlin.$_$.c6;
   var composableLambdaInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a;
   var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y;
-  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
+  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
   var noWhenBranchMatchedException = kotlin_kotlin.$_$.l9;
   var equals = kotlin_kotlin.$_$.f6;
   var isInterface = kotlin_kotlin.$_$.p6;
@@ -175,35 +175,35 @@
   var coerceIn = kotlin_kotlin.$_$.h7;
   var get_PI = kotlin_kotlin.$_$.c7;
   var alignSelf_0 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.c;
-  var backgroundColor = kotlin_org_jetbrains_compose_html_html_core.$_$.v6;
   var background = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e;
+  var backgroundColor = kotlin_org_jetbrains_compose_html_html_core.$_$.v6;
   var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.e8;
-  var borderWidth = kotlin_org_jetbrains_compose_html_html_core.$_$.y6;
-  var borderRadius = kotlin_org_jetbrains_compose_html_html_core.$_$.x6;
   var borderTop = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.g;
   var borderStyle = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f;
+  var borderRadius = kotlin_org_jetbrains_compose_html_html_core.$_$.x6;
+  var borderWidth = kotlin_org_jetbrains_compose_html_html_core.$_$.y6;
   var borderRadius_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.w6;
   var boxShadow = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h;
   var color = kotlin_org_jetbrains_compose_html_html_core.$_$.c7;
   var opacity = kotlin_org_jetbrains_compose_html_html_core.$_$.a8;
   var backdropFilter = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.d;
+  var flexShrink = kotlin_org_jetbrains_compose_html_html_core.$_$.i7;
   var flexWrap = kotlin_org_jetbrains_compose_html_html_core.$_$.j7;
   var flexBasis = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.j;
-  var flexShrink = kotlin_org_jetbrains_compose_html_html_core.$_$.i7;
   var gridRowEnd = kotlin_org_jetbrains_compose_html_html_core.$_$.n7;
   var gridRowStart = kotlin_org_jetbrains_compose_html_html_core.$_$.o7;
   var userSelect = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.w;
   var cursor = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.i;
   var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.c8;
+  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.w7;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.l8;
   var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.b8;
   var lineHeight = kotlin_org_jetbrains_compose_html_html_core.$_$.v7;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.l8;
-  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.w7;
-  var minHeight = kotlin_org_jetbrains_compose_html_html_core.$_$.y7;
   var height = kotlin_org_jetbrains_compose_html_html_core.$_$.r7;
+  var minWidth = kotlin_org_jetbrains_compose_html_html_core.$_$.y7;
+  var lineHeight_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.u7;
   var maxWidth = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.p;
   var paddingInline = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.s;
-  var lineHeight_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.u7;
   var objectFit = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.q;
   var outline = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.r;
   var position = kotlin_org_jetbrains_compose_html_html_core.$_$.d8;
@@ -271,6 +271,7 @@
   setMetadataFor(WebModifier, 'WebModifier', interfaceMeta, VOID, [Element]);
   setMetadataFor(StyleModifier, 'StyleModifier', classMeta, VOID, [WebModifier]);
   setMetadataFor(AttrsModifier, 'AttrsModifier', classMeta, VOID, [WebModifier]);
+  setMetadataFor(Colors, 'Colors', objectMeta);
   function darkened$default(byPercent, $super) {
     var tmp;
     if (byPercent === VOID) {
@@ -286,7 +287,6 @@
   setMetadataFor(Rgb, 'Rgb', classMeta, VOID, [Color]);
   setMetadataFor(Hsl, 'Hsl', classMeta, VOID, [Color]);
   setMetadataFor(Companion_0, 'Companion', objectMeta);
-  setMetadataFor(Colors, 'Colors', objectMeta);
   //endregion
   function get_$stableprop() {
     return 0;
@@ -424,21 +424,6 @@
       new Arrangement();
     return Arrangement_instance;
   }
-  function get_$stableprop_9() {
-    return 0;
-  }
-  function BoxScope$align$lambda($alignment) {
-    return function ($this$attrsModifier) {
-      $this$attrsModifier.classes_mog12g_k$([toClassName_1($alignment) + '-self']);
-      return Unit_getInstance();
-    };
-  }
-  function BoxScope() {
-    this.$stable_1 = 0;
-  }
-  protoOf(BoxScope).align_8yhdm5_k$ = function (_this__u8e3s4, alignment) {
-    return attrsModifier(_this__u8e3s4, BoxScope$align$lambda(alignment));
-  };
   function Box$composable(modifier, contentAlignment, ref, content, $composer, $changed, $default) {
     var modifier_0 = {_v: modifier};
     var contentAlignment_0 = {_v: contentAlignment};
@@ -539,6 +524,21 @@
       tmp0_safe_receiver.updateScope_xhrf9y_k$(Box$composable$lambda_1(modifier_0, contentAlignment_0, ref_0, content_0, $changed, $default));
     }
   }
+  function get_$stableprop_9() {
+    return 0;
+  }
+  function BoxScope$align$lambda($alignment) {
+    return function ($this$attrsModifier) {
+      $this$attrsModifier.classes_mog12g_k$([toClassName_1($alignment) + '-self']);
+      return Unit_getInstance();
+    };
+  }
+  function BoxScope() {
+    this.$stable_1 = 0;
+  }
+  protoOf(BoxScope).align_8yhdm5_k$ = function (_this__u8e3s4, alignment) {
+    return attrsModifier(_this__u8e3s4, BoxScope$align$lambda(alignment));
+  };
   function ComposableLambda$invoke$ref($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.invoke_5qf8pc_k$(p0, p1, p2);
@@ -618,6 +618,21 @@
       return Unit_getInstance();
     };
   }
+  function get_$stableprop_10() {
+    return 0;
+  }
+  function ColumnScope$align$lambda($alignment) {
+    return function ($this$attrsModifier) {
+      $this$attrsModifier.classes_mog12g_k$([toClassName_0($alignment) + '-self']);
+      return Unit_getInstance();
+    };
+  }
+  function ColumnScope() {
+    this.$stable_1 = 0;
+  }
+  protoOf(ColumnScope).align_xk6b6i_k$ = function (_this__u8e3s4, alignment) {
+    return attrsModifier(_this__u8e3s4, ColumnScope$align$lambda(alignment));
+  };
   function Column$composable(modifier, verticalArrangement, horizontalAlignment, ref, content, $composer, $changed, $default) {
     var modifier_0 = {_v: modifier};
     var verticalArrangement_0 = {_v: verticalArrangement};
@@ -722,21 +737,6 @@
       tmp0_safe_receiver.updateScope_xhrf9y_k$(Column$composable$lambda_1(modifier_0, verticalArrangement_0, horizontalAlignment_0, ref_0, content, $changed, $default));
     }
   }
-  function get_$stableprop_10() {
-    return 0;
-  }
-  function ColumnScope$align$lambda($alignment) {
-    return function ($this$attrsModifier) {
-      $this$attrsModifier.classes_mog12g_k$([toClassName_0($alignment) + '-self']);
-      return Unit_getInstance();
-    };
-  }
-  function ColumnScope() {
-    this.$stable_1 = 0;
-  }
-  protoOf(ColumnScope).align_xk6b6i_k$ = function (_this__u8e3s4, alignment) {
-    return attrsModifier(_this__u8e3s4, ColumnScope$align$lambda(alignment));
-  };
   function Column$composable$lambda($verticalArrangement, $horizontalAlignment) {
     return function ($this$toAttrs) {
       $this$toAttrs.classes_mog12g_k$(['kobweb-col', toClassName_3($verticalArrangement._v), toClassName_0($horizontalAlignment._v)]);
@@ -2169,6 +2169,9 @@
   }
   function Alignment() {
   }
+  function thenIf(_this__u8e3s4, condition, lazyProduce) {
+    return _this__u8e3s4.then_6jcr1i_k$(condition ? lazyProduce() : Companion_getInstance_7());
+  }
   function Element() {
   }
   function Companion() {
@@ -2188,8 +2191,20 @@
   }
   function Modifier() {
   }
-  function thenIf(_this__u8e3s4, condition, lazyProduce) {
-    return _this__u8e3s4.then_6jcr1i_k$(condition ? lazyProduce() : Companion_getInstance_7());
+  function thenIf_0(_this__u8e3s4, condition, other) {
+    var tmp$ret$1;
+    // Inline function 'com.varabyte.kobweb.compose.ui.thenIf' call
+    var tmp;
+    if (condition) {
+      var tmp$ret$0;
+      // Inline function 'com.varabyte.kobweb.compose.ui.thenIf.<anonymous>' call
+      tmp$ret$0 = other;
+      tmp = tmp$ret$0;
+    } else {
+      tmp = Companion_getInstance_7();
+    }
+    tmp$ret$1 = _this__u8e3s4.then_6jcr1i_k$(tmp);
+    return tmp$ret$1;
   }
   function _get_current__qcrdxk($this) {
     return $this.current_1;
@@ -2344,433 +2359,6 @@
     };
   }
   function get_$stableprop_31() {
-    return 0;
-  }
-  function get_$stableprop_32() {
-    return 0;
-  }
-  function Rgb(value) {
-    this.value_1 = value;
-    this.$stable_1 = 0;
-  }
-  protoOf(Rgb).get_value_j01efc_k$ = function () {
-    return this.value_1;
-  };
-  protoOf(Rgb).get_red_18ix20_k$ = function () {
-    return this.value_1 >> 16 & 255;
-  };
-  protoOf(Rgb).get_green_is36qi_k$ = function () {
-    return this.value_1 >> 8 & 255;
-  };
-  protoOf(Rgb).get_blue_wojj4z_k$ = function () {
-    return this.value_1 >> 0 & 255;
-  };
-  protoOf(Rgb).get_alpha_iooth1_k$ = function () {
-    return this.value_1 >> 24 & 255;
-  };
-  protoOf(Rgb).get_redf_wotlby_k$ = function () {
-    return toColorFloat(this.get_red_18ix20_k$());
-  };
-  protoOf(Rgb).get_greenf_dxud3g_k$ = function () {
-    return toColorFloat(this.get_green_is36qi_k$());
-  };
-  protoOf(Rgb).get_bluef_ip8ppf_k$ = function () {
-    return toColorFloat(this.get_blue_wojj4z_k$());
-  };
-  protoOf(Rgb).get_alphaf_b0gxxt_k$ = function () {
-    return toColorFloat(this.get_alpha_iooth1_k$());
-  };
-  protoOf(Rgb).inverted_adp911_k$ = function () {
-    return Companion_getInstance_8().rgba_2wpmgk_k$(255 - this.get_red_18ix20_k$() | 0, 255 - this.get_green_is36qi_k$() | 0, 255 - this.get_blue_wojj4z_k$() | 0, this.get_alpha_iooth1_k$());
-  };
-  protoOf(Rgb).darkened_3k65o0_k$ = function (byPercent) {
-    // Inline function 'kotlin.require' call
-    var tmp0_require = 0.0 <= byPercent ? byPercent <= 1.0 : false;
-    // Inline function 'kotlin.contracts.contract' call
-    if (!tmp0_require) {
-      var tmp$ret$0;
-      // Inline function 'com.varabyte.kobweb.compose.ui.graphics.Rgb.darkened.<anonymous>' call
-      tmp$ret$0 = 'Invalid color shifting percent. Expected between 0 and 1, got ' + byPercent;
-      var message = tmp$ret$0;
-      throw IllegalArgumentException_init_$Create$(toString(message));
-    }
-    if (byPercent === 0.0)
-      return this;
-    var darkeningMultiplier = 1.0 - byPercent;
-    return Companion_getInstance_8().rgba_yjhdu4_k$(this.get_redf_wotlby_k$() * darkeningMultiplier, this.get_greenf_dxud3g_k$() * darkeningMultiplier, this.get_bluef_ip8ppf_k$() * darkeningMultiplier, this.get_alphaf_b0gxxt_k$());
-  };
-  protoOf(Rgb).copy_2hj87f_k$ = function (red, green, blue, alpha) {
-    return Companion_getInstance_8().rgba_2wpmgk_k$(red, green, blue, alpha);
-  };
-  protoOf(Rgb).copy$default_z5pom3_k$ = function (red, green, blue, alpha, $super) {
-    red = red === VOID ? this.get_red_18ix20_k$() : red;
-    green = green === VOID ? this.get_green_is36qi_k$() : green;
-    blue = blue === VOID ? this.get_blue_wojj4z_k$() : blue;
-    alpha = alpha === VOID ? this.get_alpha_iooth1_k$() : alpha;
-    return $super === VOID ? this.copy_2hj87f_k$(red, green, blue, alpha) : $super.copy_2hj87f_k$.call(this, red, green, blue, alpha);
-  };
-  protoOf(Rgb).copyf_t7rrzj_k$ = function (red, green, blue, alpha) {
-    return Companion_getInstance_8().rgba_yjhdu4_k$(red, green, blue, alpha);
-  };
-  protoOf(Rgb).copyf$default_1ypp37_k$ = function (red, green, blue, alpha, $super) {
-    red = red === VOID ? this.get_redf_wotlby_k$() : red;
-    green = green === VOID ? this.get_greenf_dxud3g_k$() : green;
-    blue = blue === VOID ? this.get_bluef_ip8ppf_k$() : blue;
-    alpha = alpha === VOID ? this.get_alphaf_b0gxxt_k$() : alpha;
-    return $super === VOID ? this.copyf_t7rrzj_k$(red, green, blue, alpha) : $super.copyf_t7rrzj_k$.call(this, red, green, blue, alpha);
-  };
-  protoOf(Rgb).toRgb_1tsrpu_k$ = function () {
-    return this;
-  };
-  protoOf(Rgb).toHsl_1tskli_k$ = function () {
-    var tmp$ret$0;
-    // Inline function 'kotlin.comparisons.maxOf' call
-    var tmp0_maxOf = this.get_redf_wotlby_k$();
-    var tmp1_maxOf = this.get_greenf_dxud3g_k$();
-    var tmp2_maxOf = this.get_bluef_ip8ppf_k$();
-    tmp$ret$0 = Math.max(tmp0_maxOf, tmp1_maxOf, tmp2_maxOf);
-    var chromaMax = tmp$ret$0;
-    var tmp$ret$1;
-    // Inline function 'kotlin.comparisons.minOf' call
-    var tmp3_minOf = this.get_redf_wotlby_k$();
-    var tmp4_minOf = this.get_greenf_dxud3g_k$();
-    var tmp5_minOf = this.get_bluef_ip8ppf_k$();
-    tmp$ret$1 = Math.min(tmp3_minOf, tmp4_minOf, tmp5_minOf);
-    var chromaMin = tmp$ret$1;
-    var chromaDelta = chromaMax - chromaMin;
-    var lightness = (chromaMin + chromaMax) / 2.0;
-    var tmp$ret$2;
-    // Inline function 'kotlin.math.abs' call
-    var tmp6_abs = 2.0 * lightness - 1.0;
-    tmp$ret$2 = Math.abs(tmp6_abs);
-    var saturation = chromaDelta / (1.0 - tmp$ret$2);
-    var tmp;
-    if (chromaDelta === 0.0) {
-      tmp = 0.0;
-    } else {
-      var tmp_0;
-      if (chromaMax === this.get_redf_wotlby_k$()) {
-        tmp_0 = (this.get_greenf_dxud3g_k$() - this.get_bluef_ip8ppf_k$()) / chromaDelta % 6;
-      } else if (chromaMax === this.get_greenf_dxud3g_k$()) {
-        tmp_0 = (this.get_bluef_ip8ppf_k$() - this.get_redf_wotlby_k$()) / chromaDelta + 2.0;
-      } else if (chromaMax === this.get_bluef_ip8ppf_k$()) {
-        tmp_0 = (this.get_redf_wotlby_k$() - this.get_greenf_dxud3g_k$()) / chromaDelta + 4.0;
-      } else {
-        var tmp7_error = 'Unexpected chromaMax value ' + chromaMax;
-        throw IllegalStateException_init_$Create$(toString(tmp7_error));
-      }
-      tmp = 60.0 * tmp_0;
-    }
-    var hue = tmp;
-    return Companion_getInstance_8().hsla_u2xvsw_k$(hue, saturation, lightness, this.get_alphaf_b0gxxt_k$());
-  };
-  protoOf(Rgb).toString = function () {
-    return this.get_alpha_iooth1_k$() === 255 ? 'rgb(' + this.get_red_18ix20_k$() + ', ' + this.get_green_is36qi_k$() + ', ' + this.get_blue_wojj4z_k$() + ')' : 'rgba(' + this.get_red_18ix20_k$() + ', ' + this.get_green_is36qi_k$() + ', ' + this.get_blue_wojj4z_k$() + ', ' + this.get_alphaf_b0gxxt_k$() + ')';
-  };
-  protoOf(Rgb).equals = function (other) {
-    if (this === other)
-      return true;
-    var tmp;
-    var tmp_0;
-    var tmp_1;
-    var tmp_2;
-    if (other instanceof Rgb) {
-      tmp_2 = this.get_red_18ix20_k$() === other.get_red_18ix20_k$();
-    } else {
-      tmp_2 = false;
-    }
-    if (tmp_2) {
-      tmp_1 = this.get_green_is36qi_k$() === other.get_green_is36qi_k$();
-    } else {
-      tmp_1 = false;
-    }
-    if (tmp_1) {
-      tmp_0 = this.get_blue_wojj4z_k$() === other.get_blue_wojj4z_k$();
-    } else {
-      tmp_0 = false;
-    }
-    if (tmp_0) {
-      tmp = this.get_alpha_iooth1_k$() === other.get_alpha_iooth1_k$();
-    } else {
-      tmp = false;
-    }
-    return tmp;
-  };
-  protoOf(Rgb).hashCode = function () {
-    var result = this.get_red_18ix20_k$();
-    result = imul(31, result) + this.get_green_is36qi_k$() | 0;
-    result = imul(31, result) + this.get_blue_wojj4z_k$() | 0;
-    result = imul(31, result) + this.get_alpha_iooth1_k$() | 0;
-    return result;
-  };
-  function Hsl(hue, saturation, lightness, alpha) {
-    this.hue_1 = hue;
-    this.saturation_1 = saturation;
-    this.lightness_1 = lightness;
-    this.alpha_1 = alpha;
-    this.$stable_1 = 0;
-  }
-  protoOf(Hsl).get_hue_18j435_k$ = function () {
-    return this.hue_1;
-  };
-  protoOf(Hsl).get_saturation_nzhaqt_k$ = function () {
-    return this.saturation_1;
-  };
-  protoOf(Hsl).get_lightness_jv7mx0_k$ = function () {
-    return this.lightness_1;
-  };
-  protoOf(Hsl).get_alpha_iooth1_k$ = function () {
-    return this.alpha_1;
-  };
-  protoOf(Hsl).inverted_adp911_k$ = function () {
-    return this.toRgb_1tsrpu_k$().inverted_adp911_k$();
-  };
-  protoOf(Hsl).darkened_3k65o0_k$ = function (byPercent) {
-    return this.toRgb_1tsrpu_k$().darkened_3k65o0_k$(byPercent);
-  };
-  protoOf(Hsl).copy_skjbed_k$ = function (hue, saturation, lightness, alpha) {
-    return Companion_getInstance_8().hsla_u2xvsw_k$(hue, saturation, lightness, alpha);
-  };
-  protoOf(Hsl).copy$default_vk74rp_k$ = function (hue, saturation, lightness, alpha, $super) {
-    hue = hue === VOID ? this.hue_1 : hue;
-    saturation = saturation === VOID ? this.saturation_1 : saturation;
-    lightness = lightness === VOID ? this.lightness_1 : lightness;
-    alpha = alpha === VOID ? this.alpha_1 : alpha;
-    return $super === VOID ? this.copy_skjbed_k$(hue, saturation, lightness, alpha) : $super.copy_skjbed_k$.call(this, hue, saturation, lightness, alpha);
-  };
-  protoOf(Hsl).toRgb_1tsrpu_k$ = function () {
-    var tmp$ret$0;
-    // Inline function 'kotlin.math.abs' call
-    var tmp0_abs = 2 * this.lightness_1 - 1;
-    tmp$ret$0 = Math.abs(tmp0_abs);
-    var chroma = (1 - tmp$ret$0) * this.saturation_1;
-    var tmp$ret$1;
-    // Inline function 'kotlin.math.abs' call
-    var tmp1_abs = this.hue_1 / 60 % 2 - 1;
-    tmp$ret$1 = Math.abs(tmp1_abs);
-    var intermediateValue = chroma * (1 - tmp$ret$1);
-    var hueSection = (numberToInt(this.hue_1) % 360 | 0) / 60 | 0;
-    var r;
-    var g;
-    var b;
-    var tmp0_subject = hueSection;
-    switch (tmp0_subject) {
-      case 0:
-        r = chroma;
-        g = intermediateValue;
-        b = 0.0;
-        break;
-      case 1:
-        r = intermediateValue;
-        g = chroma;
-        b = 0.0;
-        break;
-      case 2:
-        r = 0.0;
-        g = chroma;
-        b = intermediateValue;
-        break;
-      case 3:
-        r = 0.0;
-        g = intermediateValue;
-        b = chroma;
-        break;
-      case 4:
-        r = intermediateValue;
-        g = 0.0;
-        b = chroma;
-        break;
-      default:
-        // Inline function 'kotlin.check' call
-        var tmp2_check = hueSection === 5;
-        // Inline function 'kotlin.contracts.contract' call
-        // Inline function 'kotlin.check' call
-        // Inline function 'kotlin.contracts.contract' call
-        if (!tmp2_check) {
-          var tmp$ret$2;
-          // Inline function 'kotlin.check.<anonymous>' call
-          tmp$ret$2 = 'Check failed.';
-          var message = tmp$ret$2;
-          throw IllegalStateException_init_$Create$(toString(message));
-        }
-
-        r = chroma;
-        g = 0.0;
-        b = intermediateValue;
-        break;
-    }
-    var lightnessAdjustment = this.lightness_1 - chroma / 2;
-    return Companion_getInstance_8().rgba_yjhdu4_k$(r + lightnessAdjustment, g + lightnessAdjustment, b + lightnessAdjustment, this.alpha_1);
-  };
-  protoOf(Hsl).toHsl_1tskli_k$ = function () {
-    return this;
-  };
-  protoOf(Hsl).toString = function () {
-    var tmp$ret$0;
-    // Inline function 'kotlin.math.roundToInt' call
-    var tmp0_roundToInt = this.hue_1 * 10;
-    tmp$ret$0 = roundToInt(tmp0_roundToInt);
-    var hueRounded = tmp$ret$0 / 10.0;
-    var tmp$ret$1;
-    // Inline function 'kotlin.math.roundToInt' call
-    var tmp1_roundToInt = this.saturation_1 * 1000;
-    tmp$ret$1 = roundToInt(tmp1_roundToInt);
-    var saturationPercent = tmp$ret$1 / 10.0;
-    var tmp$ret$2;
-    // Inline function 'kotlin.math.roundToInt' call
-    var tmp2_roundToInt = this.lightness_1 * 1000;
-    tmp$ret$2 = roundToInt(tmp2_roundToInt);
-    var lightnessPercent = tmp$ret$2 / 10.0;
-    return this.alpha_1 === 1.0 ? 'hsl(' + hueRounded + ', ' + saturationPercent + '%, ' + lightnessPercent + '%)' : 'hsla(' + hueRounded + ', ' + saturationPercent + '%, ' + lightnessPercent + '%, ' + this.alpha_1 + ')';
-  };
-  protoOf(Hsl).equals = function (other) {
-    if (this === other)
-      return true;
-    var tmp;
-    var tmp_0;
-    var tmp_1;
-    var tmp_2;
-    if (other instanceof Hsl) {
-      tmp_2 = this.hue_1 === other.hue_1;
-    } else {
-      tmp_2 = false;
-    }
-    if (tmp_2) {
-      tmp_1 = this.saturation_1 === other.saturation_1;
-    } else {
-      tmp_1 = false;
-    }
-    if (tmp_1) {
-      tmp_0 = this.lightness_1 === other.lightness_1;
-    } else {
-      tmp_0 = false;
-    }
-    if (tmp_0) {
-      tmp = this.alpha_1 === other.alpha_1;
-    } else {
-      tmp = false;
-    }
-    return tmp;
-  };
-  protoOf(Hsl).hashCode = function () {
-    var result = getNumberHashCode(this.hue_1);
-    result = imul(31, result) + getNumberHashCode(this.saturation_1) | 0;
-    result = imul(31, result) + getNumberHashCode(this.lightness_1) | 0;
-    result = imul(31, result) + getNumberHashCode(this.alpha_1) | 0;
-    return result;
-  };
-  function Companion_0() {
-    Companion_instance_0 = this;
-    this.DEFAULT_SHIFTING_PERCENT_1 = 0.3;
-  }
-  protoOf(Companion_0).get_DEFAULT_SHIFTING_PERCENT_bgdcr7_k$ = function () {
-    return this.DEFAULT_SHIFTING_PERCENT_1;
-  };
-  protoOf(Companion_0).rgb_hjb4t0_k$ = function (value) {
-    return new Rgb(-16777216 | value);
-  };
-  protoOf(Companion_0).argb_kwjsfp_k$ = function (value) {
-    return new Rgb(value);
-  };
-  protoOf(Companion_0).argb_8r2xdi_k$ = function (value) {
-    var tmp$ret$4;
-    // Inline function 'kotlin.run' call
-    // Inline function 'kotlin.contracts.contract' call
-    var tmp$ret$3;
-    // Inline function 'com.varabyte.kobweb.compose.ui.graphics.Companion.argb.<anonymous>' call
-    // Inline function 'kotlin.check' call
-    var tmp0_check = (new Long(0, -1)).and_jhajnj_k$(value).equals(new Long(0, 0));
-    // Inline function 'kotlin.contracts.contract' call
-    if (!tmp0_check) {
-      var tmp$ret$2;
-      // Inline function 'com.varabyte.kobweb.compose.ui.graphics.Companion.argb.<anonymous>.<anonymous>' call
-      var tmp$ret$1;
-      // Inline function 'kotlin.text.uppercase' call
-      var tmp0_uppercase = toString_0(value, 16);
-      var tmp$ret$0;
-      // Inline function 'kotlin.js.asDynamic' call
-      tmp$ret$0 = tmp0_uppercase;
-      tmp$ret$1 = tmp$ret$0.toUpperCase();
-      tmp$ret$2 = 'Got an invalid hex color (0x' + tmp$ret$1 + ') value larger than 0xFFFFFFFF';
-      var message = tmp$ret$2;
-      throw IllegalStateException_init_$Create$(toString(message));
-    }
-    tmp$ret$3 = this.argb_kwjsfp_k$(value.toInt_1tsl84_k$());
-    tmp$ret$4 = tmp$ret$3;
-    return tmp$ret$4;
-  };
-  protoOf(Companion_0).rgba_9ecc6r_k$ = function (value) {
-    return this.argb_kwjsfp_k$(value);
-  };
-  protoOf(Companion_0).rgb_ncqb1w_k$ = function (r, g, b) {
-    return this.rgba_2wpmgk_k$(r, g, b, 255);
-  };
-  protoOf(Companion_0).rgba_2wpmgk_k$ = function (r, g, b, a) {
-    return new Rgb((r & 255) << 16 | (g & 255) << 8 | (b & 255) << 0 | (a & 255) << 24);
-  };
-  protoOf(Companion_0).argb_xx08ss_k$ = function (a, r, g, b) {
-    return this.rgba_2wpmgk_k$(r, g, b, a);
-  };
-  protoOf(Companion_0).rgb_fip3nl_k$ = function (r, g, b) {
-    return this.rgb_ncqb1w_k$(toColorInt(r), toColorInt(g), toColorInt(b));
-  };
-  protoOf(Companion_0).rgba_yjhdu4_k$ = function (r, g, b, a) {
-    return this.rgba_2wpmgk_k$(toColorInt(r), toColorInt(g), toColorInt(b), toColorInt(a));
-  };
-  protoOf(Companion_0).argb_j85n4c_k$ = function (a, r, g, b) {
-    return this.rgba_yjhdu4_k$(r, g, b, a);
-  };
-  protoOf(Companion_0).rgba_oyxpup_k$ = function (r, g, b, a) {
-    return this.rgba_2wpmgk_k$(r, g, b, toColorInt(a));
-  };
-  protoOf(Companion_0).argb_w73dfl_k$ = function (a, r, g, b) {
-    return this.rgba_oyxpup_k$(r, g, b, a);
-  };
-  protoOf(Companion_0).hsl_t08kgw_k$ = function (h, s, l) {
-    return this.hsl_5d7ooj_k$(h, s, l);
-  };
-  protoOf(Companion_0).hsla_qz6e31_k$ = function (h, s, l, a) {
-    return this.hsla_u2xvsw_k$(h, s, l, a);
-  };
-  protoOf(Companion_0).hsl_5d7ooj_k$ = function (h, s, l) {
-    return new Hsl(h, s, l, 1.0);
-  };
-  protoOf(Companion_0).hsla_u2xvsw_k$ = function (h, s, l, a) {
-    return new Hsl(h, s, l, a);
-  };
-  protoOf(Companion_0).rgb_qm2dwq_k$ = function (r, g, b) {
-    return this.rgba_s8oif1_k$(r, g, b, 1.0);
-  };
-  protoOf(Companion_0).rgba_abxsgg_k$ = function (r, g, b, a) {
-    return this.rgba_yjhdu4_k$(r.value / 100.0, g.value / 100.0, b.value / 100.0, a.value / 100.0);
-  };
-  protoOf(Companion_0).rgba_s8oif1_k$ = function (r, g, b, a) {
-    return this.rgba_yjhdu4_k$(r.value / 100.0, g.value / 100.0, b.value / 100.0, a);
-  };
-  protoOf(Companion_0).argb_chscaw_k$ = function (a, r, g, b) {
-    return this.argb_j85n4c_k$(a.value / 100.0, r.value / 100.0, g.value / 100.0, b.value / 100.0);
-  };
-  protoOf(Companion_0).argb_950gcf_k$ = function (a, r, g, b) {
-    return this.argb_j85n4c_k$(a, r.value / 100.0, g.value / 100.0, b.value / 100.0);
-  };
-  protoOf(Companion_0).hsl_wg0ugj_k$ = function (h, s, l) {
-    return this.hsla_ok8ugw_k$(h, s, l, 1.0);
-  };
-  protoOf(Companion_0).hsla_ok8ugw_k$ = function (h, s, l, alpha) {
-    return this.hsla_u2xvsw_k$(toDegrees(h), s.value / 100.0, l.value / 100.0, alpha);
-  };
-  protoOf(Companion_0).hsla_ouuvxv_k$ = function (h, s, l, alpha) {
-    return this.hsla_ok8ugw_k$(h, s, l, alpha.value / 100.0);
-  };
-  var Companion_instance_0;
-  function Companion_getInstance_8() {
-    if (Companion_instance_0 == null)
-      new Companion_0();
-    return Companion_instance_0;
-  }
-  function Color() {
-  }
-  function get_$stableprop_33() {
     return 0;
   }
   function Colors() {
@@ -3230,6 +2818,433 @@
       new Colors();
     return Colors_instance;
   }
+  function get_$stableprop_32() {
+    return 0;
+  }
+  function get_$stableprop_33() {
+    return 0;
+  }
+  function Rgb(value) {
+    this.value_1 = value;
+    this.$stable_1 = 0;
+  }
+  protoOf(Rgb).get_value_j01efc_k$ = function () {
+    return this.value_1;
+  };
+  protoOf(Rgb).get_red_18ix20_k$ = function () {
+    return this.value_1 >> 16 & 255;
+  };
+  protoOf(Rgb).get_green_is36qi_k$ = function () {
+    return this.value_1 >> 8 & 255;
+  };
+  protoOf(Rgb).get_blue_wojj4z_k$ = function () {
+    return this.value_1 >> 0 & 255;
+  };
+  protoOf(Rgb).get_alpha_iooth1_k$ = function () {
+    return this.value_1 >> 24 & 255;
+  };
+  protoOf(Rgb).get_redf_wotlby_k$ = function () {
+    return toColorFloat(this.get_red_18ix20_k$());
+  };
+  protoOf(Rgb).get_greenf_dxud3g_k$ = function () {
+    return toColorFloat(this.get_green_is36qi_k$());
+  };
+  protoOf(Rgb).get_bluef_ip8ppf_k$ = function () {
+    return toColorFloat(this.get_blue_wojj4z_k$());
+  };
+  protoOf(Rgb).get_alphaf_b0gxxt_k$ = function () {
+    return toColorFloat(this.get_alpha_iooth1_k$());
+  };
+  protoOf(Rgb).inverted_adp911_k$ = function () {
+    return Companion_getInstance_8().rgba_2wpmgk_k$(255 - this.get_red_18ix20_k$() | 0, 255 - this.get_green_is36qi_k$() | 0, 255 - this.get_blue_wojj4z_k$() | 0, this.get_alpha_iooth1_k$());
+  };
+  protoOf(Rgb).darkened_3k65o0_k$ = function (byPercent) {
+    // Inline function 'kotlin.require' call
+    var tmp0_require = 0.0 <= byPercent ? byPercent <= 1.0 : false;
+    // Inline function 'kotlin.contracts.contract' call
+    if (!tmp0_require) {
+      var tmp$ret$0;
+      // Inline function 'com.varabyte.kobweb.compose.ui.graphics.Rgb.darkened.<anonymous>' call
+      tmp$ret$0 = 'Invalid color shifting percent. Expected between 0 and 1, got ' + byPercent;
+      var message = tmp$ret$0;
+      throw IllegalArgumentException_init_$Create$(toString(message));
+    }
+    if (byPercent === 0.0)
+      return this;
+    var darkeningMultiplier = 1.0 - byPercent;
+    return Companion_getInstance_8().rgba_yjhdu4_k$(this.get_redf_wotlby_k$() * darkeningMultiplier, this.get_greenf_dxud3g_k$() * darkeningMultiplier, this.get_bluef_ip8ppf_k$() * darkeningMultiplier, this.get_alphaf_b0gxxt_k$());
+  };
+  protoOf(Rgb).copy_2hj87f_k$ = function (red, green, blue, alpha) {
+    return Companion_getInstance_8().rgba_2wpmgk_k$(red, green, blue, alpha);
+  };
+  protoOf(Rgb).copy$default_z5pom3_k$ = function (red, green, blue, alpha, $super) {
+    red = red === VOID ? this.get_red_18ix20_k$() : red;
+    green = green === VOID ? this.get_green_is36qi_k$() : green;
+    blue = blue === VOID ? this.get_blue_wojj4z_k$() : blue;
+    alpha = alpha === VOID ? this.get_alpha_iooth1_k$() : alpha;
+    return $super === VOID ? this.copy_2hj87f_k$(red, green, blue, alpha) : $super.copy_2hj87f_k$.call(this, red, green, blue, alpha);
+  };
+  protoOf(Rgb).copyf_t7rrzj_k$ = function (red, green, blue, alpha) {
+    return Companion_getInstance_8().rgba_yjhdu4_k$(red, green, blue, alpha);
+  };
+  protoOf(Rgb).copyf$default_1ypp37_k$ = function (red, green, blue, alpha, $super) {
+    red = red === VOID ? this.get_redf_wotlby_k$() : red;
+    green = green === VOID ? this.get_greenf_dxud3g_k$() : green;
+    blue = blue === VOID ? this.get_bluef_ip8ppf_k$() : blue;
+    alpha = alpha === VOID ? this.get_alphaf_b0gxxt_k$() : alpha;
+    return $super === VOID ? this.copyf_t7rrzj_k$(red, green, blue, alpha) : $super.copyf_t7rrzj_k$.call(this, red, green, blue, alpha);
+  };
+  protoOf(Rgb).toRgb_1tsrpu_k$ = function () {
+    return this;
+  };
+  protoOf(Rgb).toHsl_1tskli_k$ = function () {
+    var tmp$ret$0;
+    // Inline function 'kotlin.comparisons.maxOf' call
+    var tmp0_maxOf = this.get_redf_wotlby_k$();
+    var tmp1_maxOf = this.get_greenf_dxud3g_k$();
+    var tmp2_maxOf = this.get_bluef_ip8ppf_k$();
+    tmp$ret$0 = Math.max(tmp0_maxOf, tmp1_maxOf, tmp2_maxOf);
+    var chromaMax = tmp$ret$0;
+    var tmp$ret$1;
+    // Inline function 'kotlin.comparisons.minOf' call
+    var tmp3_minOf = this.get_redf_wotlby_k$();
+    var tmp4_minOf = this.get_greenf_dxud3g_k$();
+    var tmp5_minOf = this.get_bluef_ip8ppf_k$();
+    tmp$ret$1 = Math.min(tmp3_minOf, tmp4_minOf, tmp5_minOf);
+    var chromaMin = tmp$ret$1;
+    var chromaDelta = chromaMax - chromaMin;
+    var lightness = (chromaMin + chromaMax) / 2.0;
+    var tmp$ret$2;
+    // Inline function 'kotlin.math.abs' call
+    var tmp6_abs = 2.0 * lightness - 1.0;
+    tmp$ret$2 = Math.abs(tmp6_abs);
+    var saturation = chromaDelta / (1.0 - tmp$ret$2);
+    var tmp;
+    if (chromaDelta === 0.0) {
+      tmp = 0.0;
+    } else {
+      var tmp_0;
+      if (chromaMax === this.get_redf_wotlby_k$()) {
+        tmp_0 = (this.get_greenf_dxud3g_k$() - this.get_bluef_ip8ppf_k$()) / chromaDelta % 6;
+      } else if (chromaMax === this.get_greenf_dxud3g_k$()) {
+        tmp_0 = (this.get_bluef_ip8ppf_k$() - this.get_redf_wotlby_k$()) / chromaDelta + 2.0;
+      } else if (chromaMax === this.get_bluef_ip8ppf_k$()) {
+        tmp_0 = (this.get_redf_wotlby_k$() - this.get_greenf_dxud3g_k$()) / chromaDelta + 4.0;
+      } else {
+        var tmp7_error = 'Unexpected chromaMax value ' + chromaMax;
+        throw IllegalStateException_init_$Create$(toString(tmp7_error));
+      }
+      tmp = 60.0 * tmp_0;
+    }
+    var hue = tmp;
+    return Companion_getInstance_8().hsla_u2xvsw_k$(hue, saturation, lightness, this.get_alphaf_b0gxxt_k$());
+  };
+  protoOf(Rgb).toString = function () {
+    return this.get_alpha_iooth1_k$() === 255 ? 'rgb(' + this.get_red_18ix20_k$() + ', ' + this.get_green_is36qi_k$() + ', ' + this.get_blue_wojj4z_k$() + ')' : 'rgba(' + this.get_red_18ix20_k$() + ', ' + this.get_green_is36qi_k$() + ', ' + this.get_blue_wojj4z_k$() + ', ' + this.get_alphaf_b0gxxt_k$() + ')';
+  };
+  protoOf(Rgb).equals = function (other) {
+    if (this === other)
+      return true;
+    var tmp;
+    var tmp_0;
+    var tmp_1;
+    var tmp_2;
+    if (other instanceof Rgb) {
+      tmp_2 = this.get_red_18ix20_k$() === other.get_red_18ix20_k$();
+    } else {
+      tmp_2 = false;
+    }
+    if (tmp_2) {
+      tmp_1 = this.get_green_is36qi_k$() === other.get_green_is36qi_k$();
+    } else {
+      tmp_1 = false;
+    }
+    if (tmp_1) {
+      tmp_0 = this.get_blue_wojj4z_k$() === other.get_blue_wojj4z_k$();
+    } else {
+      tmp_0 = false;
+    }
+    if (tmp_0) {
+      tmp = this.get_alpha_iooth1_k$() === other.get_alpha_iooth1_k$();
+    } else {
+      tmp = false;
+    }
+    return tmp;
+  };
+  protoOf(Rgb).hashCode = function () {
+    var result = this.get_red_18ix20_k$();
+    result = imul(31, result) + this.get_green_is36qi_k$() | 0;
+    result = imul(31, result) + this.get_blue_wojj4z_k$() | 0;
+    result = imul(31, result) + this.get_alpha_iooth1_k$() | 0;
+    return result;
+  };
+  function Hsl(hue, saturation, lightness, alpha) {
+    this.hue_1 = hue;
+    this.saturation_1 = saturation;
+    this.lightness_1 = lightness;
+    this.alpha_1 = alpha;
+    this.$stable_1 = 0;
+  }
+  protoOf(Hsl).get_hue_18j435_k$ = function () {
+    return this.hue_1;
+  };
+  protoOf(Hsl).get_saturation_nzhaqt_k$ = function () {
+    return this.saturation_1;
+  };
+  protoOf(Hsl).get_lightness_jv7mx0_k$ = function () {
+    return this.lightness_1;
+  };
+  protoOf(Hsl).get_alpha_iooth1_k$ = function () {
+    return this.alpha_1;
+  };
+  protoOf(Hsl).inverted_adp911_k$ = function () {
+    return this.toRgb_1tsrpu_k$().inverted_adp911_k$();
+  };
+  protoOf(Hsl).darkened_3k65o0_k$ = function (byPercent) {
+    return this.toRgb_1tsrpu_k$().darkened_3k65o0_k$(byPercent);
+  };
+  protoOf(Hsl).copy_skjbed_k$ = function (hue, saturation, lightness, alpha) {
+    return Companion_getInstance_8().hsla_u2xvsw_k$(hue, saturation, lightness, alpha);
+  };
+  protoOf(Hsl).copy$default_vk74rp_k$ = function (hue, saturation, lightness, alpha, $super) {
+    hue = hue === VOID ? this.hue_1 : hue;
+    saturation = saturation === VOID ? this.saturation_1 : saturation;
+    lightness = lightness === VOID ? this.lightness_1 : lightness;
+    alpha = alpha === VOID ? this.alpha_1 : alpha;
+    return $super === VOID ? this.copy_skjbed_k$(hue, saturation, lightness, alpha) : $super.copy_skjbed_k$.call(this, hue, saturation, lightness, alpha);
+  };
+  protoOf(Hsl).toRgb_1tsrpu_k$ = function () {
+    var tmp$ret$0;
+    // Inline function 'kotlin.math.abs' call
+    var tmp0_abs = 2 * this.lightness_1 - 1;
+    tmp$ret$0 = Math.abs(tmp0_abs);
+    var chroma = (1 - tmp$ret$0) * this.saturation_1;
+    var tmp$ret$1;
+    // Inline function 'kotlin.math.abs' call
+    var tmp1_abs = this.hue_1 / 60 % 2 - 1;
+    tmp$ret$1 = Math.abs(tmp1_abs);
+    var intermediateValue = chroma * (1 - tmp$ret$1);
+    var hueSection = (numberToInt(this.hue_1) % 360 | 0) / 60 | 0;
+    var r;
+    var g;
+    var b;
+    var tmp0_subject = hueSection;
+    switch (tmp0_subject) {
+      case 0:
+        r = chroma;
+        g = intermediateValue;
+        b = 0.0;
+        break;
+      case 1:
+        r = intermediateValue;
+        g = chroma;
+        b = 0.0;
+        break;
+      case 2:
+        r = 0.0;
+        g = chroma;
+        b = intermediateValue;
+        break;
+      case 3:
+        r = 0.0;
+        g = intermediateValue;
+        b = chroma;
+        break;
+      case 4:
+        r = intermediateValue;
+        g = 0.0;
+        b = chroma;
+        break;
+      default:
+        // Inline function 'kotlin.check' call
+        var tmp2_check = hueSection === 5;
+        // Inline function 'kotlin.contracts.contract' call
+        // Inline function 'kotlin.check' call
+        // Inline function 'kotlin.contracts.contract' call
+        if (!tmp2_check) {
+          var tmp$ret$2;
+          // Inline function 'kotlin.check.<anonymous>' call
+          tmp$ret$2 = 'Check failed.';
+          var message = tmp$ret$2;
+          throw IllegalStateException_init_$Create$(toString(message));
+        }
+
+        r = chroma;
+        g = 0.0;
+        b = intermediateValue;
+        break;
+    }
+    var lightnessAdjustment = this.lightness_1 - chroma / 2;
+    return Companion_getInstance_8().rgba_yjhdu4_k$(r + lightnessAdjustment, g + lightnessAdjustment, b + lightnessAdjustment, this.alpha_1);
+  };
+  protoOf(Hsl).toHsl_1tskli_k$ = function () {
+    return this;
+  };
+  protoOf(Hsl).toString = function () {
+    var tmp$ret$0;
+    // Inline function 'kotlin.math.roundToInt' call
+    var tmp0_roundToInt = this.hue_1 * 10;
+    tmp$ret$0 = roundToInt(tmp0_roundToInt);
+    var hueRounded = tmp$ret$0 / 10.0;
+    var tmp$ret$1;
+    // Inline function 'kotlin.math.roundToInt' call
+    var tmp1_roundToInt = this.saturation_1 * 1000;
+    tmp$ret$1 = roundToInt(tmp1_roundToInt);
+    var saturationPercent = tmp$ret$1 / 10.0;
+    var tmp$ret$2;
+    // Inline function 'kotlin.math.roundToInt' call
+    var tmp2_roundToInt = this.lightness_1 * 1000;
+    tmp$ret$2 = roundToInt(tmp2_roundToInt);
+    var lightnessPercent = tmp$ret$2 / 10.0;
+    return this.alpha_1 === 1.0 ? 'hsl(' + hueRounded + ', ' + saturationPercent + '%, ' + lightnessPercent + '%)' : 'hsla(' + hueRounded + ', ' + saturationPercent + '%, ' + lightnessPercent + '%, ' + this.alpha_1 + ')';
+  };
+  protoOf(Hsl).equals = function (other) {
+    if (this === other)
+      return true;
+    var tmp;
+    var tmp_0;
+    var tmp_1;
+    var tmp_2;
+    if (other instanceof Hsl) {
+      tmp_2 = this.hue_1 === other.hue_1;
+    } else {
+      tmp_2 = false;
+    }
+    if (tmp_2) {
+      tmp_1 = this.saturation_1 === other.saturation_1;
+    } else {
+      tmp_1 = false;
+    }
+    if (tmp_1) {
+      tmp_0 = this.lightness_1 === other.lightness_1;
+    } else {
+      tmp_0 = false;
+    }
+    if (tmp_0) {
+      tmp = this.alpha_1 === other.alpha_1;
+    } else {
+      tmp = false;
+    }
+    return tmp;
+  };
+  protoOf(Hsl).hashCode = function () {
+    var result = getNumberHashCode(this.hue_1);
+    result = imul(31, result) + getNumberHashCode(this.saturation_1) | 0;
+    result = imul(31, result) + getNumberHashCode(this.lightness_1) | 0;
+    result = imul(31, result) + getNumberHashCode(this.alpha_1) | 0;
+    return result;
+  };
+  function Companion_0() {
+    Companion_instance_0 = this;
+    this.DEFAULT_SHIFTING_PERCENT_1 = 0.3;
+  }
+  protoOf(Companion_0).get_DEFAULT_SHIFTING_PERCENT_bgdcr7_k$ = function () {
+    return this.DEFAULT_SHIFTING_PERCENT_1;
+  };
+  protoOf(Companion_0).rgb_hjb4t0_k$ = function (value) {
+    return new Rgb(-16777216 | value);
+  };
+  protoOf(Companion_0).argb_kwjsfp_k$ = function (value) {
+    return new Rgb(value);
+  };
+  protoOf(Companion_0).argb_8r2xdi_k$ = function (value) {
+    var tmp$ret$4;
+    // Inline function 'kotlin.run' call
+    // Inline function 'kotlin.contracts.contract' call
+    var tmp$ret$3;
+    // Inline function 'com.varabyte.kobweb.compose.ui.graphics.Companion.argb.<anonymous>' call
+    // Inline function 'kotlin.check' call
+    var tmp0_check = (new Long(0, -1)).and_jhajnj_k$(value).equals(new Long(0, 0));
+    // Inline function 'kotlin.contracts.contract' call
+    if (!tmp0_check) {
+      var tmp$ret$2;
+      // Inline function 'com.varabyte.kobweb.compose.ui.graphics.Companion.argb.<anonymous>.<anonymous>' call
+      var tmp$ret$1;
+      // Inline function 'kotlin.text.uppercase' call
+      var tmp0_uppercase = toString_0(value, 16);
+      var tmp$ret$0;
+      // Inline function 'kotlin.js.asDynamic' call
+      tmp$ret$0 = tmp0_uppercase;
+      tmp$ret$1 = tmp$ret$0.toUpperCase();
+      tmp$ret$2 = 'Got an invalid hex color (0x' + tmp$ret$1 + ') value larger than 0xFFFFFFFF';
+      var message = tmp$ret$2;
+      throw IllegalStateException_init_$Create$(toString(message));
+    }
+    tmp$ret$3 = this.argb_kwjsfp_k$(value.toInt_1tsl84_k$());
+    tmp$ret$4 = tmp$ret$3;
+    return tmp$ret$4;
+  };
+  protoOf(Companion_0).rgba_9ecc6r_k$ = function (value) {
+    return this.argb_kwjsfp_k$(value);
+  };
+  protoOf(Companion_0).rgb_ncqb1w_k$ = function (r, g, b) {
+    return this.rgba_2wpmgk_k$(r, g, b, 255);
+  };
+  protoOf(Companion_0).rgba_2wpmgk_k$ = function (r, g, b, a) {
+    return new Rgb((r & 255) << 16 | (g & 255) << 8 | (b & 255) << 0 | (a & 255) << 24);
+  };
+  protoOf(Companion_0).argb_xx08ss_k$ = function (a, r, g, b) {
+    return this.rgba_2wpmgk_k$(r, g, b, a);
+  };
+  protoOf(Companion_0).rgb_fip3nl_k$ = function (r, g, b) {
+    return this.rgb_ncqb1w_k$(toColorInt(r), toColorInt(g), toColorInt(b));
+  };
+  protoOf(Companion_0).rgba_yjhdu4_k$ = function (r, g, b, a) {
+    return this.rgba_2wpmgk_k$(toColorInt(r), toColorInt(g), toColorInt(b), toColorInt(a));
+  };
+  protoOf(Companion_0).argb_j85n4c_k$ = function (a, r, g, b) {
+    return this.rgba_yjhdu4_k$(r, g, b, a);
+  };
+  protoOf(Companion_0).rgba_oyxpup_k$ = function (r, g, b, a) {
+    return this.rgba_2wpmgk_k$(r, g, b, toColorInt(a));
+  };
+  protoOf(Companion_0).argb_w73dfl_k$ = function (a, r, g, b) {
+    return this.rgba_oyxpup_k$(r, g, b, a);
+  };
+  protoOf(Companion_0).hsl_t08kgw_k$ = function (h, s, l) {
+    return this.hsl_5d7ooj_k$(h, s, l);
+  };
+  protoOf(Companion_0).hsla_qz6e31_k$ = function (h, s, l, a) {
+    return this.hsla_u2xvsw_k$(h, s, l, a);
+  };
+  protoOf(Companion_0).hsl_5d7ooj_k$ = function (h, s, l) {
+    return new Hsl(h, s, l, 1.0);
+  };
+  protoOf(Companion_0).hsla_u2xvsw_k$ = function (h, s, l, a) {
+    return new Hsl(h, s, l, a);
+  };
+  protoOf(Companion_0).rgb_qm2dwq_k$ = function (r, g, b) {
+    return this.rgba_s8oif1_k$(r, g, b, 1.0);
+  };
+  protoOf(Companion_0).rgba_abxsgg_k$ = function (r, g, b, a) {
+    return this.rgba_yjhdu4_k$(r.value / 100.0, g.value / 100.0, b.value / 100.0, a.value / 100.0);
+  };
+  protoOf(Companion_0).rgba_s8oif1_k$ = function (r, g, b, a) {
+    return this.rgba_yjhdu4_k$(r.value / 100.0, g.value / 100.0, b.value / 100.0, a);
+  };
+  protoOf(Companion_0).argb_chscaw_k$ = function (a, r, g, b) {
+    return this.argb_j85n4c_k$(a.value / 100.0, r.value / 100.0, g.value / 100.0, b.value / 100.0);
+  };
+  protoOf(Companion_0).argb_950gcf_k$ = function (a, r, g, b) {
+    return this.argb_j85n4c_k$(a, r.value / 100.0, g.value / 100.0, b.value / 100.0);
+  };
+  protoOf(Companion_0).hsl_wg0ugj_k$ = function (h, s, l) {
+    return this.hsla_ok8ugw_k$(h, s, l, 1.0);
+  };
+  protoOf(Companion_0).hsla_ok8ugw_k$ = function (h, s, l, alpha) {
+    return this.hsla_u2xvsw_k$(toDegrees(h), s.value / 100.0, l.value / 100.0, alpha);
+  };
+  protoOf(Companion_0).hsla_ouuvxv_k$ = function (h, s, l, alpha) {
+    return this.hsla_ok8ugw_k$(h, s, l, alpha.value / 100.0);
+  };
+  var Companion_instance_0;
+  function Companion_getInstance_8() {
+    if (Companion_instance_0 == null)
+      new Companion_0();
+    return Companion_instance_0;
+  }
+  function Color() {
+  }
   function lightened(_this__u8e3s4, byPercent) {
     var tmp;
     if (byPercent === VOID) {
@@ -3282,23 +3297,35 @@
   function alignSelf_1(_this__u8e3s4, alignSelf) {
     return styleModifier(_this__u8e3s4, alignSelf$lambda(alignSelf));
   }
+  function justifyContent_0(_this__u8e3s4, justifyContent) {
+    return styleModifier(_this__u8e3s4, justifyContent$lambda(justifyContent));
+  }
+  function alignItems_0(_this__u8e3s4, alignItems) {
+    return styleModifier(_this__u8e3s4, alignItems$lambda(alignItems));
+  }
   function alignSelf$lambda($alignSelf) {
     return function ($this$styleModifier) {
       alignSelf_0($this$styleModifier, $alignSelf);
       return Unit_getInstance();
     };
   }
-  function backgroundColor_0(_this__u8e3s4, color) {
-    return styleModifier(_this__u8e3s4, backgroundColor$lambda(color));
+  function justifyContent$lambda($justifyContent) {
+    return function ($this$styleModifier) {
+      justifyContent($this$styleModifier, $justifyContent);
+      return Unit_getInstance();
+    };
+  }
+  function alignItems$lambda($alignItems) {
+    return function ($this$styleModifier) {
+      alignItems($this$styleModifier, $alignItems);
+      return Unit_getInstance();
+    };
   }
   function background_0(_this__u8e3s4, backgrounds) {
     return styleModifier(_this__u8e3s4, background$lambda(backgrounds));
   }
-  function backgroundColor$lambda($color) {
-    return function ($this$styleModifier) {
-      backgroundColor($this$styleModifier, $color);
-      return Unit_getInstance();
-    };
+  function backgroundColor_0(_this__u8e3s4, color) {
+    return styleModifier(_this__u8e3s4, backgroundColor$lambda(color));
   }
   function background$lambda($backgrounds) {
     return function ($this$styleModifier) {
@@ -3306,11 +3333,11 @@
       return Unit_getInstance();
     };
   }
-  function borderWidth_0(_this__u8e3s4, width) {
-    return styleModifier(_this__u8e3s4, borderWidth$lambda(width));
-  }
-  function borderRadius_1(_this__u8e3s4, r) {
-    return styleModifier(_this__u8e3s4, borderRadius$lambda(r));
+  function backgroundColor$lambda($color) {
+    return function ($this$styleModifier) {
+      backgroundColor($this$styleModifier, $color);
+      return Unit_getInstance();
+    };
   }
   function borderTop_0(_this__u8e3s4, width, style, color) {
     width = width === VOID ? null : width;
@@ -3321,22 +3348,16 @@
   function borderStyle_0(_this__u8e3s4, lineStyle) {
     return styleModifier(_this__u8e3s4, borderStyle$lambda(lineStyle));
   }
+  function borderRadius_1(_this__u8e3s4, r) {
+    return styleModifier(_this__u8e3s4, borderRadius$lambda(r));
+  }
+  function borderWidth_0(_this__u8e3s4, width) {
+    return styleModifier(_this__u8e3s4, borderWidth$lambda(width));
+  }
   function borderRadius_2(_this__u8e3s4, topLeftAndBottomRight, topRightAndBottomLeft) {
     topLeftAndBottomRight = topLeftAndBottomRight === VOID ? get_px(0) : topLeftAndBottomRight;
     topRightAndBottomLeft = topRightAndBottomLeft === VOID ? get_px(0) : topRightAndBottomLeft;
     return styleModifier(_this__u8e3s4, borderRadius$lambda_0(topLeftAndBottomRight, topRightAndBottomLeft));
-  }
-  function borderWidth$lambda($width) {
-    return function ($this$styleModifier) {
-      borderWidth($this$styleModifier, $width);
-      return Unit_getInstance();
-    };
-  }
-  function borderRadius$lambda($r) {
-    return function ($this$styleModifier) {
-      borderRadius($this$styleModifier, $r);
-      return Unit_getInstance();
-    };
   }
   function borderTop$lambda($width, $style, $color) {
     return function ($this$styleModifier) {
@@ -3347,6 +3368,18 @@
   function borderStyle$lambda($lineStyle) {
     return function ($this$styleModifier) {
       borderStyle($this$styleModifier, $lineStyle);
+      return Unit_getInstance();
+    };
+  }
+  function borderRadius$lambda($r) {
+    return function ($this$styleModifier) {
+      borderRadius($this$styleModifier, $r);
+      return Unit_getInstance();
+    };
+  }
+  function borderWidth$lambda($width) {
+    return function ($this$styleModifier) {
+      borderWidth($this$styleModifier, $width);
       return Unit_getInstance();
     };
   }
@@ -3425,21 +3458,36 @@
       return Unit_getInstance();
     };
   }
+  function flexShrink_0(_this__u8e3s4, value) {
+    return styleModifier(_this__u8e3s4, flexShrink$lambda(value));
+  }
   function flexWrap_0(_this__u8e3s4, flexWrap) {
     return styleModifier(_this__u8e3s4, flexWrap$lambda(flexWrap));
+  }
+  function flexDirection_0(_this__u8e3s4, flexDirection) {
+    return styleModifier(_this__u8e3s4, flexDirection$lambda(flexDirection));
   }
   function flexBasis_0(_this__u8e3s4, value) {
     return styleModifier(_this__u8e3s4, flexBasis$lambda(value));
   }
-  function flexShrink_0(_this__u8e3s4, value) {
-    return styleModifier(_this__u8e3s4, flexShrink$lambda(value));
-  }
   function flexGrow_0(_this__u8e3s4, value) {
     return styleModifier(_this__u8e3s4, flexGrow$lambda(value));
+  }
+  function flexShrink$lambda($value) {
+    return function ($this$styleModifier) {
+      flexShrink($this$styleModifier, $value);
+      return Unit_getInstance();
+    };
   }
   function flexWrap$lambda($flexWrap) {
     return function ($this$styleModifier) {
       flexWrap($this$styleModifier, $flexWrap);
+      return Unit_getInstance();
+    };
+  }
+  function flexDirection$lambda($flexDirection) {
+    return function ($this$styleModifier) {
+      flexDirection($this$styleModifier, $flexDirection);
       return Unit_getInstance();
     };
   }
@@ -3449,17 +3497,14 @@
       return Unit_getInstance();
     };
   }
-  function flexShrink$lambda($value) {
-    return function ($this$styleModifier) {
-      flexShrink($this$styleModifier, $value);
-      return Unit_getInstance();
-    };
-  }
   function flexGrow$lambda($value) {
     return function ($this$styleModifier) {
       flexGrow($this$styleModifier, $value);
       return Unit_getInstance();
     };
+  }
+  function gridTemplateRows_0(_this__u8e3s4, value) {
+    return styleModifier(_this__u8e3s4, gridTemplateRows$lambda(value));
   }
   function gridRowEnd_0(_this__u8e3s4, value) {
     return styleModifier(_this__u8e3s4, gridRowEnd$lambda(value));
@@ -3467,8 +3512,11 @@
   function gridRowStart_0(_this__u8e3s4, value) {
     return styleModifier(_this__u8e3s4, gridRowStart$lambda(value));
   }
-  function gridTemplateRows_0(_this__u8e3s4, value) {
-    return styleModifier(_this__u8e3s4, gridTemplateRows$lambda(value));
+  function gridTemplateRows$lambda($value) {
+    return function ($this$styleModifier) {
+      gridTemplateRows($this$styleModifier, $value);
+      return Unit_getInstance();
+    };
   }
   function gridRowEnd$lambda($value) {
     return function ($this$styleModifier) {
@@ -3479,12 +3527,6 @@
   function gridRowStart$lambda($value) {
     return function ($this$styleModifier) {
       gridRowStart($this$styleModifier, $value);
-      return Unit_getInstance();
-    };
-  }
-  function gridTemplateRows$lambda($value) {
-    return function ($this$styleModifier) {
-      gridTemplateRows($this$styleModifier, $value);
       return Unit_getInstance();
     };
   }
@@ -3515,6 +3557,15 @@
       return Unit_getInstance();
     };
   }
+  function margin_0(_this__u8e3s4, top, leftRight, bottom) {
+    top = top === VOID ? get_px(0) : top;
+    leftRight = leftRight === VOID ? get_px(0) : leftRight;
+    bottom = bottom === VOID ? get_px(0) : bottom;
+    return styleModifier(_this__u8e3s4, margin$lambda(top, leftRight, bottom));
+  }
+  function width_0(_this__u8e3s4, size) {
+    return styleModifier(_this__u8e3s4, width$lambda(size));
+  }
   function padding_0(_this__u8e3s4, topBottom, leftRight) {
     topBottom = topBottom === VOID ? get_px(0) : topBottom;
     leftRight = leftRight === VOID ? get_px(0) : leftRight;
@@ -3523,39 +3574,30 @@
   function lineHeight_1(_this__u8e3s4, value) {
     return styleModifier(_this__u8e3s4, lineHeight$lambda(value));
   }
-  function width_0(_this__u8e3s4, size) {
-    return styleModifier(_this__u8e3s4, width$lambda(size));
+  function fillMaxSize(_this__u8e3s4, percent) {
+    percent = percent === VOID ? get_percent(100) : percent;
+    return styleModifier(_this__u8e3s4, fillMaxSize$lambda(percent));
+  }
+  function margin_1(_this__u8e3s4, topBottom, leftRight) {
+    topBottom = topBottom === VOID ? get_px(0) : topBottom;
+    leftRight = leftRight === VOID ? get_px(0) : leftRight;
+    return styleModifier(_this__u8e3s4, margin$lambda_0(topBottom, leftRight));
+  }
+  function padding_1(_this__u8e3s4, all) {
+    return styleModifier(_this__u8e3s4, padding$lambda_0(all));
+  }
+  function minWidth_0(_this__u8e3s4, size) {
+    return styleModifier(_this__u8e3s4, minWidth$lambda(size));
   }
   function fillMaxWidth(_this__u8e3s4, percent) {
     percent = percent === VOID ? get_percent(100) : percent;
     return styleModifier(_this__u8e3s4, fillMaxWidth$lambda(percent));
   }
-  function margin_0(_this__u8e3s4, top, right, bottom, left) {
-    top = top === VOID ? get_px(0) : top;
-    right = right === VOID ? get_px(0) : right;
-    bottom = bottom === VOID ? get_px(0) : bottom;
-    left = left === VOID ? get_px(0) : left;
-    return styleModifier(_this__u8e3s4, margin$lambda(top, right, bottom, left));
+  function lineHeight_2(_this__u8e3s4, value) {
+    return styleModifier(_this__u8e3s4, lineHeight$lambda_0(value));
   }
-  function padding_1(_this__u8e3s4, all) {
-    return styleModifier(_this__u8e3s4, padding$lambda_0(all));
-  }
-  function minHeight_0(_this__u8e3s4, size) {
-    return styleModifier(_this__u8e3s4, minHeight$lambda(size));
-  }
-  function margin_1(_this__u8e3s4, top, leftRight, bottom) {
-    top = top === VOID ? get_px(0) : top;
-    leftRight = leftRight === VOID ? get_px(0) : leftRight;
-    bottom = bottom === VOID ? get_px(0) : bottom;
-    return styleModifier(_this__u8e3s4, margin$lambda_0(top, leftRight, bottom));
-  }
-  function margin_2(_this__u8e3s4, topBottom, leftRight) {
-    topBottom = topBottom === VOID ? get_px(0) : topBottom;
-    leftRight = leftRight === VOID ? get_px(0) : leftRight;
-    return styleModifier(_this__u8e3s4, margin$lambda_1(topBottom, leftRight));
-  }
-  function height_0(_this__u8e3s4, size) {
-    return styleModifier(_this__u8e3s4, height$lambda(size));
+  function margin_2(_this__u8e3s4, all) {
+    return styleModifier(_this__u8e3s4, margin$lambda_1(all));
   }
   function maxWidth_0(_this__u8e3s4, maxWidth) {
     return styleModifier(_this__u8e3s4, maxWidth$lambda(maxWidth));
@@ -3565,9 +3607,8 @@
     end = end === VOID ? get_px(0) : end;
     return styleModifier(_this__u8e3s4, paddingInline$lambda(start, end));
   }
-  function fillMaxSize(_this__u8e3s4, percent) {
-    percent = percent === VOID ? get_percent(100) : percent;
-    return styleModifier(_this__u8e3s4, fillMaxSize$lambda(percent));
+  function height_0(_this__u8e3s4, size) {
+    return styleModifier(_this__u8e3s4, height$lambda(size));
   }
   function padding_2(_this__u8e3s4, top, leftRight, bottom) {
     top = top === VOID ? get_px(0) : top;
@@ -3575,18 +3616,24 @@
     bottom = bottom === VOID ? get_px(0) : bottom;
     return styleModifier(_this__u8e3s4, padding$lambda_1(top, leftRight, bottom));
   }
-  function margin_3(_this__u8e3s4, all) {
-    return styleModifier(_this__u8e3s4, margin$lambda_2(all));
-  }
-  function lineHeight_2(_this__u8e3s4, value) {
-    return styleModifier(_this__u8e3s4, lineHeight$lambda_0(value));
-  }
-  function padding_3(_this__u8e3s4, top, right, bottom, left) {
+  function margin_3(_this__u8e3s4, top, right, bottom, left) {
     top = top === VOID ? get_px(0) : top;
     right = right === VOID ? get_px(0) : right;
     bottom = bottom === VOID ? get_px(0) : bottom;
     left = left === VOID ? get_px(0) : left;
-    return styleModifier(_this__u8e3s4, padding$lambda_2(top, right, bottom, left));
+    return styleModifier(_this__u8e3s4, margin$lambda_2(top, right, bottom, left));
+  }
+  function margin$lambda($top, $leftRight, $bottom) {
+    return function ($this$styleModifier) {
+      margin($this$styleModifier, [$top, $leftRight, $bottom]);
+      return Unit_getInstance();
+    };
+  }
+  function width$lambda($size) {
+    return function ($this$styleModifier) {
+      width($this$styleModifier, $size);
+      return Unit_getInstance();
+    };
   }
   function padding$lambda($topBottom, $leftRight) {
     return function ($this$styleModifier) {
@@ -3600,21 +3647,16 @@
       return Unit_getInstance();
     };
   }
-  function width$lambda($size) {
-    return function ($this$styleModifier) {
-      width($this$styleModifier, $size);
-      return Unit_getInstance();
-    };
-  }
-  function fillMaxWidth$lambda($percent) {
+  function fillMaxSize$lambda($percent) {
     return function ($this$styleModifier) {
       width($this$styleModifier, $percent);
+      height($this$styleModifier, $percent);
       return Unit_getInstance();
     };
   }
-  function margin$lambda($top, $right, $bottom, $left) {
+  function margin$lambda_0($topBottom, $leftRight) {
     return function ($this$styleModifier) {
-      margin($this$styleModifier, [$top, $right, $bottom, $left]);
+      margin($this$styleModifier, [$topBottom, $leftRight]);
       return Unit_getInstance();
     };
   }
@@ -3624,27 +3666,27 @@
       return Unit_getInstance();
     };
   }
-  function minHeight$lambda($size) {
+  function minWidth$lambda($size) {
     return function ($this$styleModifier) {
-      minHeight($this$styleModifier, $size);
+      minWidth($this$styleModifier, $size);
       return Unit_getInstance();
     };
   }
-  function margin$lambda_0($top, $leftRight, $bottom) {
+  function fillMaxWidth$lambda($percent) {
     return function ($this$styleModifier) {
-      margin($this$styleModifier, [$top, $leftRight, $bottom]);
+      width($this$styleModifier, $percent);
       return Unit_getInstance();
     };
   }
-  function margin$lambda_1($topBottom, $leftRight) {
+  function lineHeight$lambda_0($value) {
     return function ($this$styleModifier) {
-      margin($this$styleModifier, [$topBottom, $leftRight]);
+      lineHeight_0($this$styleModifier, $value);
       return Unit_getInstance();
     };
   }
-  function height$lambda($size) {
+  function margin$lambda_1($all) {
     return function ($this$styleModifier) {
-      height($this$styleModifier, $size);
+      margin($this$styleModifier, [$all]);
       return Unit_getInstance();
     };
   }
@@ -3660,10 +3702,9 @@
       return Unit_getInstance();
     };
   }
-  function fillMaxSize$lambda($percent) {
+  function height$lambda($size) {
     return function ($this$styleModifier) {
-      width($this$styleModifier, $percent);
-      height($this$styleModifier, $percent);
+      height($this$styleModifier, $size);
       return Unit_getInstance();
     };
   }
@@ -3673,21 +3714,9 @@
       return Unit_getInstance();
     };
   }
-  function margin$lambda_2($all) {
+  function margin$lambda_2($top, $right, $bottom, $left) {
     return function ($this$styleModifier) {
-      margin($this$styleModifier, [$all]);
-      return Unit_getInstance();
-    };
-  }
-  function lineHeight$lambda_0($value) {
-    return function ($this$styleModifier) {
-      lineHeight_0($this$styleModifier, $value);
-      return Unit_getInstance();
-    };
-  }
-  function padding$lambda_2($top, $right, $bottom, $left) {
-    return function ($this$styleModifier) {
-      padding($this$styleModifier, [$top, $right, $bottom, $left]);
+      margin($this$styleModifier, [$top, $right, $bottom, $left]);
       return Unit_getInstance();
     };
   }
@@ -3942,77 +3971,80 @@
   _.$_$.b = Column$composable;
   _.$_$.c = Row$composable;
   _.$_$.d = lightened;
-  _.$_$.e = alignSelf_1;
-  _.$_$.f = ariaDisabled;
-  _.$_$.g = backdropFilter_0;
-  _.$_$.h = backgroundColor_0;
-  _.$_$.i = background_0;
-  _.$_$.j = borderRadius_2;
-  _.$_$.k = borderRadius_1;
-  _.$_$.l = borderStyle_0;
-  _.$_$.m = borderTop_0;
-  _.$_$.n = borderWidth_0;
-  _.$_$.o = bottom_0;
-  _.$_$.p = boxShadow_0;
-  _.$_$.q = classNames;
-  _.$_$.r = color_0;
-  _.$_$.s = cursor_0;
-  _.$_$.t = display_0;
-  _.$_$.u = fillMaxSize;
-  _.$_$.v = fillMaxWidth;
-  _.$_$.w = flexBasis_0;
-  _.$_$.x = flexGrow_0;
-  _.$_$.y = flexShrink_0;
-  _.$_$.z = flexWrap_0;
-  _.$_$.a1 = fontFamily_0;
-  _.$_$.b1 = fontSize_2;
-  _.$_$.c1 = fontSize_1;
-  _.$_$.d1 = fontWeight_0;
-  _.$_$.e1 = gridRowEnd_0;
-  _.$_$.f1 = gridRowStart_0;
-  _.$_$.g1 = gridTemplateRows_0;
-  _.$_$.h1 = height_0;
-  _.$_$.i1 = id_0;
-  _.$_$.j1 = left_0;
-  _.$_$.k1 = lineHeight_1;
-  _.$_$.l1 = lineHeight_2;
-  _.$_$.m1 = margin_0;
-  _.$_$.n1 = margin_2;
-  _.$_$.o1 = margin_3;
-  _.$_$.p1 = margin_1;
-  _.$_$.q1 = maxWidth_0;
-  _.$_$.r1 = minHeight_0;
-  _.$_$.s1 = objectFit_0;
-  _.$_$.t1 = onClick;
-  _.$_$.u1 = opacity_0;
-  _.$_$.v1 = outline_0;
-  _.$_$.w1 = paddingInline_0;
-  _.$_$.x1 = padding_1;
-  _.$_$.y1 = padding_3;
-  _.$_$.z1 = padding_2;
-  _.$_$.a2 = padding_0;
-  _.$_$.b2 = position_0;
-  _.$_$.c2 = right_0;
-  _.$_$.d2 = textAlign_0;
-  _.$_$.e2 = textDecorationLine_0;
-  _.$_$.f2 = top_0;
-  _.$_$.g2 = transition_0;
-  _.$_$.h2 = userSelect_0;
-  _.$_$.i2 = whiteSpace_0;
-  _.$_$.j2 = width_0;
-  _.$_$.k2 = Modifier;
-  _.$_$.l2 = StyleModifier;
-  _.$_$.m2 = styleModifier;
-  _.$_$.n2 = toAttrs;
-  _.$_$.o2 = toStyles;
-  _.$_$.p2 = SpaceBetween_getInstance;
-  _.$_$.q2 = Start_getInstance;
-  _.$_$.r2 = KobwebComposeStyleSheet_getInstance;
-  _.$_$.s2 = Colors_getInstance;
-  _.$_$.t2 = CenterVertically_getInstance;
-  _.$_$.u2 = Center_getInstance_0;
-  _.$_$.v2 = Start_getInstance_0;
-  _.$_$.w2 = Companion_getInstance_7;
+  _.$_$.e = alignItems_0;
+  _.$_$.f = alignSelf_1;
+  _.$_$.g = ariaDisabled;
+  _.$_$.h = backdropFilter_0;
+  _.$_$.i = backgroundColor_0;
+  _.$_$.j = background_0;
+  _.$_$.k = borderRadius_2;
+  _.$_$.l = borderRadius_1;
+  _.$_$.m = borderStyle_0;
+  _.$_$.n = borderTop_0;
+  _.$_$.o = borderWidth_0;
+  _.$_$.p = bottom_0;
+  _.$_$.q = boxShadow_0;
+  _.$_$.r = classNames;
+  _.$_$.s = color_0;
+  _.$_$.t = cursor_0;
+  _.$_$.u = display_0;
+  _.$_$.v = fillMaxSize;
+  _.$_$.w = fillMaxWidth;
+  _.$_$.x = flexBasis_0;
+  _.$_$.y = flexDirection_0;
+  _.$_$.z = flexGrow_0;
+  _.$_$.a1 = flexShrink_0;
+  _.$_$.b1 = flexWrap_0;
+  _.$_$.c1 = fontFamily_0;
+  _.$_$.d1 = fontSize_2;
+  _.$_$.e1 = fontSize_1;
+  _.$_$.f1 = fontWeight_0;
+  _.$_$.g1 = gridRowEnd_0;
+  _.$_$.h1 = gridRowStart_0;
+  _.$_$.i1 = gridTemplateRows_0;
+  _.$_$.j1 = height_0;
+  _.$_$.k1 = id_0;
+  _.$_$.l1 = justifyContent_0;
+  _.$_$.m1 = left_0;
+  _.$_$.n1 = lineHeight_1;
+  _.$_$.o1 = lineHeight_2;
+  _.$_$.p1 = margin_3;
+  _.$_$.q1 = margin_1;
+  _.$_$.r1 = margin_2;
+  _.$_$.s1 = margin_0;
+  _.$_$.t1 = maxWidth_0;
+  _.$_$.u1 = minWidth_0;
+  _.$_$.v1 = objectFit_0;
+  _.$_$.w1 = onClick;
+  _.$_$.x1 = opacity_0;
+  _.$_$.y1 = outline_0;
+  _.$_$.z1 = paddingInline_0;
+  _.$_$.a2 = padding_1;
+  _.$_$.b2 = padding_2;
+  _.$_$.c2 = padding_0;
+  _.$_$.d2 = position_0;
+  _.$_$.e2 = right_0;
+  _.$_$.f2 = textAlign_0;
+  _.$_$.g2 = textDecorationLine_0;
+  _.$_$.h2 = top_0;
+  _.$_$.i2 = transition_0;
+  _.$_$.j2 = userSelect_0;
+  _.$_$.k2 = whiteSpace_0;
+  _.$_$.l2 = width_0;
+  _.$_$.m2 = Modifier;
+  _.$_$.n2 = StyleModifier;
+  _.$_$.o2 = styleModifier;
+  _.$_$.p2 = thenIf_0;
+  _.$_$.q2 = toAttrs;
+  _.$_$.r2 = toStyles;
+  _.$_$.s2 = SpaceBetween_getInstance;
+  _.$_$.t2 = Start_getInstance;
+  _.$_$.u2 = KobwebComposeStyleSheet_getInstance;
+  _.$_$.v2 = Colors_getInstance;
+  _.$_$.w2 = CenterVertically_getInstance;
+  _.$_$.x2 = Center_getInstance_0;
+  _.$_$.y2 = Start_getInstance_0;
+  _.$_$.z2 = Companion_getInstance_7;
   //endregion
   return _;
 }));

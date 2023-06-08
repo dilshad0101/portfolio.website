@@ -18,7 +18,7 @@
   var imul = Math.imul;
   var protoOf = kotlin_kotlin.$_$.y6;
   var interfaceMeta = kotlin_kotlin.$_$.m6;
-  var VOID = kotlin_kotlin.$_$.u9;
+  var VOID = kotlin_kotlin.$_$.v9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   var Unit_getInstance = kotlin_kotlin.$_$.w1;
   var toString = kotlin_kotlin.$_$.b7;
@@ -33,7 +33,7 @@
   var Companion_getInstance = kotlin_kotlin.$_$.v1;
   var _Result___init__impl__xyqfz8 = kotlin_kotlin.$_$.o1;
   var createFailure = kotlin_kotlin.$_$.i9;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.q9;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.r9;
   var intercepted = kotlin_kotlin.$_$.d5;
   var get_MODE_CANCELLABLE = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.p;
   var CancellableContinuationImpl = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.j;
@@ -57,7 +57,7 @@
   var sortWith = kotlin_kotlin.$_$.q4;
   var Comparator = kotlin_kotlin.$_$.s8;
   var ArrayList_init_$Create$_0 = kotlin_kotlin.$_$.e;
-  var to = kotlin_kotlin.$_$.s9;
+  var to = kotlin_kotlin.$_$.t9;
   var compareValues = kotlin_kotlin.$_$.y4;
   var Char = kotlin_kotlin.$_$.r8;
   var Long = kotlin_kotlin.$_$.x8;
@@ -87,14 +87,17 @@
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.m;
   var cancel = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.s;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.u;
-  var toString_0 = kotlin_kotlin.$_$.r9;
+  var toString_0 = kotlin_kotlin.$_$.s9;
   var Key = kotlin_kotlin.$_$.o5;
   var Element = kotlin_kotlin.$_$.n5;
+  var CoroutineScope_0 = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.n;
+  var CoroutineImpl = kotlin_kotlin.$_$.q5;
+  var returnIfSuspended = kotlin_kotlin.$_$.d;
+  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.a5;
+  var throwKotlinNothingValueException = kotlin_kotlin.$_$.q9;
+  var SuspendFunction1 = kotlin_kotlin.$_$.r5;
   var Collection = kotlin_kotlin.$_$.g2;
   var addAll = kotlin_kotlin.$_$.x2;
-  var CoroutineImpl = kotlin_kotlin.$_$.q5;
-  var CoroutineScope_0 = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.n;
-  var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.a5;
   var removeLast = kotlin_kotlin.$_$.n4;
   var withContext = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.f;
   var HashMap_init_$Create$_0 = kotlin_kotlin.$_$.g;
@@ -109,14 +112,12 @@
   var Job = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.o;
   var cancelAndJoin = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.d;
   var coroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.e;
-  var returnIfSuspended = kotlin_kotlin.$_$.d;
   var first = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.c;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.l;
   var takeWhile = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.i;
   var collect = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.b;
   var Continuation = kotlin_kotlin.$_$.j5;
   var removeFirst = kotlin_kotlin.$_$.m4;
-  var SuspendFunction1 = kotlin_kotlin.$_$.r5;
   var SuspendFunction2 = kotlin_kotlin.$_$.s5;
   var arrayCopy = kotlin_kotlin.$_$.y2;
   var fill_0 = kotlin_kotlin.$_$.m3;
@@ -278,8 +279,8 @@
   setMetadataFor(DisposableEffectResult, 'DisposableEffectResult', interfaceMeta);
   setMetadataFor(_no_name_provided__qut3iv, VOID, classMeta, VOID, [DisposableEffectResult]);
   setMetadataFor(DisposableEffectScope, 'DisposableEffectScope', classMeta);
-  setMetadataFor(LaunchedEffectImpl, 'LaunchedEffectImpl', classMeta, VOID, [RememberObserver]);
   setMetadataFor(DisposableEffectImpl, 'DisposableEffectImpl', classMeta, VOID, [RememberObserver]);
+  setMetadataFor(LaunchedEffectImpl, 'LaunchedEffectImpl', classMeta, VOID, [RememberObserver]);
   setMetadataFor(ExperimentalComposeApi, 'ExperimentalComposeApi', classMeta, VOID, [Annotation]);
   setMetadataFor(ExplicitGroupsComposable, 'ExplicitGroupsComposable', classMeta, VOID, [Annotation]);
   setMetadataFor(Immutable, 'Immutable', classMeta, VOID, [Annotation]);
@@ -290,6 +291,11 @@
   setMetadataFor(NoLiveLiterals, 'NoLiveLiterals', classMeta, VOID, [Annotation]);
   setMetadataFor(NonRestartableComposable, 'NonRestartableComposable', classMeta, VOID, [Annotation]);
   setMetadataFor(OpaqueKey, 'OpaqueKey', classMeta);
+  setMetadataFor(MutableState, 'MutableState', interfaceMeta, VOID, [State_0]);
+  setMetadataFor(ProduceStateScope, 'ProduceStateScope', interfaceMeta, VOID, [MutableState, CoroutineScope_0], VOID, VOID, [1]);
+  setMetadataFor($awaitDisposeCOROUTINE$0, '$awaitDisposeCOROUTINE$0', classMeta, CoroutineImpl);
+  setMetadataFor(ProduceStateScopeImpl, 'ProduceStateScopeImpl', classMeta, VOID, [ProduceStateScope, MutableState], VOID, VOID, [1]);
+  setMetadataFor(produceState$composable$slambda, 'produceState$composable$slambda', classMeta, CoroutineImpl, [CoroutineImpl], VOID, VOID, [1]);
   setMetadataFor(ReadOnlyComposable, 'ReadOnlyComposable', classMeta, VOID, [Annotation]);
   setMetadataFor(RecomposeScope, 'RecomposeScope', interfaceMeta);
   setMetadataFor(RecomposeScopeImpl, 'RecomposeScopeImpl', classMeta, VOID, [ScopeUpdateScope, RecomposeScope]);
@@ -345,7 +351,6 @@
   }
   setMetadataFor(SnapshotMutationPolicy, 'SnapshotMutationPolicy', interfaceMeta);
   setMetadataFor(StructuralEqualityPolicy, 'StructuralEqualityPolicy', objectMeta, VOID, [SnapshotMutationPolicy]);
-  setMetadataFor(MutableState, 'MutableState', interfaceMeta, VOID, [State_0]);
   setMetadataFor(StateRecord, 'StateRecord', classMeta);
   setMetadataFor(StateStateRecord, 'StateStateRecord', classMeta, StateRecord);
   function mergeRecords(previous, current, applied) {
@@ -8221,179 +8226,7 @@
     return InternalDisposableEffectScope;
   }
   var InternalDisposableEffectScope;
-  function get_$stableprop_8() {
-    return 0;
-  }
-  function _no_name_provided__qut3iv($onDisposeEffect) {
-    this.$onDisposeEffect_1 = $onDisposeEffect;
-  }
-  protoOf(_no_name_provided__qut3iv).dispose_3n44we_k$ = function () {
-    this.$onDisposeEffect_1();
-  };
-  function DisposableEffectScope() {
-    this.$stable_1 = 0;
-  }
-  protoOf(DisposableEffectScope).onDispose_uwjkxr_k$ = function (onDisposeEffect) {
-    return new _no_name_provided__qut3iv(onDisposeEffect);
-  };
-  function DisposableEffectResult() {
-  }
-  function LaunchedEffect$composable(key1, block, $composer, $changed) {
-    _init_properties_Effects_kt__be5lps();
-    var $composer_0 = $composer;
-    $composer_0.startReplaceableGroup_rp6air_k$(1556009691);
-    sourceInformation($composer_0, 'C(LaunchedEffect$composable)P(1)336@14101L58:Effects.kt#9igjgp');
-    if (isTraceInProgress()) {
-      traceEventStart(1556009691, $changed, -1, 'androidx.compose.runtime.LaunchedEffect$composable (Effects.kt:331)');
-    }
-    var applyContext = $composer_0.get_applyCoroutineContext_gadgx0_k$();
-    var tmp$ret$4;
-    // Inline function 'androidx.compose.runtime.remember$composable' call
-    var tmp3_remember$composable = $composer_0;
-    var tmp4_remember$composable = 14 & $changed;
-    var $composer_1 = tmp3_remember$composable;
-    $composer_1.startReplaceableGroup_rp6air_k$(-838505973);
-    sourceInformation($composer_1, 'CC(remember$composable)P(1):Composables.kt#9igjgp');
-    var tmp$ret$3;
-    // Inline function 'androidx.compose.runtime.cache' call
-    var tmp1_cache = $composer_1;
-    var tmp2_cache = $composer_1.changed_ga7h3f_k$(key1);
-    var tmp$ret$2;
-    // Inline function 'kotlin.let' call
-    var tmp0_let = tmp1_cache.rememberedValue_4dg93v_k$();
-    // Inline function 'kotlin.contracts.contract' call
-    var tmp$ret$1;
-    // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-    var tmp;
-    if (tmp2_cache ? true : tmp0_let === Companion_getInstance_1().get_Empty_i9b85g_k$()) {
-      var tmp$ret$0;
-      // Inline function 'androidx.compose.runtime.LaunchedEffect$composable.<anonymous>' call
-      tmp$ret$0 = new LaunchedEffectImpl(applyContext, block);
-      var value = tmp$ret$0;
-      tmp1_cache.updateRememberedValue_l1colo_k$(value);
-      tmp = value;
-    } else {
-      tmp = tmp0_let;
-    }
-    tmp$ret$1 = tmp;
-    tmp$ret$2 = tmp$ret$1;
-    var tmp_0 = tmp$ret$2;
-    tmp$ret$3 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
-    var tmp0 = tmp$ret$3;
-    $composer_1.endReplaceableGroup_er37p7_k$();
-    tmp$ret$4 = tmp0;
-    if (isTraceInProgress()) {
-      traceEventEnd();
-    }
-    $composer_0.endReplaceableGroup_er37p7_k$();
-  }
-  function _get_task__de30x2($this) {
-    return $this.task_1;
-  }
-  function _get_scope__bi2zur($this) {
-    return $this.scope_1;
-  }
-  function _set_job__4w8fzc($this, _set____db54di) {
-    $this.job_1 = _set____db54di;
-  }
-  function _get_job__e6b14k($this) {
-    return $this.job_1;
-  }
-  function LaunchedEffectImpl(parentCoroutineContext, task) {
-    this.task_1 = task;
-    this.scope_1 = CoroutineScope(parentCoroutineContext);
-    this.job_1 = null;
-  }
-  protoOf(LaunchedEffectImpl).onRemembered_6899sq_k$ = function () {
-    var tmp0_safe_receiver = this.job_1;
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      cancel(tmp0_safe_receiver, 'Old job was still running!');
-    }
-    this.job_1 = launch(this.scope_1, VOID, VOID, this.task_1);
-  };
-  protoOf(LaunchedEffectImpl).onForgotten_pcab12_k$ = function () {
-    var tmp0_safe_receiver = this.job_1;
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.cancel$default_64jlsz_k$();
-    }
-    this.job_1 = null;
-  };
-  protoOf(LaunchedEffectImpl).onAbandoned_1hgzvg_k$ = function () {
-    var tmp0_safe_receiver = this.job_1;
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.cancel$default_64jlsz_k$();
-    }
-    this.job_1 = null;
-  };
-  function DisposableEffect$composable(key1, effect, $composer, $changed) {
-    _init_properties_Effects_kt__be5lps();
-    var $composer_0 = $composer;
-    $composer_0.startReplaceableGroup_rp6air_k$(927399050);
-    sourceInformation($composer_0, 'C(DisposableEffect$composable)P(1)154@6171L47:Effects.kt#9igjgp');
-    if (isTraceInProgress()) {
-      traceEventStart(927399050, $changed, -1, 'androidx.compose.runtime.DisposableEffect$composable (Effects.kt:150)');
-    }
-    var tmp$ret$4;
-    // Inline function 'androidx.compose.runtime.remember$composable' call
-    var tmp3_remember$composable = $composer_0;
-    var tmp4_remember$composable = 14 & $changed;
-    var $composer_1 = tmp3_remember$composable;
-    $composer_1.startReplaceableGroup_rp6air_k$(-838505973);
-    sourceInformation($composer_1, 'CC(remember$composable)P(1):Composables.kt#9igjgp');
-    var tmp$ret$3;
-    // Inline function 'androidx.compose.runtime.cache' call
-    var tmp1_cache = $composer_1;
-    var tmp2_cache = $composer_1.changed_ga7h3f_k$(key1);
-    var tmp$ret$2;
-    // Inline function 'kotlin.let' call
-    var tmp0_let = tmp1_cache.rememberedValue_4dg93v_k$();
-    // Inline function 'kotlin.contracts.contract' call
-    var tmp$ret$1;
-    // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-    var tmp;
-    if (tmp2_cache ? true : tmp0_let === Companion_getInstance_1().get_Empty_i9b85g_k$()) {
-      var tmp$ret$0;
-      // Inline function 'androidx.compose.runtime.DisposableEffect$composable.<anonymous>' call
-      tmp$ret$0 = new DisposableEffectImpl(effect);
-      var value = tmp$ret$0;
-      tmp1_cache.updateRememberedValue_l1colo_k$(value);
-      tmp = value;
-    } else {
-      tmp = tmp0_let;
-    }
-    tmp$ret$1 = tmp;
-    tmp$ret$2 = tmp$ret$1;
-    var tmp_0 = tmp$ret$2;
-    tmp$ret$3 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
-    var tmp0 = tmp$ret$3;
-    $composer_1.endReplaceableGroup_er37p7_k$();
-    tmp$ret$4 = tmp0;
-    if (isTraceInProgress()) {
-      traceEventEnd();
-    }
-    $composer_0.endReplaceableGroup_er37p7_k$();
-  }
-  function SideEffect$composable(effect, $composer, $changed) {
-    _init_properties_Effects_kt__be5lps();
-    var $composer_0 = $composer;
-    $composer_0.startReplaceableGroup_rp6air_k$(-706403066);
-    sourceInformation($composer_0, 'C(SideEffect$composable):Effects.kt#9igjgp');
-    if (isTraceInProgress()) {
-      traceEventStart(-706403066, $changed, -1, 'androidx.compose.runtime.SideEffect$composable (Effects.kt:44)');
-    }
-    $composer_0.recordSideEffect_jaedev_k$(effect);
-    if (isTraceInProgress()) {
-      traceEventEnd();
-    }
-    $composer_0.endReplaceableGroup_er37p7_k$();
-  }
-  function DisposableEffect$composable_0(keys, effect, $composer, $changed) {
+  function DisposableEffect$composable(keys, effect, $composer, $changed) {
     _init_properties_Effects_kt__be5lps();
     var $composer_0 = $composer;
     $composer_0.startReplaceableGroup_rp6air_k$(-1541565433);
@@ -8450,32 +8283,133 @@
     }
     $composer_0.endReplaceableGroup_er37p7_k$();
   }
-  function _get_effect__7gra1m($this) {
-    return $this.effect_1;
-  }
-  function _set_onDispose__eibnf($this, _set____db54di) {
-    $this.onDispose_1 = _set____db54di;
-  }
-  function _get_onDispose__swc4r5($this) {
-    return $this.onDispose_1;
-  }
-  function DisposableEffectImpl(effect) {
-    this.effect_1 = effect;
-    this.onDispose_1 = null;
-  }
-  protoOf(DisposableEffectImpl).onRemembered_6899sq_k$ = function () {
-    this.onDispose_1 = this.effect_1(get_InternalDisposableEffectScope());
-  };
-  protoOf(DisposableEffectImpl).onForgotten_pcab12_k$ = function () {
-    var tmp0_safe_receiver = this.onDispose_1;
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.dispose_3n44we_k$();
+  function DisposableEffect$composable_0(key1, effect, $composer, $changed) {
+    _init_properties_Effects_kt__be5lps();
+    var $composer_0 = $composer;
+    $composer_0.startReplaceableGroup_rp6air_k$(927399050);
+    sourceInformation($composer_0, 'C(DisposableEffect$composable)P(1)154@6171L47:Effects.kt#9igjgp');
+    if (isTraceInProgress()) {
+      traceEventStart(927399050, $changed, -1, 'androidx.compose.runtime.DisposableEffect$composable (Effects.kt:150)');
     }
-    this.onDispose_1 = null;
+    var tmp$ret$4;
+    // Inline function 'androidx.compose.runtime.remember$composable' call
+    var tmp3_remember$composable = $composer_0;
+    var tmp4_remember$composable = 14 & $changed;
+    var $composer_1 = tmp3_remember$composable;
+    $composer_1.startReplaceableGroup_rp6air_k$(-838505973);
+    sourceInformation($composer_1, 'CC(remember$composable)P(1):Composables.kt#9igjgp');
+    var tmp$ret$3;
+    // Inline function 'androidx.compose.runtime.cache' call
+    var tmp1_cache = $composer_1;
+    var tmp2_cache = $composer_1.changed_ga7h3f_k$(key1);
+    var tmp$ret$2;
+    // Inline function 'kotlin.let' call
+    var tmp0_let = tmp1_cache.rememberedValue_4dg93v_k$();
+    // Inline function 'kotlin.contracts.contract' call
+    var tmp$ret$1;
+    // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+    var tmp;
+    if (tmp2_cache ? true : tmp0_let === Companion_getInstance_1().get_Empty_i9b85g_k$()) {
+      var tmp$ret$0;
+      // Inline function 'androidx.compose.runtime.DisposableEffect$composable.<anonymous>' call
+      tmp$ret$0 = new DisposableEffectImpl(effect);
+      var value = tmp$ret$0;
+      tmp1_cache.updateRememberedValue_l1colo_k$(value);
+      tmp = value;
+    } else {
+      tmp = tmp0_let;
+    }
+    tmp$ret$1 = tmp;
+    tmp$ret$2 = tmp$ret$1;
+    var tmp_0 = tmp$ret$2;
+    tmp$ret$3 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
+    var tmp0 = tmp$ret$3;
+    $composer_1.endReplaceableGroup_er37p7_k$();
+    tmp$ret$4 = tmp0;
+    if (isTraceInProgress()) {
+      traceEventEnd();
+    }
+    $composer_0.endReplaceableGroup_er37p7_k$();
+  }
+  function DisposableEffectResult() {
+  }
+  function LaunchedEffect$composable(key1, block, $composer, $changed) {
+    _init_properties_Effects_kt__be5lps();
+    var $composer_0 = $composer;
+    $composer_0.startReplaceableGroup_rp6air_k$(1556009691);
+    sourceInformation($composer_0, 'C(LaunchedEffect$composable)P(1)336@14101L58:Effects.kt#9igjgp');
+    if (isTraceInProgress()) {
+      traceEventStart(1556009691, $changed, -1, 'androidx.compose.runtime.LaunchedEffect$composable (Effects.kt:331)');
+    }
+    var applyContext = $composer_0.get_applyCoroutineContext_gadgx0_k$();
+    var tmp$ret$4;
+    // Inline function 'androidx.compose.runtime.remember$composable' call
+    var tmp3_remember$composable = $composer_0;
+    var tmp4_remember$composable = 14 & $changed;
+    var $composer_1 = tmp3_remember$composable;
+    $composer_1.startReplaceableGroup_rp6air_k$(-838505973);
+    sourceInformation($composer_1, 'CC(remember$composable)P(1):Composables.kt#9igjgp');
+    var tmp$ret$3;
+    // Inline function 'androidx.compose.runtime.cache' call
+    var tmp1_cache = $composer_1;
+    var tmp2_cache = $composer_1.changed_ga7h3f_k$(key1);
+    var tmp$ret$2;
+    // Inline function 'kotlin.let' call
+    var tmp0_let = tmp1_cache.rememberedValue_4dg93v_k$();
+    // Inline function 'kotlin.contracts.contract' call
+    var tmp$ret$1;
+    // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+    var tmp;
+    if (tmp2_cache ? true : tmp0_let === Companion_getInstance_1().get_Empty_i9b85g_k$()) {
+      var tmp$ret$0;
+      // Inline function 'androidx.compose.runtime.LaunchedEffect$composable.<anonymous>' call
+      tmp$ret$0 = new LaunchedEffectImpl(applyContext, block);
+      var value = tmp$ret$0;
+      tmp1_cache.updateRememberedValue_l1colo_k$(value);
+      tmp = value;
+    } else {
+      tmp = tmp0_let;
+    }
+    tmp$ret$1 = tmp;
+    tmp$ret$2 = tmp$ret$1;
+    var tmp_0 = tmp$ret$2;
+    tmp$ret$3 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
+    var tmp0 = tmp$ret$3;
+    $composer_1.endReplaceableGroup_er37p7_k$();
+    tmp$ret$4 = tmp0;
+    if (isTraceInProgress()) {
+      traceEventEnd();
+    }
+    $composer_0.endReplaceableGroup_er37p7_k$();
+  }
+  function SideEffect$composable(effect, $composer, $changed) {
+    _init_properties_Effects_kt__be5lps();
+    var $composer_0 = $composer;
+    $composer_0.startReplaceableGroup_rp6air_k$(-706403066);
+    sourceInformation($composer_0, 'C(SideEffect$composable):Effects.kt#9igjgp');
+    if (isTraceInProgress()) {
+      traceEventStart(-706403066, $changed, -1, 'androidx.compose.runtime.SideEffect$composable (Effects.kt:44)');
+    }
+    $composer_0.recordSideEffect_jaedev_k$(effect);
+    if (isTraceInProgress()) {
+      traceEventEnd();
+    }
+    $composer_0.endReplaceableGroup_er37p7_k$();
+  }
+  function get_$stableprop_8() {
+    return 0;
+  }
+  function _no_name_provided__qut3iv($onDisposeEffect) {
+    this.$onDisposeEffect_1 = $onDisposeEffect;
+  }
+  protoOf(_no_name_provided__qut3iv).dispose_3n44we_k$ = function () {
+    this.$onDisposeEffect_1();
   };
-  protoOf(DisposableEffectImpl).onAbandoned_1hgzvg_k$ = function () {
+  function DisposableEffectScope() {
+    this.$stable_1 = 0;
+  }
+  protoOf(DisposableEffectScope).onDispose_uwjkxr_k$ = function (onDisposeEffect) {
+    return new _no_name_provided__qut3iv(onDisposeEffect);
   };
   function DisposableEffect$composable_1(key1, key2, effect, $composer, $changed) {
     _init_properties_Effects_kt__be5lps();
@@ -8525,6 +8459,77 @@
     }
     $composer_0.endReplaceableGroup_er37p7_k$();
   }
+  function _get_effect__7gra1m($this) {
+    return $this.effect_1;
+  }
+  function _set_onDispose__eibnf($this, _set____db54di) {
+    $this.onDispose_1 = _set____db54di;
+  }
+  function _get_onDispose__swc4r5($this) {
+    return $this.onDispose_1;
+  }
+  function DisposableEffectImpl(effect) {
+    this.effect_1 = effect;
+    this.onDispose_1 = null;
+  }
+  protoOf(DisposableEffectImpl).onRemembered_6899sq_k$ = function () {
+    this.onDispose_1 = this.effect_1(get_InternalDisposableEffectScope());
+  };
+  protoOf(DisposableEffectImpl).onForgotten_pcab12_k$ = function () {
+    var tmp0_safe_receiver = this.onDispose_1;
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.dispose_3n44we_k$();
+    }
+    this.onDispose_1 = null;
+  };
+  protoOf(DisposableEffectImpl).onAbandoned_1hgzvg_k$ = function () {
+  };
+  function _get_task__de30x2($this) {
+    return $this.task_1;
+  }
+  function _get_scope__bi2zur($this) {
+    return $this.scope_1;
+  }
+  function _set_job__4w8fzc($this, _set____db54di) {
+    $this.job_1 = _set____db54di;
+  }
+  function _get_job__e6b14k($this) {
+    return $this.job_1;
+  }
+  function LaunchedEffectImpl(parentCoroutineContext, task) {
+    this.task_1 = task;
+    this.scope_1 = CoroutineScope(parentCoroutineContext);
+    this.job_1 = null;
+  }
+  protoOf(LaunchedEffectImpl).onRemembered_6899sq_k$ = function () {
+    var tmp0_safe_receiver = this.job_1;
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      cancel(tmp0_safe_receiver, 'Old job was still running!');
+    }
+    this.job_1 = launch(this.scope_1, VOID, VOID, this.task_1);
+  };
+  protoOf(LaunchedEffectImpl).onForgotten_pcab12_k$ = function () {
+    var tmp0_safe_receiver = this.job_1;
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.cancel$default_64jlsz_k$();
+    }
+    this.job_1 = null;
+  };
+  protoOf(LaunchedEffectImpl).onAbandoned_1hgzvg_k$ = function () {
+    var tmp0_safe_receiver = this.job_1;
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.cancel$default_64jlsz_k$();
+    }
+    this.job_1 = null;
+  };
   var properties_initialized_Effects_kt_cj8kem;
   function _init_properties_Effects_kt__be5lps() {
     if (properties_initialized_Effects_kt_cj8kem) {
@@ -8742,6 +8747,198 @@
       return false;
     return true;
   };
+  function ProduceStateScope() {
+  }
+  function produceState$composable(initialValue, producer, $composer, $changed) {
+    var $composer_0 = $composer;
+    $composer_0.startReplaceableGroup_rp6air_k$(1150638565);
+    sourceInformation($composer_0, 'C(produceState$composable)81@2971L41,82@3017L95:ProduceState.kt#9igjgp');
+    if (isTraceInProgress()) {
+      traceEventStart(1150638565, $changed, -1, 'androidx.compose.runtime.produceState$composable (ProduceState.kt:77)');
+    }
+    var tmp$ret$4;
+    // Inline function 'androidx.compose.runtime.remember$composable' call
+    var tmp2_remember$composable = $composer_0;
+    var $composer_1 = tmp2_remember$composable;
+    $composer_1.startReplaceableGroup_rp6air_k$(547886695);
+    sourceInformation($composer_1, 'CC(remember$composable):Composables.kt#9igjgp');
+    var tmp$ret$3;
+    // Inline function 'androidx.compose.runtime.cache' call
+    var tmp1_cache = $composer_1;
+    var tmp$ret$2;
+    // Inline function 'kotlin.let' call
+    var tmp0_let = tmp1_cache.rememberedValue_4dg93v_k$();
+    // Inline function 'kotlin.contracts.contract' call
+    var tmp$ret$1;
+    // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+    var tmp;
+    if (false ? true : tmp0_let === Companion_getInstance_1().get_Empty_i9b85g_k$()) {
+      var tmp$ret$0;
+      // Inline function 'androidx.compose.runtime.produceState$composable.<anonymous>' call
+      tmp$ret$0 = mutableStateOf(initialValue);
+      var value = tmp$ret$0;
+      tmp1_cache.updateRememberedValue_l1colo_k$(value);
+      tmp = value;
+    } else {
+      tmp = tmp0_let;
+    }
+    tmp$ret$1 = tmp;
+    tmp$ret$2 = tmp$ret$1;
+    var tmp_0 = tmp$ret$2;
+    tmp$ret$3 = (tmp_0 == null ? true : isObject(tmp_0)) ? tmp_0 : THROW_CCE();
+    var tmp0 = tmp$ret$3;
+    $composer_1.endReplaceableGroup_er37p7_k$();
+    tmp$ret$4 = tmp0;
+    var result = tmp$ret$4;
+    LaunchedEffect$composable(Unit_getInstance(), produceState$composable$slambda_0(producer, result, null), $composer_0, 6);
+    var tmp0_0 = result;
+    if (isTraceInProgress()) {
+      traceEventEnd();
+    }
+    $composer_0.endReplaceableGroup_er37p7_k$();
+    return tmp0_0;
+  }
+  function $awaitDisposeCOROUTINE$0(_this__u8e3s4, onDispose, resultContinuation) {
+    CoroutineImpl.call(this, resultContinuation);
+    this._this__u8e3s4__1 = _this__u8e3s4;
+    this.onDispose_1 = onDispose;
+  }
+  protoOf($awaitDisposeCOROUTINE$0).doResume_5yljmg_k$ = function () {
+    var suspendResult = this.get_result_iyg5d2_k$();
+    $sm: do
+      try {
+        var tmp = this.get_state_iypx7s_k$();
+        switch (tmp) {
+          case 0:
+            this.set_exceptionState_s9sevl_k$(5);
+            this.set_state_a96kl8_k$(1);
+            continue $sm;
+          case 1:
+            this.set_exceptionState_s9sevl_k$(4);
+            this.set_state_a96kl8_k$(2);
+            var tmp0__anonymous__q1qw7t = this;
+            var cancellable = new CancellableContinuationImpl(intercepted(tmp0__anonymous__q1qw7t), get_MODE_CANCELLABLE());
+            cancellable.initCancellability_sh6jkn_k$();
+            ;
+            suspendResult = returnIfSuspended(cancellable.getResult_clfhg3_k$(), this);
+            if (suspendResult === get_COROUTINE_SUSPENDED()) {
+              return suspendResult;
+            }
+
+            continue $sm;
+          case 2:
+            this.tmp$ret$00__1 = throwKotlinNothingValueException();
+            this.set_exceptionState_s9sevl_k$(5);
+            this.set_state_a96kl8_k$(3);
+            continue $sm;
+          case 3:
+            this.onDispose_1();
+            return Unit_getInstance();
+          case 4:
+            this.set_exceptionState_s9sevl_k$(5);
+            var t = this.get_exception_x0n6w6_k$();
+            this.onDispose_1();
+            throw t;
+          case 5:
+            throw this.get_exception_x0n6w6_k$();
+        }
+      } catch ($p) {
+        var e = $p;
+        if (this.get_exceptionState_wflpxn_k$() === 5) {
+          throw e;
+        } else {
+          this.set_state_a96kl8_k$(this.get_exceptionState_wflpxn_k$());
+          this.set_exception_pwgeox_k$(e);
+        }
+      }
+     while (true);
+  };
+  function ProduceStateScopeImpl(state, coroutineContext) {
+    this.coroutineContext_1 = coroutineContext;
+    this.$$delegate_0__1 = state;
+  }
+  protoOf(ProduceStateScopeImpl).get_coroutineContext_115oqo_k$ = function () {
+    return this.coroutineContext_1;
+  };
+  protoOf(ProduceStateScopeImpl).set_value_rnwamw_k$ = function (_set____db54di) {
+    this.$$delegate_0__1.set_value_rnwamw_k$(_set____db54di);
+  };
+  protoOf(ProduceStateScopeImpl).get_value_j01efc_k$ = function () {
+    return this.$$delegate_0__1.get_value_j01efc_k$();
+  };
+  protoOf(ProduceStateScopeImpl).component1_7eebsc_k$ = function () {
+    return this.$$delegate_0__1.component1_7eebsc_k$();
+  };
+  protoOf(ProduceStateScopeImpl).component2_7eebsb_k$ = function () {
+    return this.$$delegate_0__1.component2_7eebsb_k$();
+  };
+  protoOf(ProduceStateScopeImpl).awaitDispose_4jw8a2_k$ = function (onDispose, $completion) {
+    var tmp = new $awaitDisposeCOROUTINE$0(this, onDispose, $completion);
+    tmp.set_result_ximc09_k$(Unit_getInstance());
+    tmp.set_exception_pwgeox_k$(null);
+    return tmp.doResume_5yljmg_k$();
+  };
+  function produceState$composable$slambda($producer, $result, resultContinuation) {
+    this.$producer_1 = $producer;
+    this.$result_1 = $result;
+    CoroutineImpl.call(this, resultContinuation);
+  }
+  protoOf(produceState$composable$slambda).invoke_d6gbsu_k$ = function ($this$LaunchedEffect, $completion) {
+    var tmp = this.create_b6qu53_k$($this$LaunchedEffect, $completion);
+    tmp.set_result_ximc09_k$(Unit_getInstance());
+    tmp.set_exception_pwgeox_k$(null);
+    return tmp.doResume_5yljmg_k$();
+  };
+  protoOf(produceState$composable$slambda).invoke_5zdxxo_k$ = function (p1, $completion) {
+    return this.invoke_d6gbsu_k$((!(p1 == null) ? isInterface(p1, CoroutineScope_0) : false) ? p1 : THROW_CCE(), $completion);
+  };
+  protoOf(produceState$composable$slambda).doResume_5yljmg_k$ = function () {
+    var suspendResult = this.get_result_iyg5d2_k$();
+    $sm: do
+      try {
+        var tmp = this.get_state_iypx7s_k$();
+        switch (tmp) {
+          case 0:
+            this.set_exceptionState_s9sevl_k$(2);
+            this.set_state_a96kl8_k$(1);
+            suspendResult = this.$producer_1(new ProduceStateScopeImpl(this.$result_1, this.$this$LaunchedEffect_1.get_coroutineContext_115oqo_k$()), this);
+            if (suspendResult === get_COROUTINE_SUSPENDED()) {
+              return suspendResult;
+            }
+
+            continue $sm;
+          case 1:
+            return Unit_getInstance();
+          case 2:
+            throw this.get_exception_x0n6w6_k$();
+        }
+      } catch ($p) {
+        var e = $p;
+        if (this.get_exceptionState_wflpxn_k$() === 2) {
+          throw e;
+        } else {
+          this.set_state_a96kl8_k$(this.get_exceptionState_wflpxn_k$());
+          this.set_exception_pwgeox_k$(e);
+        }
+      }
+     while (true);
+  };
+  protoOf(produceState$composable$slambda).create_b6qu53_k$ = function ($this$LaunchedEffect, completion) {
+    var i = new produceState$composable$slambda(this.$producer_1, this.$result_1, completion);
+    i.$this$LaunchedEffect_1 = $this$LaunchedEffect;
+    return i;
+  };
+  protoOf(produceState$composable$slambda).create_xubfvz_k$ = function (value, completion) {
+    return this.create_b6qu53_k$((!(value == null) ? isInterface(value, CoroutineScope_0) : false) ? value : THROW_CCE(), completion);
+  };
+  function produceState$composable$slambda_0($producer, $result, resultContinuation) {
+    var i = new produceState$composable$slambda($producer, $result, resultContinuation);
+    var l = function ($this$LaunchedEffect, $completion) {
+      return i.invoke_d6gbsu_k$($this$LaunchedEffect, $completion);
+    };
+    l.$arity = 1;
+    return l;
+  }
   function ReadOnlyComposable() {
   }
   protoOf(ReadOnlyComposable).equals = function (other) {
@@ -16632,19 +16829,18 @@
       new StructuralEqualityPolicy();
     return StructuralEqualityPolicy_instance;
   }
-  function State_0() {
+  function setValue(_this__u8e3s4, thisObj, property, value) {
+    _this__u8e3s4.set_value_rnwamw_k$(value);
+  }
+  function mutableStateListOf() {
+    return new SnapshotStateList();
   }
   function MutableState() {
   }
   function getValue(_this__u8e3s4, thisObj, property) {
     return _this__u8e3s4.get_value_j01efc_k$();
   }
-  function setValue(_this__u8e3s4, thisObj, property, value) {
-    _this__u8e3s4.set_value_rnwamw_k$(value);
-  }
-  function mutableStateOf(value, policy) {
-    policy = policy === VOID ? structuralEqualityPolicy() : policy;
-    return createSnapshotMutableState(value, policy);
+  function State_0() {
   }
   function _set_next__9r2xms($this, _set____db54di) {
     $this.next_1 = _set____db54di;
@@ -16786,8 +16982,9 @@
     tmp$ret$1 = tmp$ret$0;
     return tmp$ret$1.value_1;
   };
-  function mutableStateListOf() {
-    return new SnapshotStateList();
+  function mutableStateOf(value, policy) {
+    policy = policy === VOID ? structuralEqualityPolicy() : policy;
+    return createSnapshotMutableState(value, policy);
   }
   function _get_map__e6co1h($this) {
     return $this.map_1;
@@ -31415,32 +31612,34 @@
   _.$_$.h = ControlledComposition_0;
   _.$_$.i = get_DefaultMonotonicFrameClock;
   _.$_$.j = DisposableEffect$composable_1;
-  _.$_$.k = DisposableEffect$composable_0;
-  _.$_$.l = DisposableEffect$composable;
+  _.$_$.k = DisposableEffect$composable;
+  _.$_$.l = DisposableEffect$composable_0;
   _.$_$.m = DisposableEffectResult;
   _.$_$.n = LaunchedEffect$composable;
-  _.$_$.o = Recomposer;
-  _.$_$.p = RememberObserver;
-  _.$_$.q = SideEffect$composable;
-  _.$_$.r = SkippableUpdater;
-  _.$_$.s = compositionLocalOf;
-  _.$_$.t = invalidApplier;
-  _.$_$.u = isTraceInProgress;
-  _.$_$.v = mutableStateListOf;
-  _.$_$.w = mutableStateOf;
-  _.$_$.x = sourceInformationMarkerEnd;
-  _.$_$.y = sourceInformationMarkerStart;
-  _.$_$.z = sourceInformation;
-  _.$_$.a1 = staticCompositionLocalOf;
-  _.$_$.b1 = traceEventEnd;
-  _.$_$.c1 = traceEventStart;
-  _.$_$.d1 = updateChangedFlags;
-  _.$_$.e1 = _SkippableUpdater___init__impl__4ft0t9;
-  _.$_$.f1 = _SkippableUpdater___get_composer__impl__6t7yne;
-  _.$_$.g1 = _Updater___init__impl__rbfxm8;
-  _.$_$.h1 = Updater__set_impl_v7kwss_0;
-  _.$_$.i1 = Companion_getInstance_9;
-  _.$_$.j1 = Companion_getInstance_1;
+  _.$_$.o = ProduceStateScope;
+  _.$_$.p = Recomposer;
+  _.$_$.q = RememberObserver;
+  _.$_$.r = SideEffect$composable;
+  _.$_$.s = SkippableUpdater;
+  _.$_$.t = compositionLocalOf;
+  _.$_$.u = invalidApplier;
+  _.$_$.v = isTraceInProgress;
+  _.$_$.w = mutableStateListOf;
+  _.$_$.x = mutableStateOf;
+  _.$_$.y = produceState$composable;
+  _.$_$.z = sourceInformationMarkerEnd;
+  _.$_$.a1 = sourceInformationMarkerStart;
+  _.$_$.b1 = sourceInformation;
+  _.$_$.c1 = staticCompositionLocalOf;
+  _.$_$.d1 = traceEventEnd;
+  _.$_$.e1 = traceEventStart;
+  _.$_$.f1 = updateChangedFlags;
+  _.$_$.g1 = _SkippableUpdater___init__impl__4ft0t9;
+  _.$_$.h1 = _SkippableUpdater___get_composer__impl__6t7yne;
+  _.$_$.i1 = _Updater___init__impl__rbfxm8;
+  _.$_$.j1 = Updater__set_impl_v7kwss_0;
+  _.$_$.k1 = Companion_getInstance_9;
+  _.$_$.l1 = Companion_getInstance_1;
   //endregion
   return _;
 }));

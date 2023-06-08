@@ -11,8 +11,11 @@ import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
+import com.varabyte.kobweb.compose.ui.thenIf
 import com.varabyte.kobweb.silk.components.graphics.Image
+import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.text.SpanText
+import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import org.jetbrains.compose.web.css.*
 
 @Composable
@@ -21,6 +24,7 @@ fun project(imageHeight: CSSNumeric = 196.px,
             imgPath: String,
             title: String,
             Description: String){
+    val br = rememberBreakpoint()
     Column(Modifier
         .padding(top = 40.px, bottom = 65.px)
     ){
@@ -31,7 +35,20 @@ fun project(imageHeight: CSSNumeric = 196.px,
                 .padding(bottom = 20.px)
 
         )
-        Row(Modifier.display(DisplayStyle.Flex).flexWrap(FlexWrap.Wrap)) {
+        Row(Modifier
+
+            .thenIf(br > Breakpoint.SM,//on Larger
+            Modifier
+                .display(DisplayStyle.Flex)
+                .flexWrap(FlexWrap.Wrap)
+            )
+            .thenIf(br <= Breakpoint.SM ,//on Mobile
+                Modifier
+                    .display(DisplayStyle.Flex)
+                    .flexWrap(FlexWrap.Wrap)
+                    .flexDirection(FlexDirection.Column)
+            )
+        ) {
             Image(
                 src = imgPath,
                 "$title images",

@@ -77,18 +77,18 @@
   var addEventListener_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.e1;
   var AttrsScope = kotlin_org_jetbrains_compose_html_html_core.$_$.d1;
   var classMeta = kotlin_kotlin.$_$.c6;
-  var VOID = kotlin_kotlin.$_$.u9;
+  var VOID = kotlin_kotlin.$_$.v9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   var objectMeta = kotlin_kotlin.$_$.x6;
   var THROW_ISE = kotlin_kotlin.$_$.c9;
   var Enum = kotlin_kotlin.$_$.t8;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.s;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.n1;
+  var joinToString = kotlin_kotlin.$_$.v3;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.f;
   var toString = kotlin_kotlin.$_$.b7;
-  var joinToString = kotlin_kotlin.$_$.u3;
+  var joinToString_0 = kotlin_kotlin.$_$.u3;
   var THROW_CCE = kotlin_kotlin.$_$.b9;
-  var joinToString_0 = kotlin_kotlin.$_$.v3;
   var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
   var width = kotlin_org_jetbrains_compose_html_html_core.$_$.m8;
   var style = kotlin_org_jetbrains_compose_html_html_core.$_$.h8;
@@ -119,10 +119,10 @@
   var interfaceMeta = kotlin_kotlin.$_$.m6;
   var DisposableEffectResult = kotlin_org_jetbrains_compose_runtime_runtime.$_$.m;
   var toList = kotlin_kotlin.$_$.u4;
-  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
-  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.u;
-  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
+  var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
+  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
+  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
+  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   var DisposableEffect$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.k;
   var isBlank = kotlin_kotlin.$_$.y7;
   var IllegalArgumentException_init_$Create$ = kotlin_kotlin.$_$.y;
@@ -132,19 +132,17 @@
   //region block: pre-declaration
   setMetadataFor(ComparableAttrsScope, 'ComparableAttrsScope', classMeta, VOID, [AttrsScope]);
   setMetadataFor(DummyAttrsScope, 'DummyAttrsScope', classMeta, VOID, [AttrsScope]);
-  setMetadataFor(AlignSelf, 'AlignSelf', classMeta);
-  setMetadataFor(AlignSelfKeyword, 'AlignSelfKeyword', classMeta, AlignSelf);
-  setMetadataFor(AlignSelfPosition, 'AlignSelfPosition', classMeta, AlignSelfKeyword);
-  setMetadataFor(BaselineAlignment, 'BaselineAlignment', classMeta, AlignSelf);
-  setMetadataFor(OverflowAlignment, 'OverflowAlignment', classMeta, AlignSelf);
-  setMetadataFor(Companion, 'Companion', objectMeta);
-  setMetadataFor(BaselineSet, 'BaselineSet', classMeta, Enum);
-  setMetadataFor(OverflowStrategy, 'OverflowStrategy', classMeta, Enum);
   setMetadataFor(JustifyItems, 'JustifyItems', classMeta);
   setMetadataFor(JustifyItemsKeyword, 'JustifyItemsKeyword', classMeta, JustifyItems);
   setMetadataFor(JustifyItemsPosition, 'JustifyItemsPosition', classMeta, JustifyItemsKeyword);
-  setMetadataFor(BaselineAlignment_0, 'BaselineAlignment', classMeta, JustifyItems);
-  setMetadataFor(OverflowAlignment_0, 'OverflowAlignment', classMeta, JustifyItems);
+  setMetadataFor(BaselineAlignment, 'BaselineAlignment', classMeta, JustifyItems);
+  setMetadataFor(OverflowAlignment, 'OverflowAlignment', classMeta, JustifyItems);
+  setMetadataFor(Companion, 'Companion', objectMeta);
+  setMetadataFor(AlignSelf, 'AlignSelf', classMeta);
+  setMetadataFor(AlignSelfKeyword, 'AlignSelfKeyword', classMeta, AlignSelf);
+  setMetadataFor(AlignSelfPosition, 'AlignSelfPosition', classMeta, AlignSelfKeyword);
+  setMetadataFor(BaselineAlignment_0, 'BaselineAlignment', classMeta, AlignSelf);
+  setMetadataFor(OverflowAlignment_0, 'OverflowAlignment', classMeta, AlignSelf);
   setMetadataFor(Companion_0, 'Companion', objectMeta);
   setMetadataFor(JustifySelf, 'JustifySelf', classMeta);
   setMetadataFor(JustifySelfKeyword, 'JustifySelfKeyword', classMeta, JustifySelf);
@@ -152,11 +150,13 @@
   setMetadataFor(BaselineAlignment_1, 'BaselineAlignment', classMeta, JustifySelf);
   setMetadataFor(OverflowAlignment_1, 'OverflowAlignment', classMeta, JustifySelf);
   setMetadataFor(Companion_1, 'Companion', objectMeta);
-  setMetadataFor(CSSBackground, 'CSSBackground', classMeta);
+  setMetadataFor(BaselineSet, 'BaselineSet', classMeta, Enum);
+  setMetadataFor(OverflowStrategy, 'OverflowStrategy', classMeta, Enum);
   setMetadataFor(BackgroundSize, 'BackgroundSize', classMeta);
   setMetadataFor(Keyword, 'Keyword', classMeta, BackgroundSize);
   setMetadataFor(Size, 'Size', classMeta, BackgroundSize);
   setMetadataFor(Companion_2, 'Companion', objectMeta);
+  setMetadataFor(CSSBackground, 'CSSBackground', classMeta);
   setMetadataFor(BackgroundImage, 'BackgroundImage', classMeta);
   setMetadataFor(Keyword_0, 'Keyword', classMeta, BackgroundImage);
   setMetadataFor(Url, 'Url', classMeta, BackgroundImage);
@@ -199,9 +199,9 @@
   setMetadataFor(Companion_12, 'Companion', objectMeta);
   setMetadataFor(Filter, 'Filter', classMeta);
   setMetadataFor(Companion_13, 'Companion', objectMeta);
-  setMetadataFor(FontSize, 'FontSize', classMeta);
-  setMetadataFor(Companion_14, 'Companion', objectMeta);
   setMetadataFor(FontWeight, 'FontWeight', classMeta);
+  setMetadataFor(Companion_14, 'Companion', objectMeta);
+  setMetadataFor(FontSize, 'FontSize', classMeta);
   setMetadataFor(Companion_15, 'Companion', objectMeta);
   setMetadataFor(MaxWidth, 'MaxWidth', classMeta);
   setMetadataFor(Companion_16, 'Companion', objectMeta);
@@ -389,54 +389,57 @@
   function _get_value__a43j40($this) {
     return $this.value_1;
   }
-  function AlignSelfKeyword(value) {
-    AlignSelf.call(this, value);
+  function JustifyItemsKeyword(value) {
+    JustifyItems.call(this, value);
     this.$stable_2 = 0;
   }
-  function AlignSelfPosition(value) {
-    AlignSelfKeyword.call(this, value);
+  function JustifyItemsPosition(value) {
+    JustifyItemsKeyword.call(this, value);
     this.$stable_3 = 0;
   }
   function BaselineAlignment(baselineSet) {
-    AlignSelf.call(this, toValue(baselineSet));
+    JustifyItems.call(this, toValue(baselineSet));
     this.$stable_2 = 0;
   }
   function OverflowAlignment(strategy, position) {
-    AlignSelf.call(this, toValue_0(strategy, position));
+    JustifyItems.call(this, toValue_0(strategy, position));
     this.$stable_2 = 0;
   }
   function Companion() {
     Companion_instance = this;
   }
-  protoOf(Companion).get_Auto_wnyn88_k$ = function () {
-    return new AlignSelfKeyword('auto');
-  };
   protoOf(Companion).get_Normal_22avww_k$ = function () {
-    return new AlignSelfKeyword('normal');
+    return new JustifyItemsKeyword('normal');
   };
   protoOf(Companion).get_Stretch_2brthg_k$ = function () {
-    return new AlignSelfKeyword('stretch');
+    return new JustifyItemsKeyword('stretch');
   };
   protoOf(Companion).get_Center_3arb0i_k$ = function () {
-    return new AlignSelfPosition('center');
+    return new JustifyItemsPosition('center');
   };
   protoOf(Companion).get_Start_ih4i6x_k$ = function () {
-    return new AlignSelfPosition('start');
+    return new JustifyItemsPosition('start');
   };
   protoOf(Companion).get_End_18ju7i_k$ = function () {
-    return new AlignSelfPosition('end');
-  };
-  protoOf(Companion).get_SelfStart_di8gbx_k$ = function () {
-    return new AlignSelfPosition('self-start');
-  };
-  protoOf(Companion).get_SelfEnd_9ir8ka_k$ = function () {
-    return new AlignSelfPosition('self-end');
+    return new JustifyItemsPosition('end');
   };
   protoOf(Companion).get_FlexStart_cfavq8_k$ = function () {
-    return new AlignSelfPosition('flex-start');
+    return new JustifyItemsPosition('flex-start');
   };
   protoOf(Companion).get_FlexEnd_fz7iu1_k$ = function () {
-    return new AlignSelfPosition('flex-end');
+    return new JustifyItemsPosition('flex-end');
+  };
+  protoOf(Companion).get_SelfStart_di8gbx_k$ = function () {
+    return new JustifyItemsPosition('self-start');
+  };
+  protoOf(Companion).get_SelfEnd_9ir8ka_k$ = function () {
+    return new JustifyItemsPosition('self-end');
+  };
+  protoOf(Companion).get_Left_wo5bw0_k$ = function () {
+    return new JustifyItemsPosition('left');
+  };
+  protoOf(Companion).get_Right_igdsyb_k$ = function () {
+    return new JustifyItemsPosition('right');
   };
   protoOf(Companion).get_Baseline_bu5gku_k$ = function () {
     return new BaselineAlignment(null);
@@ -447,23 +450,23 @@
   protoOf(Companion).get_LastBaseline_ldoo6c_k$ = function () {
     return new BaselineAlignment(BaselineSet_LAST_getInstance());
   };
-  protoOf(Companion).Safe_sejl1k_k$ = function (position) {
+  protoOf(Companion).Safe_362a2d_k$ = function (position) {
     return new OverflowAlignment(OverflowStrategy_SAFE_getInstance(), position);
   };
-  protoOf(Companion).Unsafe_cgopgf_k$ = function (position) {
+  protoOf(Companion).Unsafe_he27se_k$ = function (position) {
     return new OverflowAlignment(OverflowStrategy_UNSAFE_getInstance(), position);
   };
   protoOf(Companion).get_Inherit_a1a9e6_k$ = function () {
-    return new AlignSelfKeyword('inherit');
+    return new JustifyItemsKeyword('inherit');
   };
   protoOf(Companion).get_Initial_a0h2v9_k$ = function () {
-    return new AlignSelfKeyword('initial');
+    return new JustifyItemsKeyword('initial');
   };
   protoOf(Companion).get_Revert_3t1tzh_k$ = function () {
-    return new AlignSelfKeyword('revert');
+    return new JustifyItemsKeyword('revert');
   };
   protoOf(Companion).get_Unset_ii4mhs_k$ = function () {
-    return new AlignSelfKeyword('unset');
+    return new JustifyItemsKeyword('unset');
   };
   var Companion_instance;
   function Companion_getInstance() {
@@ -474,111 +477,19 @@
   function get_$stableprop_4() {
     return 0;
   }
-  function AlignSelf(value) {
+  function JustifyItems(value) {
     Companion_getInstance();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(AlignSelf).toString = function () {
+  protoOf(JustifyItems).toString = function () {
     return this.value_1;
   };
-  function alignSelf(_this__u8e3s4, alignSelf) {
-    _this__u8e3s4.property_lwhspk_k$('align-self', alignSelf);
-  }
-  var BaselineSet_FIRST_instance;
-  var BaselineSet_LAST_instance;
-  function values() {
-    return [BaselineSet_FIRST_getInstance(), BaselineSet_LAST_getInstance()];
-  }
-  function valueOf(value) {
-    switch (value) {
-      case 'FIRST':
-        return BaselineSet_FIRST_getInstance();
-      case 'LAST':
-        return BaselineSet_LAST_getInstance();
-      default:
-        BaselineSet_initEntries();
-        THROW_ISE();
-        break;
-    }
-  }
-  var BaselineSet_entriesInitialized;
-  function BaselineSet_initEntries() {
-    if (BaselineSet_entriesInitialized)
-      return Unit_getInstance();
-    BaselineSet_entriesInitialized = true;
-    BaselineSet_FIRST_instance = new BaselineSet('FIRST', 0);
-    BaselineSet_LAST_instance = new BaselineSet('LAST', 1);
-  }
-  function BaselineSet(name, ordinal) {
-    Enum.call(this, name, ordinal);
-  }
-  function toValue(_this__u8e3s4) {
-    var self_0 = _this__u8e3s4;
-    var tmp$ret$3;
-    // Inline function 'kotlin.text.buildString' call
-    // Inline function 'kotlin.contracts.contract' call
-    var tmp$ret$2;
-    // Inline function 'kotlin.apply' call
-    var tmp0_apply = StringBuilder_init_$Create$();
-    // Inline function 'kotlin.contracts.contract' call
-    // Inline function 'com.varabyte.kobweb.compose.css.toValue.<anonymous>' call
-    if (!(self_0 == null)) {
-      var tmp$ret$1;
-      // Inline function 'kotlin.text.lowercase' call
-      var tmp0_lowercase = self_0.get_name_woqyms_k$();
-      var tmp$ret$0;
-      // Inline function 'kotlin.js.asDynamic' call
-      tmp$ret$0 = tmp0_lowercase;
-      tmp$ret$1 = tmp$ret$0.toLowerCase();
-      tmp0_apply.append_ssq29y_k$(tmp$ret$1);
-      tmp0_apply.append_t8oh9e_k$(_Char___init__impl__6a9atx(32));
-    }
-    tmp0_apply.append_ssq29y_k$('baseline');
-    tmp$ret$2 = tmp0_apply;
-    tmp$ret$3 = tmp$ret$2.toString();
-    return tmp$ret$3;
-  }
-  var OverflowStrategy_SAFE_instance;
-  var OverflowStrategy_UNSAFE_instance;
-  function values_0() {
-    return [OverflowStrategy_SAFE_getInstance(), OverflowStrategy_UNSAFE_getInstance()];
-  }
-  function valueOf_0(value) {
-    switch (value) {
-      case 'SAFE':
-        return OverflowStrategy_SAFE_getInstance();
-      case 'UNSAFE':
-        return OverflowStrategy_UNSAFE_getInstance();
-      default:
-        OverflowStrategy_initEntries();
-        THROW_ISE();
-        break;
-    }
-  }
-  var OverflowStrategy_entriesInitialized;
-  function OverflowStrategy_initEntries() {
-    if (OverflowStrategy_entriesInitialized)
-      return Unit_getInstance();
-    OverflowStrategy_entriesInitialized = true;
-    OverflowStrategy_SAFE_instance = new OverflowStrategy('SAFE', 0);
-    OverflowStrategy_UNSAFE_instance = new OverflowStrategy('UNSAFE', 1);
-  }
-  function OverflowStrategy(name, ordinal) {
-    Enum.call(this, name, ordinal);
-  }
-  function toValue_0(_this__u8e3s4, position) {
-    var tmp$ret$1;
-    // Inline function 'kotlin.text.lowercase' call
-    var tmp0_lowercase = _this__u8e3s4.get_name_woqyms_k$();
-    var tmp$ret$0;
-    // Inline function 'kotlin.js.asDynamic' call
-    tmp$ret$0 = tmp0_lowercase;
-    tmp$ret$1 = tmp$ret$0.toLowerCase();
-    return tmp$ret$1 + ' ' + position;
-  }
   function justifyItems(_this__u8e3s4, justifyItems) {
     _this__u8e3s4.property_lwhspk_k$('justify-items', justifyItems);
+  }
+  function justifySelf(_this__u8e3s4, justifySelf) {
+    _this__u8e3s4.property_lwhspk_k$('justify-self', justifySelf);
   }
   function get_$stableprop_5() {
     return 0;
@@ -595,57 +506,54 @@
   function _get_value__a43j40_0($this) {
     return $this.value_1;
   }
-  function JustifyItemsKeyword(value) {
-    JustifyItems.call(this, value);
+  function AlignSelfKeyword(value) {
+    AlignSelf.call(this, value);
     this.$stable_2 = 0;
   }
-  function JustifyItemsPosition(value) {
-    JustifyItemsKeyword.call(this, value);
+  function AlignSelfPosition(value) {
+    AlignSelfKeyword.call(this, value);
     this.$stable_3 = 0;
   }
   function BaselineAlignment_0(baselineSet) {
-    JustifyItems.call(this, toValue(baselineSet));
+    AlignSelf.call(this, toValue(baselineSet));
     this.$stable_2 = 0;
   }
   function OverflowAlignment_0(strategy, position) {
-    JustifyItems.call(this, toValue_0(strategy, position));
+    AlignSelf.call(this, toValue_0(strategy, position));
     this.$stable_2 = 0;
   }
   function Companion_0() {
     Companion_instance_0 = this;
   }
+  protoOf(Companion_0).get_Auto_wnyn88_k$ = function () {
+    return new AlignSelfKeyword('auto');
+  };
   protoOf(Companion_0).get_Normal_22avww_k$ = function () {
-    return new JustifyItemsKeyword('normal');
+    return new AlignSelfKeyword('normal');
   };
   protoOf(Companion_0).get_Stretch_2brthg_k$ = function () {
-    return new JustifyItemsKeyword('stretch');
+    return new AlignSelfKeyword('stretch');
   };
   protoOf(Companion_0).get_Center_3arb0i_k$ = function () {
-    return new JustifyItemsPosition('center');
+    return new AlignSelfPosition('center');
   };
   protoOf(Companion_0).get_Start_ih4i6x_k$ = function () {
-    return new JustifyItemsPosition('start');
+    return new AlignSelfPosition('start');
   };
   protoOf(Companion_0).get_End_18ju7i_k$ = function () {
-    return new JustifyItemsPosition('end');
-  };
-  protoOf(Companion_0).get_FlexStart_cfavq8_k$ = function () {
-    return new JustifyItemsPosition('flex-start');
-  };
-  protoOf(Companion_0).get_FlexEnd_fz7iu1_k$ = function () {
-    return new JustifyItemsPosition('flex-end');
+    return new AlignSelfPosition('end');
   };
   protoOf(Companion_0).get_SelfStart_di8gbx_k$ = function () {
-    return new JustifyItemsPosition('self-start');
+    return new AlignSelfPosition('self-start');
   };
   protoOf(Companion_0).get_SelfEnd_9ir8ka_k$ = function () {
-    return new JustifyItemsPosition('self-end');
+    return new AlignSelfPosition('self-end');
   };
-  protoOf(Companion_0).get_Left_wo5bw0_k$ = function () {
-    return new JustifyItemsPosition('left');
+  protoOf(Companion_0).get_FlexStart_cfavq8_k$ = function () {
+    return new AlignSelfPosition('flex-start');
   };
-  protoOf(Companion_0).get_Right_igdsyb_k$ = function () {
-    return new JustifyItemsPosition('right');
+  protoOf(Companion_0).get_FlexEnd_fz7iu1_k$ = function () {
+    return new AlignSelfPosition('flex-end');
   };
   protoOf(Companion_0).get_Baseline_bu5gku_k$ = function () {
     return new BaselineAlignment_0(null);
@@ -656,23 +564,23 @@
   protoOf(Companion_0).get_LastBaseline_ldoo6c_k$ = function () {
     return new BaselineAlignment_0(BaselineSet_LAST_getInstance());
   };
-  protoOf(Companion_0).Safe_362a2d_k$ = function (position) {
+  protoOf(Companion_0).Safe_sejl1k_k$ = function (position) {
     return new OverflowAlignment_0(OverflowStrategy_SAFE_getInstance(), position);
   };
-  protoOf(Companion_0).Unsafe_he27se_k$ = function (position) {
+  protoOf(Companion_0).Unsafe_cgopgf_k$ = function (position) {
     return new OverflowAlignment_0(OverflowStrategy_UNSAFE_getInstance(), position);
   };
   protoOf(Companion_0).get_Inherit_a1a9e6_k$ = function () {
-    return new JustifyItemsKeyword('inherit');
+    return new AlignSelfKeyword('inherit');
   };
   protoOf(Companion_0).get_Initial_a0h2v9_k$ = function () {
-    return new JustifyItemsKeyword('initial');
+    return new AlignSelfKeyword('initial');
   };
   protoOf(Companion_0).get_Revert_3t1tzh_k$ = function () {
-    return new JustifyItemsKeyword('revert');
+    return new AlignSelfKeyword('revert');
   };
   protoOf(Companion_0).get_Unset_ii4mhs_k$ = function () {
-    return new JustifyItemsKeyword('unset');
+    return new AlignSelfKeyword('unset');
   };
   var Companion_instance_0;
   function Companion_getInstance_0() {
@@ -683,17 +591,14 @@
   function get_$stableprop_9() {
     return 0;
   }
-  function JustifyItems(value) {
+  function AlignSelf(value) {
     Companion_getInstance_0();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(JustifyItems).toString = function () {
+  protoOf(AlignSelf).toString = function () {
     return this.value_1;
   };
-  function justifySelf(_this__u8e3s4, justifySelf) {
-    _this__u8e3s4.property_lwhspk_k$('justify-self', justifySelf);
-  }
   function get_$stableprop_10() {
     return 0;
   }
@@ -808,6 +713,101 @@
   protoOf(JustifySelf).toString = function () {
     return this.value_1;
   };
+  function alignSelf(_this__u8e3s4, alignSelf) {
+    _this__u8e3s4.property_lwhspk_k$('align-self', alignSelf);
+  }
+  var BaselineSet_FIRST_instance;
+  var BaselineSet_LAST_instance;
+  function values() {
+    return [BaselineSet_FIRST_getInstance(), BaselineSet_LAST_getInstance()];
+  }
+  function valueOf(value) {
+    switch (value) {
+      case 'FIRST':
+        return BaselineSet_FIRST_getInstance();
+      case 'LAST':
+        return BaselineSet_LAST_getInstance();
+      default:
+        BaselineSet_initEntries();
+        THROW_ISE();
+        break;
+    }
+  }
+  var BaselineSet_entriesInitialized;
+  function BaselineSet_initEntries() {
+    if (BaselineSet_entriesInitialized)
+      return Unit_getInstance();
+    BaselineSet_entriesInitialized = true;
+    BaselineSet_FIRST_instance = new BaselineSet('FIRST', 0);
+    BaselineSet_LAST_instance = new BaselineSet('LAST', 1);
+  }
+  function BaselineSet(name, ordinal) {
+    Enum.call(this, name, ordinal);
+  }
+  function toValue(_this__u8e3s4) {
+    var self_0 = _this__u8e3s4;
+    var tmp$ret$3;
+    // Inline function 'kotlin.text.buildString' call
+    // Inline function 'kotlin.contracts.contract' call
+    var tmp$ret$2;
+    // Inline function 'kotlin.apply' call
+    var tmp0_apply = StringBuilder_init_$Create$();
+    // Inline function 'kotlin.contracts.contract' call
+    // Inline function 'com.varabyte.kobweb.compose.css.toValue.<anonymous>' call
+    if (!(self_0 == null)) {
+      var tmp$ret$1;
+      // Inline function 'kotlin.text.lowercase' call
+      var tmp0_lowercase = self_0.get_name_woqyms_k$();
+      var tmp$ret$0;
+      // Inline function 'kotlin.js.asDynamic' call
+      tmp$ret$0 = tmp0_lowercase;
+      tmp$ret$1 = tmp$ret$0.toLowerCase();
+      tmp0_apply.append_ssq29y_k$(tmp$ret$1);
+      tmp0_apply.append_t8oh9e_k$(_Char___init__impl__6a9atx(32));
+    }
+    tmp0_apply.append_ssq29y_k$('baseline');
+    tmp$ret$2 = tmp0_apply;
+    tmp$ret$3 = tmp$ret$2.toString();
+    return tmp$ret$3;
+  }
+  var OverflowStrategy_SAFE_instance;
+  var OverflowStrategy_UNSAFE_instance;
+  function values_0() {
+    return [OverflowStrategy_SAFE_getInstance(), OverflowStrategy_UNSAFE_getInstance()];
+  }
+  function valueOf_0(value) {
+    switch (value) {
+      case 'SAFE':
+        return OverflowStrategy_SAFE_getInstance();
+      case 'UNSAFE':
+        return OverflowStrategy_UNSAFE_getInstance();
+      default:
+        OverflowStrategy_initEntries();
+        THROW_ISE();
+        break;
+    }
+  }
+  var OverflowStrategy_entriesInitialized;
+  function OverflowStrategy_initEntries() {
+    if (OverflowStrategy_entriesInitialized)
+      return Unit_getInstance();
+    OverflowStrategy_entriesInitialized = true;
+    OverflowStrategy_SAFE_instance = new OverflowStrategy('SAFE', 0);
+    OverflowStrategy_UNSAFE_instance = new OverflowStrategy('UNSAFE', 1);
+  }
+  function OverflowStrategy(name, ordinal) {
+    Enum.call(this, name, ordinal);
+  }
+  function toValue_0(_this__u8e3s4, position) {
+    var tmp$ret$1;
+    // Inline function 'kotlin.text.lowercase' call
+    var tmp0_lowercase = _this__u8e3s4.get_name_woqyms_k$();
+    var tmp$ret$0;
+    // Inline function 'kotlin.js.asDynamic' call
+    tmp$ret$0 = tmp0_lowercase;
+    tmp$ret$1 = tmp$ret$0.toLowerCase();
+    return tmp$ret$1 + ' ' + position;
+  }
   function BaselineSet_FIRST_getInstance() {
     BaselineSet_initEntries();
     return BaselineSet_FIRST_instance;
@@ -824,7 +824,80 @@
     OverflowStrategy_initEntries();
     return OverflowStrategy_UNSAFE_instance;
   }
+  function _get_value__a43j40_2($this) {
+    return $this.value_1;
+  }
+  function Keyword(value) {
+    BackgroundSize.call(this, value);
+  }
+  function Size(value) {
+    BackgroundSize.call(this, value);
+  }
+  function Companion_2() {
+    Companion_instance_2 = this;
+  }
+  protoOf(Companion_2).of_7jtbf1_k$ = function (width) {
+    return new Size('' + width);
+  };
+  protoOf(Companion_2).of_dzi368_k$ = function (width) {
+    return new Size('' + width);
+  };
+  protoOf(Companion_2).of_hp4o5f_k$ = function (width, height) {
+    return new Size('' + width + ' ' + height);
+  };
+  protoOf(Companion_2).of_kg6kbe_k$ = function (width, height) {
+    return new Size('' + width + ' ' + height);
+  };
+  protoOf(Companion_2).of_vgs84m_k$ = function (width, height) {
+    return new Size('' + width + ' ' + height);
+  };
+  protoOf(Companion_2).get_Cover_i8910u_k$ = function () {
+    return new Keyword('cover');
+  };
+  protoOf(Companion_2).get_Contain_qhyalx_k$ = function () {
+    return new Keyword('contain');
+  };
+  protoOf(Companion_2).get_Inherit_a1a9e6_k$ = function () {
+    return new Keyword('inherit');
+  };
+  protoOf(Companion_2).get_Initial_a0h2v9_k$ = function () {
+    return new Keyword('initial');
+  };
+  protoOf(Companion_2).get_Revert_3t1tzh_k$ = function () {
+    return new Keyword('revert');
+  };
+  protoOf(Companion_2).get_Unset_ii4mhs_k$ = function () {
+    return new Keyword('unset');
+  };
+  var Companion_instance_2;
+  function Companion_getInstance_2() {
+    if (Companion_instance_2 == null)
+      new Companion_2();
+    return Companion_instance_2;
+  }
   function get_$stableprop_15() {
+    return 0;
+  }
+  function BackgroundSize(value) {
+    Companion_getInstance_2();
+    this.value_1 = value;
+    this.$stable_1 = 0;
+  }
+  protoOf(BackgroundSize).toString = function () {
+    return this.value_1;
+  };
+  function background(_this__u8e3s4, backgrounds) {
+    var tmp$ret$1;
+    // Inline function 'kotlin.collections.isNotEmpty' call
+    var tmp$ret$0;
+    // Inline function 'kotlin.collections.isEmpty' call
+    tmp$ret$0 = backgrounds.length === 0;
+    tmp$ret$1 = !tmp$ret$0;
+    if (tmp$ret$1) {
+      _this__u8e3s4.property_ze5ozi_k$('background', joinToString(backgrounds, ', '));
+    }
+  }
+  function get_$stableprop_16() {
     return 8;
   }
   function CSSBackground(image, color, repeat, position, size, origin, clip, attachment) {
@@ -988,7 +1061,7 @@
     tmp$ret$14 = tmp0_apply;
     tmp$ret$15 = tmp$ret$14.build_1k0s4u_k$();
     tmp$ret$16 = tmp$ret$15;
-    return joinToString(tmp$ret$16, ' ');
+    return joinToString_0(tmp$ret$16, ' ');
   };
   protoOf(CSSBackground).component1_7eebsc_k$ = function () {
     return this.image_1;
@@ -1063,79 +1136,6 @@
       return false;
     return true;
   };
-  function _get_value__a43j40_2($this) {
-    return $this.value_1;
-  }
-  function Keyword(value) {
-    BackgroundSize.call(this, value);
-  }
-  function Size(value) {
-    BackgroundSize.call(this, value);
-  }
-  function Companion_2() {
-    Companion_instance_2 = this;
-  }
-  protoOf(Companion_2).of_7jtbf1_k$ = function (width) {
-    return new Size('' + width);
-  };
-  protoOf(Companion_2).of_dzi368_k$ = function (width) {
-    return new Size('' + width);
-  };
-  protoOf(Companion_2).of_hp4o5f_k$ = function (width, height) {
-    return new Size('' + width + ' ' + height);
-  };
-  protoOf(Companion_2).of_kg6kbe_k$ = function (width, height) {
-    return new Size('' + width + ' ' + height);
-  };
-  protoOf(Companion_2).of_vgs84m_k$ = function (width, height) {
-    return new Size('' + width + ' ' + height);
-  };
-  protoOf(Companion_2).get_Cover_i8910u_k$ = function () {
-    return new Keyword('cover');
-  };
-  protoOf(Companion_2).get_Contain_qhyalx_k$ = function () {
-    return new Keyword('contain');
-  };
-  protoOf(Companion_2).get_Inherit_a1a9e6_k$ = function () {
-    return new Keyword('inherit');
-  };
-  protoOf(Companion_2).get_Initial_a0h2v9_k$ = function () {
-    return new Keyword('initial');
-  };
-  protoOf(Companion_2).get_Revert_3t1tzh_k$ = function () {
-    return new Keyword('revert');
-  };
-  protoOf(Companion_2).get_Unset_ii4mhs_k$ = function () {
-    return new Keyword('unset');
-  };
-  var Companion_instance_2;
-  function Companion_getInstance_2() {
-    if (Companion_instance_2 == null)
-      new Companion_2();
-    return Companion_instance_2;
-  }
-  function get_$stableprop_16() {
-    return 0;
-  }
-  function BackgroundSize(value) {
-    Companion_getInstance_2();
-    this.value_1 = value;
-    this.$stable_1 = 0;
-  }
-  protoOf(BackgroundSize).toString = function () {
-    return this.value_1;
-  };
-  function background(_this__u8e3s4, backgrounds) {
-    var tmp$ret$1;
-    // Inline function 'kotlin.collections.isNotEmpty' call
-    var tmp$ret$0;
-    // Inline function 'kotlin.collections.isEmpty' call
-    tmp$ret$0 = backgrounds.length === 0;
-    tmp$ret$1 = !tmp$ret$0;
-    if (tmp$ret$1) {
-      _this__u8e3s4.property_ze5ozi_k$('background', joinToString_0(backgrounds, ', '));
-    }
-  }
   function _get_value__a43j40_3($this) {
     return $this.value_1;
   }
@@ -2141,44 +2141,53 @@
   function Companion_13() {
     Companion_instance_13 = this;
   }
-  protoOf(Companion_13).get_XXSmall_dp2rr6_k$ = function () {
-    return new FontSize('xx-small');
+  protoOf(Companion_13).get_Thin_woai2q_k$ = function () {
+    return new FontWeight('100');
   };
-  protoOf(Companion_13).get_XSmall_6d9fo8_k$ = function () {
-    return new FontSize('x-small');
+  protoOf(Companion_13).get_ExtraLight_ov7yxb_k$ = function () {
+    return new FontWeight('200');
   };
-  protoOf(Companion_13).get_Small_ih014u_k$ = function () {
-    return new FontSize('small');
+  protoOf(Companion_13).get_Light_id31e5_k$ = function () {
+    return new FontWeight('300');
   };
   protoOf(Companion_13).get_Medium_1fiba6_k$ = function () {
-    return new FontSize('medium');
+    return new FontWeight('500');
   };
-  protoOf(Companion_13).get_Large_icy5ma_k$ = function () {
-    return new FontSize('large');
+  protoOf(Companion_13).get_SemiBold_aid1c4_k$ = function () {
+    return new FontWeight('600');
   };
-  protoOf(Companion_13).get_XLarge_697k5o_k$ = function () {
-    return new FontSize('x-large');
+  protoOf(Companion_13).get_ExtraBold_xklwd0_k$ = function () {
+    return new FontWeight('800');
   };
-  protoOf(Companion_13).get_XXLarge_dt4n9q_k$ = function () {
-    return new FontSize('xx-large');
+  protoOf(Companion_13).get_Black_i7mvue_k$ = function () {
+    return new FontWeight('900');
   };
-  protoOf(Companion_13).get_Smaller_5wbdat_k$ = function () {
-    return new FontSize('smaller');
+  protoOf(Companion_13).get_ExtraBlack_oprtdk_k$ = function () {
+    return new FontWeight('950');
   };
-  protoOf(Companion_13).get_Larger_wiegw_k$ = function () {
-    return new FontSize('larger');
+  protoOf(Companion_13).get_Normal_22avww_k$ = function () {
+    return new FontWeight('normal');
+  };
+  protoOf(Companion_13).get_Bold_wnz5ke_k$ = function () {
+    return new FontWeight('bold');
+  };
+  protoOf(Companion_13).get_Lighter_vm6n22_k$ = function () {
+    return new FontWeight('lighter');
+  };
+  protoOf(Companion_13).get_Bolder_3mclb9_k$ = function () {
+    return new FontWeight('bolder');
   };
   protoOf(Companion_13).get_Inherit_a1a9e6_k$ = function () {
-    return new FontSize('inherit');
+    return new FontWeight('inherit');
   };
   protoOf(Companion_13).get_Initial_a0h2v9_k$ = function () {
-    return new FontSize('initial');
+    return new FontWeight('initial');
   };
   protoOf(Companion_13).get_Revert_3t1tzh_k$ = function () {
-    return new FontSize('revert');
+    return new FontWeight('revert');
   };
   protoOf(Companion_13).get_Unset_ii4mhs_k$ = function () {
-    return new FontSize('unset');
+    return new FontWeight('unset');
   };
   var Companion_instance_13;
   function Companion_getInstance_13() {
@@ -2189,67 +2198,64 @@
   function get_$stableprop_41() {
     return 0;
   }
-  function FontSize(value) {
+  function FontWeight(value) {
     Companion_getInstance_13();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(FontSize).toString = function () {
+  protoOf(FontWeight).toString = function () {
     return this.value_1;
   };
+  function fontWeight(_this__u8e3s4, weight) {
+    _this__u8e3s4.property_lwhspk_k$('font-weight', weight);
+  }
+  function fontSize(_this__u8e3s4, size) {
+    _this__u8e3s4.property_lwhspk_k$('font-size', size);
+  }
   function _get_value__a43j40_14($this) {
     return $this.value_1;
   }
   function Companion_14() {
     Companion_instance_14 = this;
   }
-  protoOf(Companion_14).get_Thin_woai2q_k$ = function () {
-    return new FontWeight('100');
+  protoOf(Companion_14).get_XXSmall_dp2rr6_k$ = function () {
+    return new FontSize('xx-small');
   };
-  protoOf(Companion_14).get_ExtraLight_ov7yxb_k$ = function () {
-    return new FontWeight('200');
+  protoOf(Companion_14).get_XSmall_6d9fo8_k$ = function () {
+    return new FontSize('x-small');
   };
-  protoOf(Companion_14).get_Light_id31e5_k$ = function () {
-    return new FontWeight('300');
+  protoOf(Companion_14).get_Small_ih014u_k$ = function () {
+    return new FontSize('small');
   };
   protoOf(Companion_14).get_Medium_1fiba6_k$ = function () {
-    return new FontWeight('500');
+    return new FontSize('medium');
   };
-  protoOf(Companion_14).get_SemiBold_aid1c4_k$ = function () {
-    return new FontWeight('600');
+  protoOf(Companion_14).get_Large_icy5ma_k$ = function () {
+    return new FontSize('large');
   };
-  protoOf(Companion_14).get_ExtraBold_xklwd0_k$ = function () {
-    return new FontWeight('800');
+  protoOf(Companion_14).get_XLarge_697k5o_k$ = function () {
+    return new FontSize('x-large');
   };
-  protoOf(Companion_14).get_Black_i7mvue_k$ = function () {
-    return new FontWeight('900');
+  protoOf(Companion_14).get_XXLarge_dt4n9q_k$ = function () {
+    return new FontSize('xx-large');
   };
-  protoOf(Companion_14).get_ExtraBlack_oprtdk_k$ = function () {
-    return new FontWeight('950');
+  protoOf(Companion_14).get_Smaller_5wbdat_k$ = function () {
+    return new FontSize('smaller');
   };
-  protoOf(Companion_14).get_Normal_22avww_k$ = function () {
-    return new FontWeight('normal');
-  };
-  protoOf(Companion_14).get_Bold_wnz5ke_k$ = function () {
-    return new FontWeight('bold');
-  };
-  protoOf(Companion_14).get_Lighter_vm6n22_k$ = function () {
-    return new FontWeight('lighter');
-  };
-  protoOf(Companion_14).get_Bolder_3mclb9_k$ = function () {
-    return new FontWeight('bolder');
+  protoOf(Companion_14).get_Larger_wiegw_k$ = function () {
+    return new FontSize('larger');
   };
   protoOf(Companion_14).get_Inherit_a1a9e6_k$ = function () {
-    return new FontWeight('inherit');
+    return new FontSize('inherit');
   };
   protoOf(Companion_14).get_Initial_a0h2v9_k$ = function () {
-    return new FontWeight('initial');
+    return new FontSize('initial');
   };
   protoOf(Companion_14).get_Revert_3t1tzh_k$ = function () {
-    return new FontWeight('revert');
+    return new FontSize('revert');
   };
   protoOf(Companion_14).get_Unset_ii4mhs_k$ = function () {
-    return new FontWeight('unset');
+    return new FontSize('unset');
   };
   var Companion_instance_14;
   function Companion_getInstance_14() {
@@ -2260,20 +2266,14 @@
   function get_$stableprop_42() {
     return 0;
   }
-  function FontWeight(value) {
+  function FontSize(value) {
     Companion_getInstance_14();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(FontWeight).toString = function () {
+  protoOf(FontSize).toString = function () {
     return this.value_1;
   };
-  function fontSize(_this__u8e3s4, size) {
-    _this__u8e3s4.property_lwhspk_k$('font-size', size);
-  }
-  function fontWeight(_this__u8e3s4, weight) {
-    _this__u8e3s4.property_lwhspk_k$('font-weight', weight);
-  }
   function _get_value__a43j40_15($this) {
     return $this.value_1;
   }
@@ -2333,7 +2333,10 @@
     _this__u8e3s4.property_lwhspk_k$('max-width', maxWidth);
   }
   function paddingInline(_this__u8e3s4, value) {
-    _this__u8e3s4.property_ze5ozi_k$('padding-inline', joinToString_0(value, ' '));
+    _this__u8e3s4.property_ze5ozi_k$('padding-inline', joinToString(value, ' '));
+  }
+  function objectFit(_this__u8e3s4, objectFit) {
+    _this__u8e3s4.property_lwhspk_k$('object-fit', objectFit);
   }
   function _get_value__a43j40_16($this) {
     return $this.value_1;
@@ -2385,9 +2388,6 @@
   protoOf(ObjectFit).toString = function () {
     return this.value_1;
   };
-  function objectFit(_this__u8e3s4, objectFit) {
-    _this__u8e3s4.property_lwhspk_k$('object-fit', objectFit);
-  }
   function outline(_this__u8e3s4, width, style, color) {
     width = width === VOID ? null : width;
     style = style === VOID ? null : style;
@@ -2441,7 +2441,7 @@
   };
   protoOf(CSSOutline).toString = function () {
     var values = listOfNotNull([this.color_1, this.style_1, this.width_1]);
-    return joinToString(values, ' ');
+    return joinToString_0(values, ' ');
   };
   function outline$lambda($width, $style, $color) {
     return function ($this$outline) {
@@ -2652,7 +2652,7 @@
     _this__u8e3s4.property_lwhspk_k$('user-select', userSelect);
   }
   function textDecorationLine(_this__u8e3s4, textDecorationLines) {
-    _this__u8e3s4.property_ze5ozi_k$('text-decoration-line', joinToString_0(textDecorationLines, ' '));
+    _this__u8e3s4.property_ze5ozi_k$('text-decoration-line', joinToString(textDecorationLines, ' '));
   }
   function textAlign(_this__u8e3s4, textAlign) {
     _this__u8e3s4.property_lwhspk_k$('text-align', textAlign);
@@ -2806,7 +2806,7 @@
     tmp$ret$4 = tmp0_apply;
     tmp$ret$5 = tmp$ret$4.build_1k0s4u_k$();
     tmp$ret$6 = tmp$ret$5;
-    return joinToString(tmp$ret$6, ' ');
+    return joinToString_0(tmp$ret$6, ' ');
   };
   protoOf(CSSTransition).component1_7eebsc_k$ = function () {
     return this.property_1;
@@ -2861,7 +2861,7 @@
     tmp$ret$0 = transitions.length === 0;
     tmp$ret$1 = !tmp$ret$0;
     if (tmp$ret$1) {
-      _this__u8e3s4.property_ze5ozi_k$('transition', joinToString_0(transitions));
+      _this__u8e3s4.property_ze5ozi_k$('transition', joinToString(transitions));
     }
   }
   function _get_value__a43j40_21($this) {
@@ -3342,7 +3342,7 @@
       currentWord.append_t8oh9e_k$(element);
     }
     words.add_1j60pz_k$(currentWord.toString());
-    return joinToString(words, '-', VOID, VOID, VOID, VOID, titleCamelCaseToKebabCase$lambda);
+    return joinToString_0(words, '-', VOID, VOID, VOID, VOID, titleCamelCaseToKebabCase$lambda);
   }
   function titleCamelCaseToKebabCase$lambda(it) {
     return decapitalize(it);
@@ -3484,13 +3484,13 @@
   _.$_$.z = titleCamelCaseToKebabCase;
   _.$_$.a1 = ComparableAttrsScope_init_$Create$;
   _.$_$.b1 = CSSTransition_init_$Create$;
-  _.$_$.c1 = Companion_getInstance;
+  _.$_$.c1 = Companion_getInstance_0;
   _.$_$.d1 = Companion_getInstance_2;
   _.$_$.e1 = Companion_getInstance_11;
   _.$_$.f1 = Companion_getInstance_12;
-  _.$_$.g1 = Companion_getInstance_13;
-  _.$_$.h1 = Companion_getInstance_14;
-  _.$_$.i1 = Companion_getInstance_0;
+  _.$_$.g1 = Companion_getInstance_14;
+  _.$_$.h1 = Companion_getInstance_13;
+  _.$_$.i1 = Companion_getInstance;
   _.$_$.j1 = Companion_getInstance_1;
   _.$_$.k1 = Companion_getInstance_15;
   _.$_$.l1 = Companion_getInstance_16;

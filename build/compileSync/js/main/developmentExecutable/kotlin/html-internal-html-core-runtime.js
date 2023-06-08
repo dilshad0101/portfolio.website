@@ -20,7 +20,7 @@
   //region block: imports
   var protoOf = kotlin_kotlin.$_$.y6;
   var interfaceMeta = kotlin_kotlin.$_$.m6;
-  var VOID = kotlin_kotlin.$_$.u9;
+  var VOID = kotlin_kotlin.$_$.v9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   var THROW_CCE = kotlin_kotlin.$_$.b9;
   var Annotation = kotlin_kotlin.$_$.q8;
@@ -28,11 +28,11 @@
   var Unit_getInstance = kotlin_kotlin.$_$.w1;
   var ensureNotNull = kotlin_kotlin.$_$.j9;
   var AbstractApplier = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d;
-  var clear = kotlin_kotlin.$_$.t9;
+  var clear = kotlin_kotlin.$_$.u9;
   var onBeginChanges = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e;
   var onEndChanges = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.u;
-  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.i1;
+  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.k1;
   var CoroutineImpl = kotlin_kotlin.$_$.q5;
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.n;
   var isInterface = kotlin_kotlin.$_$.p6;
@@ -47,14 +47,14 @@
   var fold = kotlin_kotlin.$_$.k5;
   var minusKey = kotlin_kotlin.$_$.h5;
   var get_DefaultMonotonicFrameClock = kotlin_org_jetbrains_compose_runtime_runtime.$_$.i;
-  var Recomposer = kotlin_org_jetbrains_compose_runtime_runtime.$_$.o;
+  var Recomposer = kotlin_org_jetbrains_compose_runtime_runtime.$_$.p;
   var CoroutineStart_UNDISPATCHED_getInstance = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.a;
   var ControlledComposition = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h;
   var composableLambdaInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a;
   var get_COROUTINE_SUSPENDED = kotlin_kotlin.$_$.a5;
-  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
-  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.u;
-  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
+  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
+  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
+  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   //endregion
   //region block: pre-declaration
   setMetadataFor(DOMScope, 'DOMScope', interfaceMeta);

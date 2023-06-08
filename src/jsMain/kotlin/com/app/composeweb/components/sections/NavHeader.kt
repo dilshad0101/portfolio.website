@@ -15,6 +15,7 @@ import com.varabyte.kobweb.silk.components.navigation.Link
 import com.varabyte.kobweb.silk.components.style.*
 import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.style.common.SmoothColorStyle
+import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import com.varabyte.kobweb.silk.theme.toSilkPalette
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.Span
@@ -58,16 +59,21 @@ val NavButtonVariant by NavItemStyle.addVariant {
 
         }
     }
-
 @Composable
 private fun navLink(path: String, text: String) {
+    val br = rememberBreakpoint()
     Link(path,text, variant = TextButton,
         modifier = Modifier.color(YellowColor)
             .fontWeight(FontWeight.Black)
             .textDecorationLine(TextDecorationLine.None)
             .background(CSSBackground(color = BlackColor,size = BackgroundSize.Companion.of(0.px)))
             .color(YellowColor)
-            .margin(leftRight = 20.px)
+            .thenIf(br > Breakpoint.SM,//on Larger
+                Modifier.margin(left = 45.px, right = 14.px)
+            )
+            .thenIf(br <= Breakpoint.SM ,//on Mobile
+                Modifier.position(Position.Relative)
+            )
             .borderRadius(0.px)
             .backdropFilter(Filter.None)
     )
@@ -75,8 +81,18 @@ private fun navLink(path: String, text: String) {
 
 @Composable
 fun navHeader() {
+    val br = rememberBreakpoint()
     Row(
-        Modifier.fillMaxSize()
+        Modifier
+            .thenIf(br > Breakpoint.SM,//on Larger
+                Modifier
+            )
+            .thenIf(br == Breakpoint.SM || br  == Breakpoint.ZERO ,//on Mobile
+                Modifier
+                    .minWidth(100.vw)
+                    .display(DisplayStyle.Flex)
+                    .justifyContent(org.jetbrains.compose.web.css.JustifyContent.Center)
+            ).fillMaxSize()
             .fillMaxWidth()
             .height(50.px)
             .backgroundColor(color = BlackColor),
@@ -95,11 +111,24 @@ fun navHeader() {
         }
 
         Row(
-            horizontalArrangement = Arrangement.SpaceBetween,
+
             modifier = Modifier
-                .paddingInline(start = 10.px,20.px)
-                .maxWidth(MaxWidth.MaxContext)
-                .align(Alignment.CenterVertically)
+
+                .thenIf(br > Breakpoint.SM,//on Larger
+                    Modifier.paddingInline(start = 10.px,20.px)
+                        .maxWidth(MaxWidth.MaxContext)
+                )
+                .thenIf(br <= Breakpoint.SM ,//on Mobile
+                    Modifier
+                        .fillMaxWidth()
+                        .paddingInline(5.px)
+                        .display(DisplayStyle.Flex)
+                        .justifyContent(org.jetbrains.compose.web.css.JustifyContent.SpaceEvenly    )
+                        .alignItems(org.jetbrains.compose.web.css.AlignItems.Stretch)
+                )
+
+                .align(Alignment.CenterVertically),
+            horizontalArrangement = Arrangement.SpaceBetween
 
         ){
             navLink("/","Home")

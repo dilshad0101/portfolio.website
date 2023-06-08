@@ -5,6 +5,7 @@ import com.app.composeweb.BlackColor
 import com.app.composeweb.WhiteColor
 import com.app.composeweb.YellowColor
 import com.varabyte.kobweb.core.Page
+import org.jetbrains.compose.web.css.JustifyContent
 import com.app.composeweb.components.sections.footer
 import com.app.composeweb.components.sections.navHeader
 import com.app.composeweb.components.sections.project
@@ -15,11 +16,17 @@ import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
+import com.varabyte.kobweb.compose.ui.thenIf
 import com.varabyte.kobweb.compose.ui.toAttrs
 import com.varabyte.kobweb.navigation.Anchor
+import com.varabyte.kobweb.silk.components.layout.Surface
 import com.varabyte.kobweb.silk.components.navigation.Link
+import com.varabyte.kobweb.silk.components.style.ComponentStyle
+import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.text.SpanText
+import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import kotlinx.browser.document
+import kotlinx.browser.window
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.*
 import org.w3c.fetch.RequestRedirect
@@ -31,36 +38,48 @@ fun HomePage() {
     LaunchedEffect("Dilshad") {
         document.title = "Dilshad"
     }
+
+
     Box(
         Modifier
-        .fillMaxWidth()
-        .background(CSSBackground(color = BlackColor))
-        .minHeight(100.percent)
-
-        .gridTemplateRows("minmax(0, 1fr) min-content")
+            .background(CSSBackground(color= BlackColor))
+            .padding(0.px)
+            .margin(0.px)
+            .fillMaxSize()
+            .gridTemplateRows("minmax(0, 1fr) min-content"),
     ) {
+        val br = rememberBreakpoint()
         Column(
-            modifier = Modifier.fillMaxSize().color(WhiteColor).textAlign(TextAlign.Center),
+            modifier = Modifier.fillMaxSize()
+                .color(WhiteColor).textAlign(TextAlign.Center),
             horizontalAlignment = Alignment.Start
         ) {
             navHeader()
             H1(attrs = Modifier
-                .margin(0.px)
-                .padding(80.px, left = 120.px, bottom = 100.px)
+                .thenIf(br > Breakpoint.SM,//on Larger
+                    Modifier.margin(80.px, left = 120.px, bottom = 100.px)
+                )
+                .thenIf(br <= Breakpoint.SM ,//on Mobile
+                    Modifier
+                        .fillMaxWidth()
+                        .display(DisplayStyle.Flex)
+                        .justifyContent(JustifyContent.Center)
+                        .margin(top = 20.px)
+                )
                 .color(YellowColor)
                 .toAttrs()) {
 
-                Column() {
+                Column {
                     Span(Modifier.color(YellowColor)
                         .fontSize(50.px)
                         .toAttrs()) {
-                    Span(attrs = Modifier
-                        .fontSize(50.px)
-                        .lineHeight(0.px)
-                        .paddingInline(0.px).margin(0.px)
-                        .color(WhiteColor)
-                        .toAttrs())
-                    { Text("I'm ") }
+                        Span(attrs = Modifier
+                            .fontSize(50.px)
+                            .lineHeight(0.px)
+                            .paddingInline(0.px).margin(0.px)
+                            .color(WhiteColor)
+                            .toAttrs())
+                        { Text("I'm ") }
                         Text("Dilshad") }
                     Span(attrs = Modifier.color(YellowColor)
                         .fontSize(50.px)
@@ -81,7 +100,12 @@ fun HomePage() {
                             attrs = Modifier
                                 .cursor(Cursor.Pointer)
                                 .height(32.px)
-                                .margin(top = 10.px)
+                                .thenIf(br > Breakpoint.SM,//on Larger
+                                    Modifier.margin(top = 10.px)
+                                )
+                                .thenIf(br <= Breakpoint.SM ,//on Mobile
+                                    Modifier.margin(top = 5.px)
+                                )
                                 .width(60.px)
                                 .fontSize(FontSize.XXSmall)
                                 .fontWeight(FontWeight.Bold)
@@ -96,15 +120,37 @@ fun HomePage() {
 
                 }
             }
-            Box(modifier = Modifier.padding(left = 45.px, top = 50.px, right = 50.px)) {
-                Column(modifier = Modifier.id("about")) {
+            Column(modifier = Modifier
+                .display(DisplayStyle.Flex)
+                .thenIf(br > Breakpoint.SM,//on Larger
+                    Modifier.margin(top = 10.px)
+                )
+                .thenIf(br <= Breakpoint.SM ,//on Mobile
+                    Modifier.margin(top = 15    .px)
+                        .margin(leftRight = 15.px)
+
+                )
+            ) {
+                Column(modifier = Modifier
+                    .thenIf(br > Breakpoint.SM,//on Larger
+                        Modifier.margin(left = 45.px, top = 50.px,right = 50.px)
+                    )
+                    .thenIf(br <= Breakpoint.SM ,//on Mobile
+                        Modifier
+                    )
+                    .id("about")) {
                     H1{
                         SpanText("About", modifier = Modifier.color(YellowColor))
                     }
 
                     P(
                         attrs = Modifier.textAlign(TextAlign.Start)
-                            .padding(right = 60.px)
+                            .thenIf(br > Breakpoint.SM,//on Larger
+                                Modifier.margin(right = 60.px)
+                            )
+                            .thenIf(br <= Breakpoint.SM ,//on Mobile
+                                Modifier
+                            )
                             .toAttrs()
                     ){
                         Span(attrs = Modifier
@@ -118,7 +164,15 @@ fun HomePage() {
                 }
             }
 
-            Box(modifier = Modifier.padding(left = 45.px, top = 50.px,right = 50.px).id("skill")) {
+            Box(modifier = Modifier
+
+                .thenIf(br > Breakpoint.SM,//on Larger
+                    Modifier.margin(left = 45.px, top = 50.px,right = 50.px)
+                )
+                .thenIf(br <= Breakpoint.SM ,//on Mobile
+                    Modifier.margin(leftRight = 15.px)
+                )
+                .id("skill")) {
                 Column {
                     H1{
                         SpanText("My Skills", modifier = Modifier.color(YellowColor))
@@ -133,7 +187,14 @@ fun HomePage() {
                 }
             }
 
-            Box(modifier = Modifier.padding(left = 45.px, top = 50.px,right = 50.px)) {
+            Box(modifier = Modifier
+                .thenIf(br > Breakpoint.SM,//on Larger
+                    Modifier.margin(left = 45.px, top = 50.px,right = 50.px)
+                )
+                .thenIf(br <= Breakpoint.SM ,//on Mobile
+                    Modifier.margin(leftRight = 15.px)
+                )
+            ) {
                 Column {
                     H1(attrs = Modifier.id("project").toAttrs()){
                         SpanText("My Projects", modifier = Modifier.color(YellowColor))
@@ -141,7 +202,12 @@ fun HomePage() {
 
                     Column(
                         modifier = Modifier.textAlign(TextAlign.Start)
-                            .padding(right = 60.px)
+                            .thenIf(br > Breakpoint.SM,//on Larger
+                                Modifier.margin(right = 60.px)
+                            )
+                            .thenIf(br <= Breakpoint.SM ,//on Mobile
+                                Modifier
+                            )
                     ){
                         project(imgPath = "/img0.jpg", title =  "Quick Notes",Description ="with our aesthetically designed note app. Say goodbye to cluttered and uninspiring notes as our app provides a visually pleasing interface that sparks creativity and enhances focus. Capture your ideas, make to-do lists, and organize your thoughts effortlessly, all while enjoying the seamless and intuitive user experience. Simplify your life and elevate your productivity with our stunning note app.")
 
@@ -157,12 +223,14 @@ fun HomePage() {
         }
 
 
-                // Associate the footer with the row that will get pushed off the bottom of the page if it can't fit.
         footer(Modifier.align(Alignment.Center).gridRowStart(2).gridRowEnd(3))
     }
 
 
+
 }
+
+
 
 
 

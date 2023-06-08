@@ -3,14 +3,19 @@ package com.app.composeweb.components.sections
 import androidx.compose.runtime.*
 import com.varabyte.kobweb.compose.css.AlignSelf
 import com.varabyte.kobweb.compose.css.FontSize
+import com.varabyte.kobweb.compose.css.Width
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
+import com.varabyte.kobweb.compose.ui.thenIf
 import com.varabyte.kobweb.silk.components.navigation.Link
 import com.varabyte.kobweb.silk.components.style.*
+import com.varabyte.kobweb.silk.components.style.breakpoint.BreakpointSizes
 import com.varabyte.kobweb.silk.theme.SilkTheme
+import kotlinx.browser.window
 import org.jetbrains.compose.web.css.*
+import org.w3c.dom.Screen
 
 val FooterStyle by ComponentStyle.base {
     Modifier
@@ -19,6 +24,7 @@ val FooterStyle by ComponentStyle.base {
         .padding(topBottom = 1.cssRem, leftRight = 4.cssRem)
         .fontSize(FontSize.Smaller)
         .alignSelf(AlignSelf.Center)
+
 }
 
 @Composable
