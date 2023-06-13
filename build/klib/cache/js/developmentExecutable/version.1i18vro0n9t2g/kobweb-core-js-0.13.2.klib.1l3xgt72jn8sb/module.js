@@ -59,11 +59,11 @@
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
-  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.w8;
+  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.x8;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.f8;
-  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.c8;
-  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.w7;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.g8;
+  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.d8;
+  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.x7;
   var boxSizing = kotlin_org_jetbrains_compose_html_html_core.$_$.a7;
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.s6;
   var style = kotlin_org_jetbrains_compose_html_html_core.$_$.r6;
@@ -180,7 +180,7 @@
   var sourceInformationMarkerEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
   var staticCompositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
   var interfaceMeta = kotlin_kotlin.$_$.m6;
-  var A$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.o8;
+  var A$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.p8;
   var THROW_ISE = kotlin_kotlin.$_$.c9;
   var Enum = kotlin_kotlin.$_$.t8;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.e;
@@ -213,8 +213,8 @@
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var Companion_getInstance_0 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.l1;
   var isObject = kotlin_kotlin.$_$.q6;
-  var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.q8;
-  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.x8;
+  var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.r8;
+  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.y8;
   var charSequenceGet = kotlin_kotlin.$_$.a6;
   var removeSuffix = kotlin_kotlin.$_$.c8;
   var substringAfter = kotlin_kotlin.$_$.j8;

@@ -1305,6 +1305,9 @@
   function fontFamily(_this__u8e3s4, value) {
     _this__u8e3s4.t1v('font-family', joinToString_0(value, ', ', VOID, VOID, VOID, VOID, fontFamily$lambda));
   }
+  function letterSpacing(_this__u8e3s4, value) {
+    _this__u8e3s4.s1v('letter-spacing', value);
+  }
   function fontFamily$lambda(it) {
     return contains(it, ' ') ? '"' + it + '"' : it;
   }
@@ -2916,36 +2919,37 @@
   _.$_$.b2 = height;
   _.$_$.c2 = justifyContent;
   _.$_$.d2 = left;
-  _.$_$.e2 = lineHeight_0;
-  _.$_$.f2 = lineHeight;
-  _.$_$.g2 = margin;
-  _.$_$.h2 = maxWidth;
-  _.$_$.i2 = media;
-  _.$_$.j2 = minWidth;
-  _.$_$.k2 = get_ms;
-  _.$_$.l2 = opacity;
-  _.$_$.m2 = padding;
-  _.$_$.n2 = get_percent;
-  _.$_$.o2 = position;
-  _.$_$.p2 = get_px;
-  _.$_$.q2 = rgba;
-  _.$_$.r2 = right;
-  _.$_$.s2 = style_1;
-  _.$_$.t2 = top;
-  _.$_$.u2 = unaryMinus;
-  _.$_$.v2 = get_vw;
-  _.$_$.w2 = width_0;
-  _.$_$.x2 = width;
-  _.$_$.y2 = A$composable;
-  _.$_$.z2 = Button$composable;
-  _.$_$.a3 = Div$composable;
-  _.$_$.b3 = H1$composable;
-  _.$_$.c3 = Img$composable;
-  _.$_$.d3 = Li$composable;
-  _.$_$.e3 = P$composable;
-  _.$_$.f3 = Span$composable;
-  _.$_$.g3 = Style$composable;
-  _.$_$.h3 = Text$composable;
+  _.$_$.e2 = letterSpacing;
+  _.$_$.f2 = lineHeight_0;
+  _.$_$.g2 = lineHeight;
+  _.$_$.h2 = margin;
+  _.$_$.i2 = maxWidth;
+  _.$_$.j2 = media;
+  _.$_$.k2 = minWidth;
+  _.$_$.l2 = get_ms;
+  _.$_$.m2 = opacity;
+  _.$_$.n2 = padding;
+  _.$_$.o2 = get_percent;
+  _.$_$.p2 = position;
+  _.$_$.q2 = get_px;
+  _.$_$.r2 = rgba;
+  _.$_$.s2 = right;
+  _.$_$.t2 = style_1;
+  _.$_$.u2 = top;
+  _.$_$.v2 = unaryMinus;
+  _.$_$.w2 = get_vw;
+  _.$_$.x2 = width_0;
+  _.$_$.y2 = width;
+  _.$_$.z2 = A$composable;
+  _.$_$.a3 = Button$composable;
+  _.$_$.b3 = Div$composable;
+  _.$_$.c3 = H1$composable;
+  _.$_$.d3 = Img$composable;
+  _.$_$.e3 = Li$composable;
+  _.$_$.f3 = P$composable;
+  _.$_$.g3 = Span$composable;
+  _.$_$.h3 = Style$composable;
+  _.$_$.i3 = Text$composable;
   //endregion
   return _;
 }));

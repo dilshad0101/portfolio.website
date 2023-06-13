@@ -5951,6 +5951,9 @@
   function fontSize(_this__u8e3s4, value) {
     _this__u8e3s4.property_lwhspk_k$('font-size', value);
   }
+  function letterSpacing(_this__u8e3s4, value) {
+    _this__u8e3s4.property_lwhspk_k$('letter-spacing', value);
+  }
   function lineHeight(_this__u8e3s4, value) {
     _this__u8e3s4.property_ze5ozi_k$('line-height', value);
   }
@@ -9461,36 +9464,37 @@
   _.$_$.r7 = height;
   _.$_$.s7 = justifyContent;
   _.$_$.t7 = left;
-  _.$_$.u7 = lineHeight_0;
-  _.$_$.v7 = lineHeight;
-  _.$_$.w7 = margin;
-  _.$_$.x7 = maxWidth;
-  _.$_$.y7 = media;
-  _.$_$.z7 = minWidth;
-  _.$_$.a8 = get_ms;
-  _.$_$.b8 = opacity;
-  _.$_$.c8 = padding;
-  _.$_$.d8 = get_percent;
-  _.$_$.e8 = position;
-  _.$_$.f8 = get_px;
-  _.$_$.g8 = rgba;
-  _.$_$.h8 = right;
-  _.$_$.i8 = style_3;
-  _.$_$.j8 = top;
-  _.$_$.k8 = unaryMinus;
-  _.$_$.l8 = get_vw;
-  _.$_$.m8 = width_0;
-  _.$_$.n8 = width;
-  _.$_$.o8 = A$composable;
-  _.$_$.p8 = Button$composable;
-  _.$_$.q8 = Div$composable;
-  _.$_$.r8 = H1$composable;
-  _.$_$.s8 = Img$composable;
-  _.$_$.t8 = Li$composable;
-  _.$_$.u8 = P$composable;
-  _.$_$.v8 = Span$composable;
-  _.$_$.w8 = Style$composable_0;
-  _.$_$.x8 = Text$composable;
+  _.$_$.u7 = letterSpacing;
+  _.$_$.v7 = lineHeight_0;
+  _.$_$.w7 = lineHeight;
+  _.$_$.x7 = margin;
+  _.$_$.y7 = maxWidth;
+  _.$_$.z7 = media;
+  _.$_$.a8 = minWidth;
+  _.$_$.b8 = get_ms;
+  _.$_$.c8 = opacity;
+  _.$_$.d8 = padding;
+  _.$_$.e8 = get_percent;
+  _.$_$.f8 = position;
+  _.$_$.g8 = get_px;
+  _.$_$.h8 = rgba;
+  _.$_$.i8 = right;
+  _.$_$.j8 = style_3;
+  _.$_$.k8 = top;
+  _.$_$.l8 = unaryMinus;
+  _.$_$.m8 = get_vw;
+  _.$_$.n8 = width_0;
+  _.$_$.o8 = width;
+  _.$_$.p8 = A$composable;
+  _.$_$.q8 = Button$composable;
+  _.$_$.r8 = Div$composable;
+  _.$_$.s8 = H1$composable;
+  _.$_$.t8 = Img$composable;
+  _.$_$.u8 = Li$composable;
+  _.$_$.v8 = P$composable;
+  _.$_$.w8 = Span$composable;
+  _.$_$.x8 = Style$composable_0;
+  _.$_$.y8 = Text$composable;
   //endregion
   return _;
 }));

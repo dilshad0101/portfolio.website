@@ -90,11 +90,11 @@
   var joinToString_0 = kotlin_kotlin.$_$.u3;
   var THROW_CCE = kotlin_kotlin.$_$.b9;
   var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.n8;
-  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.i8;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.o8;
+  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.j8;
   var color = kotlin_org_jetbrains_compose_html_html_core.$_$.b7;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.f8;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.d8;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.g8;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.e8;
   var property = kotlin_org_jetbrains_compose_html_html_core.$_$.l6;
   var property_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.m6;
   var variable = kotlin_org_jetbrains_compose_html_html_core.$_$.o6;
@@ -208,9 +208,9 @@
   setMetadataFor(ObjectFit, 'ObjectFit', classMeta);
   setMetadataFor(CSSOutline, 'CSSOutline', classMeta);
   setMetadataFor(Companion_17, 'Companion', objectMeta);
-  setMetadataFor(UserSelect, 'UserSelect', classMeta);
-  setMetadataFor(Companion_18, 'Companion', objectMeta);
   setMetadataFor(TextDecorationLine, 'TextDecorationLine', classMeta);
+  setMetadataFor(Companion_18, 'Companion', objectMeta);
+  setMetadataFor(UserSelect, 'UserSelect', classMeta);
   setMetadataFor(Companion_19, 'Companion', objectMeta);
   setMetadataFor(TextAlign, 'TextAlign', classMeta);
   setMetadataFor(Companion_20, 'Companion', objectMeta);
@@ -2451,38 +2451,38 @@
       return Unit_getInstance();
     };
   }
+  function whiteSpace(_this__u8e3s4, whiteSpace) {
+    _this__u8e3s4.property_lwhspk_k$('white-space', whiteSpace);
+  }
   function _get_value__a43j40_17($this) {
     return $this.value_1;
   }
   function Companion_17() {
     Companion_instance_17 = this;
   }
+  protoOf(Companion_17).get_Underline_oo7egz_k$ = function () {
+    return new TextDecorationLine('underline');
+  };
+  protoOf(Companion_17).get_Overline_lz0ci7_k$ = function () {
+    return new TextDecorationLine('overline');
+  };
+  protoOf(Companion_17).get_LineThrough_pr9ajs_k$ = function () {
+    return new TextDecorationLine('line-through');
+  };
   protoOf(Companion_17).get_None_wo6tgh_k$ = function () {
-    return new UserSelect('none');
-  };
-  protoOf(Companion_17).get_Auto_wnyn88_k$ = function () {
-    return new UserSelect('auto');
-  };
-  protoOf(Companion_17).get_Text_woag7q_k$ = function () {
-    return new UserSelect('text');
-  };
-  protoOf(Companion_17).get_Contain_qhyalx_k$ = function () {
-    return new UserSelect('contain');
-  };
-  protoOf(Companion_17).get_All_18jx7s_k$ = function () {
-    return new UserSelect('all');
+    return new TextDecorationLine('none');
   };
   protoOf(Companion_17).get_Inherit_a1a9e6_k$ = function () {
-    return new UserSelect('inherit');
+    return new TextDecorationLine('inherit');
   };
   protoOf(Companion_17).get_Initial_a0h2v9_k$ = function () {
-    return new UserSelect('initial');
+    return new TextDecorationLine('initial');
   };
   protoOf(Companion_17).get_Revert_3t1tzh_k$ = function () {
-    return new UserSelect('revert');
+    return new TextDecorationLine('revert');
   };
   protoOf(Companion_17).get_Unset_ii4mhs_k$ = function () {
-    return new UserSelect('unset');
+    return new TextDecorationLine('unset');
   };
   var Companion_instance_17;
   function Companion_getInstance_17() {
@@ -2493,43 +2493,49 @@
   function get_$stableprop_46() {
     return 0;
   }
-  function UserSelect(value) {
+  function TextDecorationLine(value) {
     Companion_getInstance_17();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(UserSelect).toString = function () {
+  protoOf(TextDecorationLine).toString = function () {
     return this.value_1;
   };
+  function textDecorationLine(_this__u8e3s4, textDecorationLines) {
+    _this__u8e3s4.property_ze5ozi_k$('text-decoration-line', joinToString(textDecorationLines, ' '));
+  }
   function _get_value__a43j40_18($this) {
     return $this.value_1;
   }
   function Companion_18() {
     Companion_instance_18 = this;
   }
-  protoOf(Companion_18).get_Underline_oo7egz_k$ = function () {
-    return new TextDecorationLine('underline');
-  };
-  protoOf(Companion_18).get_Overline_lz0ci7_k$ = function () {
-    return new TextDecorationLine('overline');
-  };
-  protoOf(Companion_18).get_LineThrough_pr9ajs_k$ = function () {
-    return new TextDecorationLine('line-through');
-  };
   protoOf(Companion_18).get_None_wo6tgh_k$ = function () {
-    return new TextDecorationLine('none');
+    return new UserSelect('none');
+  };
+  protoOf(Companion_18).get_Auto_wnyn88_k$ = function () {
+    return new UserSelect('auto');
+  };
+  protoOf(Companion_18).get_Text_woag7q_k$ = function () {
+    return new UserSelect('text');
+  };
+  protoOf(Companion_18).get_Contain_qhyalx_k$ = function () {
+    return new UserSelect('contain');
+  };
+  protoOf(Companion_18).get_All_18jx7s_k$ = function () {
+    return new UserSelect('all');
   };
   protoOf(Companion_18).get_Inherit_a1a9e6_k$ = function () {
-    return new TextDecorationLine('inherit');
+    return new UserSelect('inherit');
   };
   protoOf(Companion_18).get_Initial_a0h2v9_k$ = function () {
-    return new TextDecorationLine('initial');
+    return new UserSelect('initial');
   };
   protoOf(Companion_18).get_Revert_3t1tzh_k$ = function () {
-    return new TextDecorationLine('revert');
+    return new UserSelect('revert');
   };
   protoOf(Companion_18).get_Unset_ii4mhs_k$ = function () {
-    return new TextDecorationLine('unset');
+    return new UserSelect('unset');
   };
   var Companion_instance_18;
   function Companion_getInstance_18() {
@@ -2540,14 +2546,17 @@
   function get_$stableprop_47() {
     return 0;
   }
-  function TextDecorationLine(value) {
+  function UserSelect(value) {
     Companion_getInstance_18();
     this.value_1 = value;
     this.$stable_1 = 0;
   }
-  protoOf(TextDecorationLine).toString = function () {
+  protoOf(UserSelect).toString = function () {
     return this.value_1;
   };
+  function userSelect(_this__u8e3s4, userSelect) {
+    _this__u8e3s4.property_lwhspk_k$('user-select', userSelect);
+  }
   function _get_value__a43j40_19($this) {
     return $this.value_1;
   }
@@ -2648,17 +2657,8 @@
   protoOf(WhiteSpace).toString = function () {
     return this.value_1;
   };
-  function userSelect(_this__u8e3s4, userSelect) {
-    _this__u8e3s4.property_lwhspk_k$('user-select', userSelect);
-  }
-  function textDecorationLine(_this__u8e3s4, textDecorationLines) {
-    _this__u8e3s4.property_ze5ozi_k$('text-decoration-line', joinToString(textDecorationLines, ' '));
-  }
   function textAlign(_this__u8e3s4, textAlign) {
     _this__u8e3s4.property_lwhspk_k$('text-align', textAlign);
-  }
-  function whiteSpace(_this__u8e3s4, whiteSpace) {
-    _this__u8e3s4.property_lwhspk_k$('white-space', whiteSpace);
   }
   function Companion_21() {
     Companion_instance_21 = this;
@@ -3495,8 +3495,8 @@
   _.$_$.k1 = Companion_getInstance_15;
   _.$_$.l1 = Companion_getInstance_16;
   _.$_$.m1 = Companion_getInstance_19;
-  _.$_$.n1 = Companion_getInstance_18;
-  _.$_$.o1 = Companion_getInstance_17;
+  _.$_$.n1 = Companion_getInstance_17;
+  _.$_$.o1 = Companion_getInstance_18;
   _.$_$.p1 = Companion_getInstance_20;
   //endregion
   return _;

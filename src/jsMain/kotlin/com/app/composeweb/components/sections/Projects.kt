@@ -26,7 +26,13 @@ fun project(imageHeight: CSSNumeric = 196.px,
             Description: String){
     val br = rememberBreakpoint()
     Column(Modifier
-        .padding(top = 40.px, bottom = 65.px)
+
+        .thenIf(br > Breakpoint.SM,//on Larger
+            Modifier.padding(top = 20.px, bottom = 16.px)
+        )
+        .thenIf(br <= Breakpoint.SM ,//on Mobile
+            Modifier.padding(bottom = 65.px)
+        )
     ){
         SpanText(title,
             modifier = Modifier
@@ -53,9 +59,16 @@ fun project(imageHeight: CSSNumeric = 196.px,
                 src = imgPath,
                 "$title images",
                 modifier = Modifier
-                    .maxWidth(imageWidth)
-                    .maxWidth(imageHeight)
+                    .thenIf(br > Breakpoint.SM,//on Larger
+                        Modifier
+                            .maxWidth(imageWidth)
+                            .maxWidth(imageHeight)
+                    )
+                    .thenIf(br <= Breakpoint.SM ,//on Mobile
+                        Modifier.fillMaxSize()
+                    )
                     .borderRadius(10.px)
+                    .textAlign(TextAlign.Start)
                     .margin(right = 25.px,bottom = 30.px)
 
             )
@@ -63,6 +76,7 @@ fun project(imageHeight: CSSNumeric = 196.px,
                 Description,
                 modifier = Modifier
                     .textAlign(TextAlign.Start)
+                    .letterSpacing(0.25.px)
                     .color(GrayColor)
                     .flexGrow(1).flexShrink(1)
                     .flexBasis(100.px)

@@ -64,7 +64,7 @@ fun HomePage() {
                         .fillMaxWidth()
                         .display(DisplayStyle.Flex)
                         .justifyContent(JustifyContent.Center)
-                        .margin(top = 20.px)
+                        .margin(top = 35.px)
                 )
                 .color(YellowColor)
                 .toAttrs()) {
@@ -122,7 +122,7 @@ fun HomePage() {
                                 .height(32.px)
                                 .thenIf(br > Breakpoint.SM,//on Larger
                                     Modifier.margin(top = 10.px)
-                                )
+                                 )
                                 .thenIf(br <= Breakpoint.SM ,//on Mobile
                                     Modifier.margin(top = 5.px)
                                 )
@@ -146,17 +146,17 @@ fun HomePage() {
                     Modifier.margin(top = 10.px)
                 )
                 .thenIf(br <= Breakpoint.SM ,//on Mobile
-                    Modifier.margin(top = 15.px)
+                    Modifier.margin(top = 40.px)
                         .margin(leftRight = 15.px)
 
                 )
             ) {
                 Column(modifier = Modifier
                     .thenIf(br > Breakpoint.SM,//on Larger
-                        Modifier.margin(left = 45.px, top = 50.px,right = 50.px)
+                        Modifier.margin(left = 45.px,right = 40.px)
                     )
                     .thenIf(br <= Breakpoint.SM ,//on Mobile
-                        Modifier
+                        Modifier.margin(top = 60.px)
                     )
                     .id("about")) {
                     H1{
@@ -166,15 +166,22 @@ fun HomePage() {
                     P(
                         attrs = Modifier.textAlign(TextAlign.Start)
                             .thenIf(br > Breakpoint.SM,//on Larger
-                                Modifier.margin(right = 60.px)
+                                Modifier.margin(right = 40.px)
                             )
                             .thenIf(br <= Breakpoint.SM ,//on Mobile
-                                Modifier
+                                Modifier.margin(0.px)
                             )
                             .toAttrs()
                     ){
                         Span(attrs = Modifier
-                            .textAlign(TextAlign.Left)
+                            .thenIf(br > Breakpoint.SM,//on Larger
+                                Modifier.textAlign(TextAlign.Start)
+                            )
+                            .thenIf(br <= Breakpoint.SM ,//on Mobile
+                                Modifier.textAlign(TextAlign.Start)
+                                    .letterSpacing(0.25.px)
+
+                            )
                             .toAttrs()){
                             Text("I am Dilshad Muhammed, a seasoned software developer specializing in Native Android Development. With a proven track record of excellence, I bring a wealth of expertise and experience to the table. As a dedicated freelancer, I have had the privilege of working on a diverse range of projects, allowing me to refine my skills and deliver exceptional results. My proficiency in Native Android Development empowers me to create bespoke applications that seamlessly blend cutting-edge technology with elegant design. I pride myself on developing robust and scalable solutions that not only meet but exceed client expectations. From ideation to execution, I am committed to delivering flawless, user-centric experiences that drive business growth. By staying at the forefront of industry advancements, I ensure that my applications are equipped with the latest features and functionalities. I relentlessly pursue professional development opportunities, continuously expanding my technical knowledge to remain ahead of the curve. This commitment to innovation enables me to deliver solutions that are not only visually appealing but also optimized for performance and efficiency.")
 
@@ -221,13 +228,7 @@ fun HomePage() {
                     }
 
                     Column(
-                        modifier = Modifier.textAlign(TextAlign.Start)
-                            .thenIf(br > Breakpoint.SM,//on Larger
-                                Modifier.margin(right = 60.px)
-                            )
-                            .thenIf(br <= Breakpoint.SM ,//on Mobile
-                                Modifier
-                            )
+                        modifier = Modifier
                     ){
                         project(imgPath = "/img0.jpg", title =  "Quick Notes",Description ="with our aesthetically designed note app. Say goodbye to cluttered and uninspiring notes as our app provides a visually pleasing interface that sparks creativity and enhances focus. Capture your ideas, make to-do lists, and organize your thoughts effortlessly, all while enjoying the seamless and intuitive user experience. Simplify your life and elevate your productivity with our stunning note app.")
 

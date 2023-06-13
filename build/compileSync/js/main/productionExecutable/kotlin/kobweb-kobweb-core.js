@@ -22,11 +22,11 @@
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.r;
-  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.g3;
+  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h3;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
-  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.m2;
-  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.g2;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.q2;
+  var padding = kotlin_org_jetbrains_compose_html_html_core.$_$.n2;
+  var margin = kotlin_org_jetbrains_compose_html_html_core.$_$.h2;
   var Unit_getInstance = kotlin_kotlin.$_$.s1;
   var boxSizing = kotlin_org_jetbrains_compose_html_html_core.$_$.k1;
   var StyleSheet = kotlin_org_jetbrains_compose_html_html_core.$_$.c1;
@@ -55,7 +55,7 @@
   var sourceInformationMarkerEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.z;
   var staticCompositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.y;
-  var A$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.y2;
+  var A$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.z2;
   var Enum = kotlin_kotlin.$_$.y6;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.r;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.e;
@@ -89,8 +89,8 @@
   var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.h1;
   var THROW_CCE = kotlin_kotlin.$_$.e7;
   var isObject = kotlin_kotlin.$_$.k5;
-  var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.a3;
-  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h3;
+  var Div$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.b3;
+  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.i3;
   var illegalDecoyCallException = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c;
   var charSequenceGet = kotlin_kotlin.$_$.u4;
   var removeSuffix = kotlin_kotlin.$_$.o6;

@@ -41,20 +41,20 @@
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v2;
-  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.g3;
+  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
+  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h3;
   var SilkStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.y;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
-  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
+  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b3;
   var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
   var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
   var get_ImageStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.b;
   var toModifier$composable = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.k;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
-  var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
+  var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.d3;
   var get_LinkStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.d;
   var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
-  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h3;
+  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.i3;
   var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y;
   //endregion
   //region block: pre-declaration

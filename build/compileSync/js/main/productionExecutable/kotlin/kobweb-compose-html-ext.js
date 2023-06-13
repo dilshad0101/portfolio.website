@@ -40,10 +40,10 @@
   var THROW_CCE = kotlin_kotlin.$_$.e7;
   var joinToString_0 = kotlin_kotlin.$_$.d3;
   var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.m;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.x2;
-  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.s2;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.y2;
+  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.t2;
   var color = kotlin_org_jetbrains_compose_html_html_core.$_$.l1;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.q2;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.r;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.j1;
   var property = kotlin_org_jetbrains_compose_html_html_core.$_$.w;
