@@ -53,8 +53,8 @@ fun project(imageHeight: CSSNumeric = 196.px,
                 src = imgPath,
                 "$title images",
                 modifier = Modifier
-                    .width(imageWidth)
-                    .height(imageHeight)
+                    .maxWidth(imageWidth)
+                    .maxWidth(imageHeight)
                     .borderRadius(10.px)
                     .margin(right = 25.px,bottom = 30.px)
 

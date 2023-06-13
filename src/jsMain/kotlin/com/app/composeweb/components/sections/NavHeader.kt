@@ -64,15 +64,17 @@ private fun navLink(path: String, text: String) {
     val br = rememberBreakpoint()
     Link(path,text, variant = TextButton,
         modifier = Modifier.color(YellowColor)
-            .fontWeight(FontWeight.Black)
             .textDecorationLine(TextDecorationLine.None)
             .background(CSSBackground(color = BlackColor,size = BackgroundSize.Companion.of(0.px)))
             .color(YellowColor)
             .thenIf(br > Breakpoint.SM,//on Larger
                 Modifier.margin(left = 45.px, right = 14.px)
+                    .fontWeight(FontWeight.Black)
             )
             .thenIf(br <= Breakpoint.SM ,//on Mobile
                 Modifier.position(Position.Relative)
+                    .fontWeight(FontWeight.Bolder)
+                    .fontSize(FontSize.Small)
             )
             .borderRadius(0.px)
             .backdropFilter(Filter.None)

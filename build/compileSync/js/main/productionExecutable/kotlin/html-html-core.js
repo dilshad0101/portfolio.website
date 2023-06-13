@@ -1158,6 +1158,9 @@
   function minWidth(_this__u8e3s4, value) {
     _this__u8e3s4.s1v('min-width', value);
   }
+  function maxWidth(_this__u8e3s4, value) {
+    _this__u8e3s4.s1v('max-width', value);
+  }
   function boxSizing(_this__u8e3s4, value) {
     _this__u8e3s4.t1v('box-sizing', value);
   }
@@ -2916,32 +2919,33 @@
   _.$_$.e2 = lineHeight_0;
   _.$_$.f2 = lineHeight;
   _.$_$.g2 = margin;
-  _.$_$.h2 = media;
-  _.$_$.i2 = minWidth;
-  _.$_$.j2 = get_ms;
-  _.$_$.k2 = opacity;
-  _.$_$.l2 = padding;
-  _.$_$.m2 = get_percent;
-  _.$_$.n2 = position;
-  _.$_$.o2 = get_px;
-  _.$_$.p2 = rgba;
-  _.$_$.q2 = right;
-  _.$_$.r2 = style_1;
-  _.$_$.s2 = top;
-  _.$_$.t2 = unaryMinus;
-  _.$_$.u2 = get_vw;
-  _.$_$.v2 = width_0;
-  _.$_$.w2 = width;
-  _.$_$.x2 = A$composable;
-  _.$_$.y2 = Button$composable;
-  _.$_$.z2 = Div$composable;
-  _.$_$.a3 = H1$composable;
-  _.$_$.b3 = Img$composable;
-  _.$_$.c3 = Li$composable;
-  _.$_$.d3 = P$composable;
-  _.$_$.e3 = Span$composable;
-  _.$_$.f3 = Style$composable;
-  _.$_$.g3 = Text$composable;
+  _.$_$.h2 = maxWidth;
+  _.$_$.i2 = media;
+  _.$_$.j2 = minWidth;
+  _.$_$.k2 = get_ms;
+  _.$_$.l2 = opacity;
+  _.$_$.m2 = padding;
+  _.$_$.n2 = get_percent;
+  _.$_$.o2 = position;
+  _.$_$.p2 = get_px;
+  _.$_$.q2 = rgba;
+  _.$_$.r2 = right;
+  _.$_$.s2 = style_1;
+  _.$_$.t2 = top;
+  _.$_$.u2 = unaryMinus;
+  _.$_$.v2 = get_vw;
+  _.$_$.w2 = width_0;
+  _.$_$.x2 = width;
+  _.$_$.y2 = A$composable;
+  _.$_$.z2 = Button$composable;
+  _.$_$.a3 = Div$composable;
+  _.$_$.b3 = H1$composable;
+  _.$_$.c3 = Img$composable;
+  _.$_$.d3 = Li$composable;
+  _.$_$.e3 = P$composable;
+  _.$_$.f3 = Span$composable;
+  _.$_$.g3 = Style$composable;
+  _.$_$.h3 = Text$composable;
   //endregion
   return _;
 }));

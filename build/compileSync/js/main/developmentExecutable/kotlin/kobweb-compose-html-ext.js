@@ -90,11 +90,11 @@
   var joinToString_0 = kotlin_kotlin.$_$.u3;
   var THROW_CCE = kotlin_kotlin.$_$.b9;
   var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.m8;
-  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.h8;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.n8;
+  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.i8;
   var color = kotlin_org_jetbrains_compose_html_html_core.$_$.b7;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.e8;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.c8;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.f8;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.d8;
   var property = kotlin_org_jetbrains_compose_html_html_core.$_$.l6;
   var property_0 = kotlin_org_jetbrains_compose_html_html_core.$_$.m6;
   var variable = kotlin_org_jetbrains_compose_html_html_core.$_$.o6;

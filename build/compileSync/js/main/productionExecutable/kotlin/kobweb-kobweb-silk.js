@@ -41,20 +41,20 @@
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
   var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.z;
-  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u2;
-  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.f3;
+  var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v2;
+  var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.g3;
   var SilkStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.y;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
-  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z2;
+  var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
   var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
   var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
   var get_ImageStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.b;
   var toModifier$composable = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.k;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
-  var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.b3;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
+  var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
   var get_LinkStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.d;
   var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
-  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.g3;
+  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h3;
   var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y;
   //endregion
   //region block: pre-declaration
@@ -256,7 +256,7 @@
       if (isTraceInProgress()) {
         traceEventStart(34210657, $dirty, -1, 'com.varabyte.kobweb.silk.components.graphics.Image$composable (Image.kt:24)');
       }
-      Img$composable(prependIf(Companion_getInstance_1(), autoPrefix_0._v, src), desc_0._v, toAttrs(toModifier$composable(get_ImageStyle(), [variant_0._v], $composer_0, 0).x26(modifier_0._v)), $composer_0, 112 & $dirty, 0);
+      Img$composable(prependIf(Companion_getInstance_1(), autoPrefix_0._v, src), desc_0._v, toAttrs(toModifier$composable(get_ImageStyle(), [variant_0._v], $composer_0, 0).z26(modifier_0._v)), $composer_0, 112 & $dirty, 0);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -473,7 +473,7 @@
       if (isTraceInProgress()) {
         traceEventStart(231966754, $dirty, -1, 'com.varabyte.kobweb.silk.components.navigation.Link$composable (Link.kt:54)');
       }
-      var tmp = toAttrs(toModifier$composable(get_LinkStyle(), [variant_0._v], $composer_0, 0).x26(modifier_0._v));
+      var tmp = toAttrs(toModifier$composable(get_LinkStyle(), [variant_0._v], $composer_0, 0).z26(modifier_0._v));
       var tmp_0 = openInternalLinksStrategy_0._v;
       var tmp_1 = openExternalLinksStrategy_0._v;
       var tmp_2 = autoPrefix_0._v;

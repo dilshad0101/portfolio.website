@@ -71,10 +71,20 @@ fun HomePage() {
 
                 Column {
                     Span(Modifier.color(YellowColor)
-                        .fontSize(50.px)
+                        .thenIf(br > Breakpoint.SM,//on Larger
+                            Modifier.fontSize(50.px)
+                        )
+                        .thenIf(br <= Breakpoint.SM ,//on Mobile
+                            Modifier.fontSize(38.px)
+                        )
                         .toAttrs()) {
                         Span(attrs = Modifier
-                            .fontSize(50.px)
+                            .thenIf(br > Breakpoint.SM,//on Larger
+                               Modifier.fontSize(50.px)
+                            )
+                            .thenIf(br <= Breakpoint.SM ,//on Mobile
+                                Modifier.fontSize(38.px)
+                            )
                             .lineHeight(0.px)
                             .paddingInline(0.px).margin(0.px)
                             .color(WhiteColor)
@@ -82,14 +92,24 @@ fun HomePage() {
                         { Text("I'm ") }
                         Text("Dilshad") }
                     Span(attrs = Modifier.color(YellowColor)
-                        .fontSize(50.px)
+                        .thenIf(br > Breakpoint.SM,//on Larger
+                            Modifier.fontSize(50.px)
+                        )
+                        .thenIf(br <= Breakpoint.SM ,//on Mobile
+                            Modifier.fontSize(38.px)
+                        )
                         .padding(0.px).margin(0.px)
 
                         .toAttrs()) { Text("Muhammed")}
 
                     Span(attrs = Modifier
                         .color(WhiteColor)
-                        .fontSize(18.px)
+                        .thenIf(br > Breakpoint.SM,//on Larger
+                            Modifier.fontSize(18.px)
+                        )
+                        .thenIf(br <= Breakpoint.SM ,//on Mobile
+                            Modifier.fontSize(14.px)
+                        )
                         .fontWeight(FontWeight.Medium)
                         .toAttrs()) {
                         Text("Native Android Developer")
@@ -126,7 +146,7 @@ fun HomePage() {
                     Modifier.margin(top = 10.px)
                 )
                 .thenIf(br <= Breakpoint.SM ,//on Mobile
-                    Modifier.margin(top = 15    .px)
+                    Modifier.margin(top = 15.px)
                         .margin(leftRight = 15.px)
 
                 )
@@ -211,7 +231,7 @@ fun HomePage() {
                     ){
                         project(imgPath = "/img0.jpg", title =  "Quick Notes",Description ="with our aesthetically designed note app. Say goodbye to cluttered and uninspiring notes as our app provides a visually pleasing interface that sparks creativity and enhances focus. Capture your ideas, make to-do lists, and organize your thoughts effortlessly, all while enjoying the seamless and intuitive user experience. Simplify your life and elevate your productivity with our stunning note app.")
 
-                        project(imageWidth = 250.px, imageHeight = 320.px,
+                        project(
                             imgPath = "/img1.jpg", title = "Prayer Time Reminder", Description =  "PrayerTime Reminder is a powerful and intuitive mobile app designed to help you stay connected to your faith through timely and accurate prayer times. With precise calculations based on your location, customizable Adhan notifications, and a built-in Qibla compass, you'll never miss a prayer again. Seamlessly adjust prayer times to match your local conventions and track your prayer history for personal reflection. Stay informed about Islamic events with the integrated calendar and explore Quranic resources for spiritual guidance. With a user-friendly interface and multilingual support, PrayerTime Reminder is your ultimate prayer companion, ensuring you never lose touch with your daily prayers. Download PrayerTime Reminder now and experience a more fulfilling and organized prayer journey.")
 
 

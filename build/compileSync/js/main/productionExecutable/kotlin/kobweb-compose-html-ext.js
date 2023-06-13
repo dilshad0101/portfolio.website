@@ -40,10 +40,10 @@
   var THROW_CCE = kotlin_kotlin.$_$.e7;
   var joinToString_0 = kotlin_kotlin.$_$.d3;
   var CSSBorder = kotlin_org_jetbrains_compose_html_html_core.$_$.m;
-  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.w2;
-  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.r2;
+  var width = kotlin_org_jetbrains_compose_html_html_core.$_$.x2;
+  var style = kotlin_org_jetbrains_compose_html_html_core.$_$.s2;
   var color = kotlin_org_jetbrains_compose_html_html_core.$_$.l1;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.o2;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.r;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.j1;
   var property = kotlin_org_jetbrains_compose_html_html_core.$_$.w;
@@ -898,9 +898,12 @@
     return new FontSize('xx-small');
   };
   protoOf(Companion_10).n23 = function () {
-    return new FontSize('smaller');
+    return new FontSize('small');
   };
   protoOf(Companion_10).o23 = function () {
+    return new FontSize('smaller');
+  };
+  protoOf(Companion_10).p23 = function () {
     return new FontSize('larger');
   };
   var Companion_instance_10;
@@ -911,26 +914,29 @@
   }
   function FontSize(value) {
     Companion_getInstance_10();
-    this.p23_1 = value;
-    this.q23_1 = 0;
+    this.q23_1 = value;
+    this.r23_1 = 0;
   }
   protoOf(FontSize).toString = function () {
-    return this.p23_1;
+    return this.q23_1;
   };
   function Companion_11() {
     Companion_instance_11 = this;
   }
-  protoOf(Companion_11).r23 = function () {
+  protoOf(Companion_11).s23 = function () {
     return new FontWeight('500');
   };
-  protoOf(Companion_11).s23 = function () {
+  protoOf(Companion_11).t23 = function () {
     return new FontWeight('600');
   };
-  protoOf(Companion_11).t23 = function () {
+  protoOf(Companion_11).u23 = function () {
     return new FontWeight('900');
   };
-  protoOf(Companion_11).u23 = function () {
+  protoOf(Companion_11).v23 = function () {
     return new FontWeight('bold');
+  };
+  protoOf(Companion_11).w23 = function () {
+    return new FontWeight('bolder');
   };
   var Companion_instance_11;
   function Companion_getInstance_11() {
@@ -940,11 +946,11 @@
   }
   function FontWeight(value) {
     Companion_getInstance_11();
-    this.v23_1 = value;
-    this.w23_1 = 0;
+    this.x23_1 = value;
+    this.y23_1 = 0;
   }
   protoOf(FontWeight).toString = function () {
-    return this.v23_1;
+    return this.x23_1;
   };
   function fontSize(_this__u8e3s4, size) {
     _this__u8e3s4.s1v('font-size', size);
@@ -954,14 +960,14 @@
   }
   function Companion_12() {
     Companion_instance_12 = this;
-    this.x23_1 = new MaxWidth('fit-content');
-    this.y23_1 = new MaxWidth('max-content');
-    this.z23_1 = new MaxWidth('min-content');
-    this.a24_1 = new MaxWidth('none');
-    this.b24_1 = new MaxWidth('inherit');
-    this.c24_1 = new MaxWidth('initial');
-    this.d24_1 = new MaxWidth('revert');
-    this.e24_1 = new MaxWidth('unset');
+    this.z23_1 = new MaxWidth('fit-content');
+    this.a24_1 = new MaxWidth('max-content');
+    this.b24_1 = new MaxWidth('min-content');
+    this.c24_1 = new MaxWidth('none');
+    this.d24_1 = new MaxWidth('inherit');
+    this.e24_1 = new MaxWidth('initial');
+    this.f24_1 = new MaxWidth('revert');
+    this.g24_1 = new MaxWidth('unset');
   }
   var Companion_instance_12;
   function Companion_getInstance_12() {
@@ -971,11 +977,11 @@
   }
   function MaxWidth(value) {
     Companion_getInstance_12();
-    this.f24_1 = value;
-    this.g24_1 = 0;
+    this.h24_1 = value;
+    this.i24_1 = 0;
   }
   protoOf(MaxWidth).toString = function () {
-    return this.f24_1;
+    return this.h24_1;
   };
   function paddingInline(_this__u8e3s4, value) {
     _this__u8e3s4.t1v('padding-inline', joinToString_0(value, ' '));
@@ -986,7 +992,7 @@
   function Companion_13() {
     Companion_instance_13 = this;
   }
-  protoOf(Companion_13).h24 = function () {
+  protoOf(Companion_13).j24 = function () {
     return new ObjectFit('scale-down');
   };
   var Companion_instance_13;
@@ -997,11 +1003,11 @@
   }
   function ObjectFit(value) {
     Companion_getInstance_13();
-    this.i24_1 = value;
-    this.j24_1 = 0;
+    this.k24_1 = value;
+    this.l24_1 = 0;
   }
   protoOf(ObjectFit).toString = function () {
-    return this.i24_1;
+    return this.k24_1;
   };
   function objectFit(_this__u8e3s4, objectFit) {
     _this__u8e3s4.s1v('object-fit', objectFit);
@@ -1022,36 +1028,36 @@
     _this__u8e3s4.s1v('outline', tmp$ret$0);
   }
   function CSSOutline() {
-    this.k24_1 = null;
-    this.l24_1 = null;
     this.m24_1 = null;
-    this.n24_1 = 8;
+    this.n24_1 = null;
+    this.o24_1 = null;
+    this.p24_1 = 8;
   }
   protoOf(CSSOutline).equals = function (other) {
     var tmp;
     if (other instanceof CSSOutline) {
-      tmp = (equals(this.k24_1, other.k24_1) ? equals(this.l24_1, other.l24_1) : false) ? equals(this.m24_1, other.m24_1) : false;
+      tmp = (equals(this.m24_1, other.m24_1) ? equals(this.n24_1, other.n24_1) : false) ? equals(this.o24_1, other.o24_1) : false;
     } else {
       tmp = false;
     }
     return tmp;
   };
   protoOf(CSSOutline).toString = function () {
-    var values = listOfNotNull([this.m24_1, this.l24_1, this.k24_1]);
+    var values = listOfNotNull([this.o24_1, this.n24_1, this.m24_1]);
     return joinToString(values, ' ');
   };
   function outline$lambda($width, $style, $color) {
     return function ($this$outline) {
-      $this$outline.k24_1 = $width;
-      $this$outline.l24_1 = $style;
-      $this$outline.m24_1 = $color;
+      $this$outline.m24_1 = $width;
+      $this$outline.n24_1 = $style;
+      $this$outline.o24_1 = $color;
       return Unit_getInstance();
     };
   }
   function Companion_14() {
     Companion_instance_14 = this;
   }
-  protoOf(Companion_14).o24 = function () {
+  protoOf(Companion_14).q24 = function () {
     return new UserSelect('none');
   };
   var Companion_instance_14;
@@ -1062,19 +1068,19 @@
   }
   function UserSelect(value) {
     Companion_getInstance_14();
-    this.p24_1 = value;
-    this.q24_1 = 0;
+    this.r24_1 = value;
+    this.s24_1 = 0;
   }
   protoOf(UserSelect).toString = function () {
-    return this.p24_1;
+    return this.r24_1;
   };
   function Companion_15() {
     Companion_instance_15 = this;
   }
-  protoOf(Companion_15).r24 = function () {
+  protoOf(Companion_15).t24 = function () {
     return new TextDecorationLine('underline');
   };
-  protoOf(Companion_15).o24 = function () {
+  protoOf(Companion_15).q24 = function () {
     return new TextDecorationLine('none');
   };
   var Companion_instance_15;
@@ -1085,11 +1091,11 @@
   }
   function TextDecorationLine(value) {
     Companion_getInstance_15();
-    this.s24_1 = value;
-    this.t24_1 = 0;
+    this.u24_1 = value;
+    this.v24_1 = 0;
   }
   protoOf(TextDecorationLine).toString = function () {
-    return this.s24_1;
+    return this.u24_1;
   };
   function Companion_16() {
     Companion_instance_16 = this;
@@ -1111,16 +1117,16 @@
   }
   function TextAlign(value) {
     Companion_getInstance_16();
-    this.u24_1 = value;
-    this.v24_1 = 0;
+    this.w24_1 = value;
+    this.x24_1 = 0;
   }
   protoOf(TextAlign).toString = function () {
-    return this.u24_1;
+    return this.w24_1;
   };
   function Companion_17() {
     Companion_instance_17 = this;
   }
-  protoOf(Companion_17).w24 = function () {
+  protoOf(Companion_17).y24 = function () {
     return new WhiteSpace('pre-wrap');
   };
   var Companion_instance_17;
@@ -1131,11 +1137,11 @@
   }
   function WhiteSpace(value) {
     Companion_getInstance_17();
-    this.x24_1 = value;
-    this.y24_1 = 0;
+    this.z24_1 = value;
+    this.a25_1 = 0;
   }
   protoOf(WhiteSpace).toString = function () {
-    return this.x24_1;
+    return this.z24_1;
   };
   function userSelect(_this__u8e3s4, userSelect) {
     _this__u8e3s4.s1v('user-select', userSelect);
@@ -1162,7 +1168,7 @@
     duration = duration === VOID ? null : duration;
     timingFunction = timingFunction === VOID ? null : timingFunction;
     delay = delay === VOID ? null : delay;
-    CSSTransition.call($this, Companion_getInstance_19().z24(property), duration, timingFunction, delay);
+    CSSTransition.call($this, Companion_getInstance_19().b25(property), duration, timingFunction, delay);
     return $this;
   }
   function CSSTransition_init_$Create$(property, duration, timingFunction, delay) {
@@ -1173,11 +1179,11 @@
     duration = duration === VOID ? null : duration;
     timingFunction = timingFunction === VOID ? null : timingFunction;
     delay = delay === VOID ? null : delay;
-    this.a25_1 = property;
-    this.b25_1 = duration;
-    this.c25_1 = timingFunction;
-    this.d25_1 = delay;
-    this.e25_1 = 0;
+    this.c25_1 = property;
+    this.d25_1 = duration;
+    this.e25_1 = timingFunction;
+    this.f25_1 = delay;
+    this.g25_1 = 0;
   }
   protoOf(CSSTransition).toString = function () {
     var tmp$ret$6;
@@ -1190,8 +1196,8 @@
     var tmp0_apply = ArrayList_init_$Create$();
     // Inline function 'kotlin.contracts.contract' call
     // Inline function 'com.varabyte.kobweb.compose.css.CSSTransition.toString.<anonymous>' call
-    tmp0_apply.a(this.a25_1.toString());
-    var tmp0_safe_receiver = this.b25_1;
+    tmp0_apply.a(this.c25_1.toString());
+    var tmp0_safe_receiver = this.d25_1;
     if (tmp0_safe_receiver == null)
       null;
     else {
@@ -1203,7 +1209,7 @@
       tmp$ret$0 = tmp0_apply.a(toString(tmp0_safe_receiver));
       tmp$ret$1 = tmp$ret$0;
     }
-    var tmp1_safe_receiver = this.c25_1;
+    var tmp1_safe_receiver = this.e25_1;
     if (tmp1_safe_receiver == null)
       null;
     else {
@@ -1215,11 +1221,11 @@
       tmp$ret$2 = tmp0_apply.a(toString(tmp1_safe_receiver));
       tmp$ret$3 = tmp$ret$2;
     }
-    if (!(this.d25_1 == null)) {
-      if (this.b25_1 == null) {
+    if (!(this.f25_1 == null)) {
+      if (this.d25_1 == null) {
         tmp0_apply.a('0s');
       }
-      tmp0_apply.a(toString(this.d25_1));
+      tmp0_apply.a(toString(this.f25_1));
     }
     tmp$ret$4 = tmp0_apply;
     tmp$ret$5 = tmp$ret$4.h7();
@@ -1227,10 +1233,10 @@
     return joinToString(tmp$ret$6, ' ');
   };
   protoOf(CSSTransition).hashCode = function () {
-    var result = hashCode(this.a25_1);
-    result = imul(result, 31) + (this.b25_1 == null ? 0 : hashCode(this.b25_1)) | 0;
-    result = imul(result, 31) + (this.c25_1 == null ? 0 : hashCode(this.c25_1)) | 0;
+    var result = hashCode(this.c25_1);
     result = imul(result, 31) + (this.d25_1 == null ? 0 : hashCode(this.d25_1)) | 0;
+    result = imul(result, 31) + (this.e25_1 == null ? 0 : hashCode(this.e25_1)) | 0;
+    result = imul(result, 31) + (this.f25_1 == null ? 0 : hashCode(this.f25_1)) | 0;
     return result;
   };
   protoOf(CSSTransition).equals = function (other) {
@@ -1239,13 +1245,13 @@
     if (!(other instanceof CSSTransition))
       return false;
     var tmp0_other_with_cast = other instanceof CSSTransition ? other : THROW_CCE();
-    if (!equals(this.a25_1, tmp0_other_with_cast.a25_1))
-      return false;
-    if (!equals(this.b25_1, tmp0_other_with_cast.b25_1))
-      return false;
     if (!equals(this.c25_1, tmp0_other_with_cast.c25_1))
       return false;
     if (!equals(this.d25_1, tmp0_other_with_cast.d25_1))
+      return false;
+    if (!equals(this.e25_1, tmp0_other_with_cast.e25_1))
+      return false;
+    if (!equals(this.f25_1, tmp0_other_with_cast.f25_1))
       return false;
     return true;
   };
@@ -1263,7 +1269,7 @@
   function Companion_19() {
     Companion_instance_19 = this;
   }
-  protoOf(Companion_19).z24 = function (customValue) {
+  protoOf(Companion_19).b25 = function (customValue) {
     // Inline function 'kotlin.check' call
     var tmp;
     var tmp$ret$0;
@@ -1312,11 +1318,11 @@
   }
   function TransitionProperty(value) {
     Companion_getInstance_19();
-    this.f25_1 = value;
-    this.g25_1 = 0;
+    this.h25_1 = value;
+    this.i25_1 = 0;
   }
   protoOf(TransitionProperty).toString = function () {
-    return this.f25_1;
+    return this.h25_1;
   };
   function registerRefScope$composable(_this__u8e3s4, scope, $composer, $changed) {
     var $composer_0 = $composer;
@@ -1333,14 +1339,14 @@
       return Unit_getInstance();
     }
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_forEach = scope.h25_1;
+    var tmp0_forEach = scope.j25_1;
     var tmp0_iterator = tmp0_forEach.c();
     while (tmp0_iterator.d()) {
       var element = tmp0_iterator.e();
       // Inline function 'com.varabyte.kobweb.compose.dom.registerRefScope$composable.<anonymous>' call
       var tmp$ret$0;
       // Inline function 'kotlin.collections.toTypedArray' call
-      var tmp0_toTypedArray = element.j25_1;
+      var tmp0_toTypedArray = element.l25_1;
       tmp$ret$0 = copyToArray(tmp0_toTypedArray);
       var tmp = tmp$ret$0.slice();
       DisposableEffect$composable(tmp, registerRefScope$composable$lambda(element, _this__u8e3s4), $composer_0, 0);
@@ -1352,7 +1358,7 @@
   }
   function registerRefScope$composable$lambda($element, $this_registerRefScope$composable) {
     return function ($this$DisposableEffect) {
-      return $element.k25_1.l25($this$DisposableEffect, $this_registerRefScope$composable.w1x($this$DisposableEffect));
+      return $element.m25_1.n25($this$DisposableEffect, $this_registerRefScope$composable.w1x($this$DisposableEffect));
     };
   }
   function titleCamelCaseToKebabCase(_this__u8e3s4) {

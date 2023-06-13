@@ -67,13 +67,13 @@
   var ColorMode_DARK_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.w;
   var registerBaseStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.p;
   var SilkApp$composable = kotlin_com_varabyte_kobweb_kobweb_silk.$_$.d;
-  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z2;
+  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a3;
   var CSSBackground = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.a;
   var background = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j;
   var fontFamily = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c1;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
-  var rgba = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
-  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.o2;
+  var rgba = kotlin_org_jetbrains_compose_html_html_core.$_$.q2;
+  var get_px = kotlin_org_jetbrains_compose_html_html_core.$_$.p2;
   var margin = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q1;
   var Link$composable = kotlin_com_varabyte_kobweb_kobweb_silk.$_$.b;
   var toModifier$composable = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.k;
@@ -83,7 +83,7 @@
   var Companion_getInstance_2 = kotlin_org_jetbrains_compose_html_html_core.$_$.g;
   var get_SilkTheme = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.r;
   var borderTop = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.n;
-  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c2;
+  var padding = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d2;
   var Companion_getInstance_3 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.g1;
   var fontSize = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d1;
   var Companion_getInstance_4 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.c1;
@@ -92,25 +92,25 @@
   var getPropertyCallableRef = kotlin_kotlin.$_$.c5;
   var Companion_getInstance_5 = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.x;
   var base = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.i;
-  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.g3;
+  var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.h3;
   var rememberBreakpoint$composable = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.q;
   var color = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s;
-  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h1;
-  var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f1;
-  var Companion_getInstance_7 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.n1;
-  var textDecorationLine = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g2;
-  var Companion_getInstance_8 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.d1;
+  var Companion_getInstance_6 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.n1;
+  var textDecorationLine = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h2;
+  var Companion_getInstance_7 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.d1;
   var Breakpoint_SM_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.u;
   var margin_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p1;
-  var thenIf = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.p2;
+  var Companion_getInstance_8 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.h1;
+  var fontWeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f1;
+  var thenIf = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
   var Companion_getInstance_9 = kotlin_org_jetbrains_compose_html_html_core.$_$.h;
-  var position = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.d2;
+  var position = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.e2;
   var borderRadius = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l;
   var Companion_getInstance_10 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.f1;
   var backdropFilter = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h;
   var Breakpoint_ZERO_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.v;
-  var get_vw = kotlin_org_jetbrains_compose_html_html_core.$_$.u2;
-  var minWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u1;
+  var get_vw = kotlin_org_jetbrains_compose_html_html_core.$_$.v2;
+  var minWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.v1;
   var Companion_getInstance_11 = kotlin_org_jetbrains_compose_html_html_core.$_$.c;
   var display = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u;
   var Companion_getInstance_12 = kotlin_org_jetbrains_compose_html_html_core.$_$.f;
@@ -119,21 +119,21 @@
   var fillMaxWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w;
   var height = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.j1;
   var backgroundColor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i;
-  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
-  var SpaceBetween_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
+  var CenterVertically_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
+  var SpaceBetween_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t2;
   var get_SmoothColorStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.e;
   var toSilkPalette = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.s;
   var get_link = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.j;
   var get_visited = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.l;
-  var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a2;
-  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.m2;
+  var padding_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
+  var get_percent = kotlin_org_jetbrains_compose_html_html_core.$_$.n2;
   var get_dppx = kotlin_org_jetbrains_compose_html_html_core.$_$.p1;
-  var onClick = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w1;
+  var onClick = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x1;
   var Breakpoint_MD_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.t;
   var displayIf = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.c;
-  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.q2;
-  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.e3;
-  var paddingInline = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z1;
+  var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r2;
+  var Span$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.f3;
+  var paddingInline = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a2;
   var Companion_getInstance_13 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.k1;
   var maxWidth = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t1;
   var Companion_getInstance_14 = kotlin_org_jetbrains_compose_html_html_core.$_$.a;
@@ -142,12 +142,12 @@
   var ComponentStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.f;
   var addVariant = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.g;
   var get_ButtonStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.a;
-  var padding_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b2;
+  var padding_1 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.c2;
   var Column$composable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b;
-  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.l2;
+  var maxWidth_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u1;
   var Image$composable = kotlin_com_varabyte_kobweb_kobweb_silk.$_$.a;
   var Companion_getInstance_15 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.m1;
-  var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.f2;
+  var textAlign = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g2;
   var flexGrow = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z;
   var flexShrink = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a1;
   var flexBasis = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x;
@@ -157,23 +157,24 @@
   var flexWrap = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b1;
   var Companion_getInstance_17 = kotlin_org_jetbrains_compose_html_html_core.$_$.d;
   var flexDirection = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y;
-  var Start_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t2;
+  var Start_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.u2;
   var id = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k1;
-  var Li$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.c3;
-  var lineHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o1;
-  var margin_2 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r1;
-  var H1$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.a3;
-  var Start_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y2;
-  var Center_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.x2;
+  var Li$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.d3;
+  var H1$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.b3;
+  var Start_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.z2;
+  var Center_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.y2;
   var gridRowStart = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.h1;
   var gridRowEnd = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.g1;
+  var lineHeight = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.o1;
+  var margin_2 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.r1;
   var Companion_getInstance_18 = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.e1;
   var cursor = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.t;
+  var width = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m2;
   var borderStyle = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.m;
   var borderRadius_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.k;
-  var Button$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.y2;
+  var Button$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.z2;
   var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
-  var P$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.d3;
+  var P$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.e3;
   var Box$composable = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.a;
   var LaunchedEffect$composable = kotlin_org_jetbrains_compose_runtime_runtime.$_$.m;
   var gridTemplateRows = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.i1;
@@ -191,11 +192,11 @@
   setMetadataFor(HomePage$composable$slambda, 'HomePage$composable$slambda', classMeta, CoroutineImpl, VOID, VOID, VOID, [1]);
   //endregion
   function main() {
-    Companion_getInstance().l2i('');
+    Companion_getInstance().n2i('');
     var router = new Router();
     initKobweb(router, main$lambda);
     set_initSilkHook(main$lambda_0);
-    router.f2i(removePrefix(window.location.href, window.location.origin));
+    router.h2i(removePrefix(window.location.href, window.location.origin));
     var root = ensureNotNull(document.getElementById('root'));
     while (!(root.firstChild == null)) {
       root.removeChild(ensureNotNull(root.firstChild));
@@ -318,9 +319,9 @@
   function ComposableSingletons$MainKt() {
     ComposableSingletons$MainKt_instance = this;
     var tmp = this;
-    tmp.i2k_1 = ComposableLambda$invoke$ref(composableLambdaInstance(-994802423, false, ComposableSingletons$MainKt$lambda_1$lambda_sdpc0d));
+    tmp.k2k_1 = ComposableLambda$invoke$ref(composableLambdaInstance(-994802423, false, ComposableSingletons$MainKt$lambda_1$lambda_sdpc0d));
     var tmp_0 = this;
-    tmp_0.j2k_1 = ComposableLambda$invoke$ref_0(composableLambdaInstance(1049063675, false, ComposableSingletons$MainKt$lambda_2$lambda_dts8wk));
+    tmp_0.l2k_1 = ComposableLambda$invoke$ref_0(composableLambdaInstance(1049063675, false, ComposableSingletons$MainKt$lambda_2$lambda_dts8wk));
   }
   var ComposableSingletons$MainKt_instance;
   function ComposableSingletons$MainKt_getInstance() {
@@ -329,15 +330,15 @@
     return ComposableSingletons$MainKt_instance;
   }
   function main$lambda(ctx) {
-    ctx.r2h_1.h2k('/', VOID, ComposableSingletons$MainKt_getInstance().i2k_1);
+    ctx.t2h_1.j2k('/', VOID, ComposableSingletons$MainKt_getInstance().k2k_1);
     return Unit_getInstance();
   }
   function main$lambda_0(ctx) {
-    ctx.l2e_1.u2e(get_FooterStyle());
-    ctx.l2e_1.u2e(get_NavHeaderStyle());
-    ctx.l2e_1.u2e(get_NavItemStyle());
-    ctx.l2e_1.f2f([get_NavButtonVariant()]);
-    ctx.l2e_1.f2f([get_TextButton()]);
+    ctx.n2e_1.w2e(get_FooterStyle());
+    ctx.n2e_1.w2e(get_NavHeaderStyle());
+    ctx.n2e_1.w2e(get_NavItemStyle());
+    ctx.n2e_1.h2f([get_NavButtonVariant()]);
+    ctx.n2e_1.h2f([get_TextButton()]);
     initSilk(ctx);
     return Unit_getInstance();
   }
@@ -354,7 +355,7 @@
         if (isTraceInProgress()) {
           traceEventStart(-1432601359, $changed, -1, 'main.<anonymous>.<anonymous>.<anonymous> (main.kt:40)');
         }
-        $router.c2k(ComposableSingletons$MainKt_getInstance().j2k_1, $composer_0, 6, 0);
+        $router.e2k(ComposableSingletons$MainKt_getInstance().l2k_1, $composer_0, 6, 0);
         var tmp_0;
         if (isTraceInProgress()) {
           traceEventEnd();
@@ -531,8 +532,8 @@
   var WhiteColor;
   function initSilk(ctx) {
     _init_properties_MyApp_kt__8kzqxp();
-    ctx.j2e_1.z2e_1 = ColorMode_DARK_getInstance();
-    registerBaseStyle(ctx.k2e_1, 'body', VOID, initSilk$lambda);
+    ctx.l2e_1.b2f_1 = ColorMode_DARK_getInstance();
+    registerBaseStyle(ctx.m2e_1, 'body', VOID, initSilk$lambda);
   }
   function MyApp$composable(content, $composer, $changed) {
     _init_properties_MyApp_kt__8kzqxp();
@@ -654,7 +655,7 @@
   }
   function get_FooterStyle() {
     _init_properties_Footer_kt__fc6p2z();
-    return FooterStyle$delegate.q28(null, FooterStyle$factory());
+    return FooterStyle$delegate.s28(null, FooterStyle$factory());
   }
   var FooterStyle$delegate;
   function ComposableLambda$invoke$ref_6($boundThis) {
@@ -683,7 +684,7 @@
   function ComposableSingletons$FooterKt() {
     ComposableSingletons$FooterKt_instance = this;
     var tmp = this;
-    tmp.k2k_1 = ComposableLambda$invoke$ref_6(composableLambdaInstance(-1581401590, false, ComposableSingletons$FooterKt$lambda_1$lambda_a73781));
+    tmp.m2k_1 = ComposableLambda$invoke$ref_6(composableLambdaInstance(-1581401590, false, ComposableSingletons$FooterKt$lambda_1$lambda_a73781));
   }
   var ComposableSingletons$FooterKt_instance;
   function ComposableSingletons$FooterKt_getInstance() {
@@ -709,8 +710,8 @@
       if (isTraceInProgress()) {
         traceEventStart(1672203354, $changed, -1, 'com.app.composeweb.components.sections.footer$composable (Footer.kt:30)');
       }
-      var tmp = toModifier$composable(get_FooterStyle(), [], $composer_0, 64).x26(modifier_0._v);
-      Row$composable(tmp, null, null, null, ComposableSingletons$FooterKt_getInstance().k2k_1, $composer_0, 24576, 14);
+      var tmp = toModifier$composable(get_FooterStyle(), [], $composer_0, 64).z26(modifier_0._v);
+      Row$composable(tmp, null, null, null, ComposableSingletons$FooterKt_getInstance().m2k_1, $composer_0, 24576, 14);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -741,7 +742,7 @@
     tmp$ret$1 = tmp$ret$0;
     tmp$ret$2 = tmp$ret$1;
     tmp$ret$3 = tmp$ret$2;
-    return alignSelf(fontSize(padding(borderTop(tmp, tmp_0, tmp$ret$3, get_SilkTheme().e2c_1.e2f($this$base.q29_1).s29()), get_cssRem(1), get_cssRem(4)), Companion_getInstance_3().n23()), Companion_getInstance_4().l20());
+    return alignSelf(fontSize(padding(borderTop(tmp, tmp_0, tmp$ret$3, get_SilkTheme().g2c_1.g2f($this$base.s29_1).u29()), get_cssRem(1), get_cssRem(4)), Companion_getInstance_3().o23()), Companion_getInstance_4().l20());
   }
   function footer$composable$lambda($modifier, $$changed, $$default) {
     return function ($composer, $force) {
@@ -765,22 +766,22 @@
   }
   function get_NavHeaderStyle() {
     _init_properties_NavHeader_kt__vdotjy();
-    return NavHeaderStyle$delegate.q28(null, NavHeaderStyle$factory());
+    return NavHeaderStyle$delegate.s28(null, NavHeaderStyle$factory());
   }
   var NavHeaderStyle$delegate;
   function get_NavItemStyle() {
     _init_properties_NavHeader_kt__vdotjy();
-    return NavItemStyle$delegate.q28(null, NavItemStyle$factory());
+    return NavItemStyle$delegate.s28(null, NavItemStyle$factory());
   }
   var NavItemStyle$delegate;
   function get_NavButtonVariant() {
     _init_properties_NavHeader_kt__vdotjy();
-    return NavButtonVariant$delegate.q28(null, NavButtonVariant$factory());
+    return NavButtonVariant$delegate.s28(null, NavButtonVariant$factory());
   }
   var NavButtonVariant$delegate;
   function get_TextButton() {
     _init_properties_NavHeader_kt__vdotjy();
-    return TextButton$delegate.q28(null, TextButton$factory());
+    return TextButton$delegate.s28(null, TextButton$factory());
   }
   var TextButton$delegate;
   function ComposableLambda$invoke$ref_7($boundThis) {
@@ -792,7 +793,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-1028855451, $changed, -1, 'com.app.composeweb.components.sections.ComposableSingletons$NavHeaderKt.lambda-1.<anonymous> (NavHeader.kt:108)');
+        traceEventStart(-1028855451, $changed, -1, 'com.app.composeweb.components.sections.ComposableSingletons$NavHeaderKt.lambda-1.<anonymous> (NavHeader.kt:110)');
       }
       Text$composable('Dilshad', $composer_0, 6);
       if (isTraceInProgress()) {
@@ -812,7 +813,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-532467424, $changed, -1, 'com.app.composeweb.components.sections.ComposableSingletons$NavHeaderKt.lambda-2.<anonymous> (NavHeader.kt:132)');
+        traceEventStart(-532467424, $changed, -1, 'com.app.composeweb.components.sections.ComposableSingletons$NavHeaderKt.lambda-2.<anonymous> (NavHeader.kt:134)');
       }
       navLink$composable('/', 'Home', $composer_0, 54);
       navLink$composable('#about', 'About', $composer_0, 54);
@@ -830,9 +831,9 @@
   function ComposableSingletons$NavHeaderKt() {
     ComposableSingletons$NavHeaderKt_instance = this;
     var tmp = this;
-    tmp.l2k_1 = ComposableLambda$invoke$ref_7(composableLambdaInstance(-1028855451, false, ComposableSingletons$NavHeaderKt$lambda_1$lambda_vv16hm));
+    tmp.n2k_1 = ComposableLambda$invoke$ref_7(composableLambdaInstance(-1028855451, false, ComposableSingletons$NavHeaderKt$lambda_1$lambda_vv16hm));
     var tmp_0 = this;
-    tmp_0.m2k_1 = ComposableLambda$invoke$ref_8(composableLambdaInstance(-532467424, false, ComposableSingletons$NavHeaderKt$lambda_2$lambda_31epff));
+    tmp_0.o2k_1 = ComposableLambda$invoke$ref_8(composableLambdaInstance(-532467424, false, ComposableSingletons$NavHeaderKt$lambda_2$lambda_31epff));
   }
   var ComposableSingletons$NavHeaderKt_instance;
   function ComposableSingletons$NavHeaderKt_getInstance() {
@@ -855,12 +856,12 @@
       }
       var br = rememberBreakpoint$composable($composer_0, 0);
       var tmp3_variant = get_TextButton();
-      var tmp = color(background(textDecorationLine(fontWeight(color(Companion_getInstance_1(), get_YellowColor()), Companion_getInstance_6().t23()), Companion_getInstance_7().o24()), [new CSSBackground(VOID, get_BlackColor(), VOID, VOID, Companion_getInstance_8().v21(get_px(0)))]), get_YellowColor());
+      var tmp = color(background(textDecorationLine(color(Companion_getInstance_1(), get_YellowColor()), Companion_getInstance_6().q24()), [new CSSBackground(VOID, get_BlackColor(), VOID, VOID, Companion_getInstance_7().v21(get_px(0)))]), get_YellowColor());
       var tmp_0 = br.i4(Breakpoint_SM_getInstance()) > 0;
       var tmp0_$receiver = Companion_getInstance_1();
       var tmp1_left = get_px(45);
       var tmp2_right = get_px(14);
-      var tmp_1 = thenIf(tmp, tmp_0, margin_1(tmp0_$receiver, VOID, tmp2_right, VOID, tmp1_left));
+      var tmp_1 = thenIf(tmp, tmp_0, fontWeight(margin_1(tmp0_$receiver, VOID, tmp2_right, VOID, tmp1_left), Companion_getInstance_8().u23()));
       var tmp_2 = br.i4(Breakpoint_SM_getInstance()) <= 0;
       var tmp_3 = Companion_getInstance_1();
       var tmp$ret$3;
@@ -876,7 +877,7 @@
       tmp$ret$1 = tmp$ret$0;
       tmp$ret$2 = tmp$ret$1;
       tmp$ret$3 = tmp$ret$2;
-      var tmp4_modifier = backdropFilter(borderRadius(thenIf(tmp_1, tmp_2, position(tmp_3, tmp$ret$3)), get_px(0)), Companion_getInstance_10().f23_1);
+      var tmp4_modifier = backdropFilter(borderRadius(thenIf(tmp_1, tmp_2, fontSize(fontWeight(position(tmp_3, tmp$ret$3), Companion_getInstance_8().w23()), Companion_getInstance_3().n23())), get_px(0)), Companion_getInstance_10().f23_1);
       Link$composable(path, text, tmp4_modifier, tmp3_variant, null, null, false, null, $composer_0, 14 & $dirty | 112 & $dirty, 240);
       if (isTraceInProgress()) {
         traceEventEnd();
@@ -898,7 +899,7 @@
     sourceInformation($composer_0, 'C(navHeader$composable)');
     if (!($changed === 0) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(871111254, $changed, -1, 'com.app.composeweb.components.sections.navHeader$composable (NavHeader.kt:82)');
+        traceEventStart(871111254, $changed, -1, 'com.app.composeweb.components.sections.navHeader$composable (NavHeader.kt:84)');
       }
       var br = rememberBreakpoint$composable($composer_0, 0);
       var tmp = thenIf(Companion_getInstance_1(), br.i4(Breakpoint_SM_getInstance()) > 0, Companion_getInstance_1());
@@ -1011,12 +1012,12 @@
   }
   function NavItemStyle$delegate$lambda($this$ComponentStyle) {
     _init_properties_NavHeader_kt__vdotjy();
-    var linkColor = toSilkPalette($this$ComponentStyle.u28_1).c2a();
-    $this$ComponentStyle.a29(NavItemStyle$delegate$lambda$lambda);
+    var linkColor = toSilkPalette($this$ComponentStyle.w28_1).e2a();
+    $this$ComponentStyle.c29(NavItemStyle$delegate$lambda$lambda);
     var tmp = get_link($this$ComponentStyle);
-    tmp.l29(NavItemStyle$delegate$lambda$lambda_0(linkColor));
+    tmp.n29(NavItemStyle$delegate$lambda$lambda_0(linkColor));
     var tmp_0 = get_visited($this$ComponentStyle);
-    tmp_0.l29(NavItemStyle$delegate$lambda$lambda_1(linkColor));
+    tmp_0.n29(NavItemStyle$delegate$lambda$lambda_1(linkColor));
     return Unit_getInstance();
   }
   function NavItemStyle$delegate$lambda$lambda() {
@@ -1035,7 +1036,7 @@
   }
   function NavButtonVariant$delegate$lambda($this$addVariant) {
     _init_properties_NavHeader_kt__vdotjy();
-    $this$addVariant.a29(NavButtonVariant$delegate$lambda$lambda);
+    $this$addVariant.c29(NavButtonVariant$delegate$lambda$lambda);
     return Unit_getInstance();
   }
   function NavButtonVariant$delegate$lambda$lambda() {
@@ -1045,10 +1046,10 @@
   function TextButton$delegate$lambda($this$addVariant) {
     _init_properties_NavHeader_kt__vdotjy();
     var tmp = get_link($this$addVariant);
-    tmp.l29(TextButton$delegate$lambda$lambda);
+    tmp.n29(TextButton$delegate$lambda$lambda);
     var tmp_0 = get_visited($this$addVariant);
-    tmp_0.l29(TextButton$delegate$lambda$lambda_0);
-    $this$addVariant.a29(TextButton$delegate$lambda$lambda_1);
+    tmp_0.n29(TextButton$delegate$lambda$lambda_0);
+    $this$addVariant.c29(TextButton$delegate$lambda$lambda_1);
     return Unit_getInstance();
   }
   function TextButton$delegate$lambda$lambda() {
@@ -1061,7 +1062,7 @@
   }
   function TextButton$delegate$lambda$lambda_1() {
     _init_properties_NavHeader_kt__vdotjy();
-    return backdropFilter(borderRadius(padding_0(color(background(textDecorationLine(fontWeight(Companion_getInstance_1(), Companion_getInstance_6().t23()), Companion_getInstance_7().o24()), [new CSSBackground(VOID, get_BlackColor(), VOID, VOID, Companion_getInstance_8().v21(get_px(0)))]), get_YellowColor()), get_dppx(0)), get_px(0)), Companion_getInstance_10().f23_1);
+    return backdropFilter(borderRadius(padding_0(color(background(textDecorationLine(fontWeight(Companion_getInstance_1(), Companion_getInstance_8().u23()), Companion_getInstance_6().q24()), [new CSSBackground(VOID, get_BlackColor(), VOID, VOID, Companion_getInstance_7().v21(get_px(0)))]), get_YellowColor()), get_dppx(0)), get_px(0)), Companion_getInstance_10().f23_1);
   }
   function navLink$composable$lambda($path, $text, $$changed) {
     return function ($composer, $force) {
@@ -1085,7 +1086,7 @@
       var tmp_0;
       if (!(($dirty & 91) === 18) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(1411361795, $changed, -1, 'com.app.composeweb.components.sections.navHeader$composable.<anonymous> (NavHeader.kt:100)');
+          traceEventStart(1411361795, $changed, -1, 'com.app.composeweb.components.sections.navHeader$composable.<anonymous> (NavHeader.kt:102)');
         }
         var tmp_1 = Companion_getInstance_1();
         var tmp$ret$4;
@@ -1121,8 +1122,8 @@
         var tmp0 = tmp$ret$3;
         $composer_1.l11();
         tmp$ret$4 = tmp0;
-        Span$composable(toAttrs(margin_1(fontSize(displayIf(color(fontWeight(onClick(tmp_1, tmp$ret$4), Companion_getInstance_6().t23()), get_WhiteColor()), Breakpoint_MD_getInstance()), Companion_getInstance_3().o23()), VOID, VOID, VOID, get_px(60))), ComposableSingletons$NavHeaderKt_getInstance().l2k_1, $composer_0, 48, 0);
-        var tmp_4 = thenIf(Companion_getInstance_1(), $br.i4(Breakpoint_SM_getInstance()) > 0, maxWidth(paddingInline(Companion_getInstance_1(), get_px(10), get_px(20)), Companion_getInstance_13().y23_1));
+        Span$composable(toAttrs(margin_1(fontSize(displayIf(color(fontWeight(onClick(tmp_1, tmp$ret$4), Companion_getInstance_8().u23()), get_WhiteColor()), Breakpoint_MD_getInstance()), Companion_getInstance_3().p23()), VOID, VOID, VOID, get_px(60))), ComposableSingletons$NavHeaderKt_getInstance().n2k_1, $composer_0, 48, 0);
+        var tmp_4 = thenIf(Companion_getInstance_1(), $br.i4(Breakpoint_SM_getInstance()) > 0, maxWidth(paddingInline(Companion_getInstance_1(), get_px(10), get_px(20)), Companion_getInstance_13().a24_1));
         var tmp_5 = $br.i4(Breakpoint_SM_getInstance()) <= 0;
         var tmp_6 = paddingInline(fillMaxWidth(Companion_getInstance_1()), get_px(5));
         var tmp$ret$8;
@@ -1166,9 +1167,9 @@
         tmp$ret$14 = tmp$ret$13;
         tmp$ret$15 = tmp$ret$14;
         tmp$ret$16 = tmp$ret$15;
-        var tmp_9 = $this$Row.a26(thenIf(tmp_4, tmp_5, alignItems(tmp_8, tmp$ret$16)), CenterVertically_getInstance());
+        var tmp_9 = $this$Row.c26(thenIf(tmp_4, tmp_5, alignItems(tmp_8, tmp$ret$16)), CenterVertically_getInstance());
         var tmp_10 = SpaceBetween_getInstance();
-        Row$composable(tmp_9, tmp_10, null, null, ComposableSingletons$NavHeaderKt_getInstance().m2k_1, $composer_0, 24624, 12);
+        Row$composable(tmp_9, tmp_10, null, null, ComposableSingletons$NavHeaderKt_getInstance().o2k_1, $composer_0, 24624, 12);
         var tmp_11;
         if (isTraceInProgress()) {
           traceEventEnd();
@@ -1341,7 +1342,7 @@
           traceEventStart(1930180198, $changed, -1, 'com.app.composeweb.components.sections.project$composable.<anonymous>.<anonymous> (Projects.kt:50)');
         }
         var tmp_0 = $title + ' images';
-        var tmp_1 = margin_1(borderRadius(height(width(Companion_getInstance_1(), $imageWidth._v), $imageHeight._v), get_px(10)), VOID, get_px(25), get_px(30));
+        var tmp_1 = margin_1(borderRadius(maxWidth_0(maxWidth_0(Companion_getInstance_1(), $imageWidth._v), $imageHeight._v), get_px(10)), VOID, get_px(25), get_px(30));
         Image$composable($imgPath, tmp_0, tmp_1, false, null, $composer_0, 14 & $$dirty >> 6, 24);
         var tmp_2 = flexBasis(flexShrink(flexGrow(color(textAlign(Companion_getInstance_1(), Companion_getInstance_15().v20()), get_GrayColor()), 1), 1), get_px(100));
         SpanText$composable($Description, tmp_2, null, null, $composer_0, 14 & $$dirty >> 12, 12);
@@ -1371,7 +1372,7 @@
         if (isTraceInProgress()) {
           traceEventStart(-832964573, $changed, -1, 'com.app.composeweb.components.sections.project$composable.<anonymous> (Projects.kt:29)');
         }
-        var tmp_0 = padding_1(fontWeight(fontSize_0(Companion_getInstance_1(), get_px(20)), Companion_getInstance_6().u23()), VOID, VOID, get_px(20));
+        var tmp_0 = padding_1(fontWeight(fontSize_0(Companion_getInstance_1(), get_px(20)), Companion_getInstance_8().v23()), VOID, VOID, get_px(20));
         SpanText$composable($title, tmp_0, null, null, $composer_0, 14 & $$dirty >> 9, 12);
         var tmp_1 = Companion_getInstance_1();
         var tmp_2 = $br.i4(Breakpoint_SM_getInstance()) > 0;
@@ -1596,7 +1597,7 @@
           traceEventStart(-1529966726, $changed, -1, 'com.app.composeweb.components.sections.skillSet$composable.<anonymous>.<anonymous> (Skills.kt:26)');
         }
         var tmp_0 = $Title + ': ';
-        var tmp_1 = fontWeight(id(fontSize_0(Companion_getInstance_1(), get_px(15)), 'ID'), Companion_getInstance_6().s23());
+        var tmp_1 = fontWeight(id(fontSize_0(Companion_getInstance_1(), get_px(15)), 'ID'), Companion_getInstance_8().t23());
         SpanText$composable(tmp_0, tmp_1, null, null, $composer_0, 0, 12);
         var tmp_2 = color(Companion_getInstance_1(), get_GrayColor());
         SpanText$composable($Description, tmp_2, null, null, $composer_0, 14 & $$dirty >> 3, 12);
@@ -1706,7 +1707,7 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(647225899, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-1.<anonymous> (Index.kt:81)');
+        traceEventStart(647225899, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-1.<anonymous> (Index.kt:91)');
       }
       Text$composable("I'm ", $composer_0, 6);
       if (isTraceInProgress()) {
@@ -1726,10 +1727,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-412646067, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-2.<anonymous> (Index.kt:74)');
+        traceEventStart(-1401075786, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-2.<anonymous> (Index.kt:102)');
       }
-      Span$composable(toAttrs(color(margin_2(paddingInline(lineHeight(fontSize_0(Companion_getInstance_1(), get_px(50)), get_px(0)), get_px(0)), get_px(0)), get_WhiteColor())), ComposableSingletons$IndexKt_getInstance().n2k_1, $composer_0, 48, 0);
-      Text$composable('Dilshad', $composer_0, 6);
+      Text$composable('Muhammed', $composer_0, 6);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1747,9 +1747,9 @@
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-1401075786, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-3.<anonymous> (Index.kt:87)');
+        traceEventStart(-916438955, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-3.<anonymous> (Index.kt:113)');
       }
-      Text$composable('Muhammed', $composer_0, 6);
+      Text$composable('Native Android Developer', $composer_0, 6);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1763,13 +1763,13 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p($this$Span, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p($this$Button, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-916438955, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-4.<anonymous> (Index.kt:93)');
+        traceEventStart(2045091972, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-4.<anonymous> (Index.kt:135)');
       }
-      Text$composable('Native Android Developer', $composer_0, 6);
+      Text$composable('HIRE ME', $composer_0, 6);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1783,13 +1783,14 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_5$lambda_ktf1p8($this$Button, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_5$lambda_ktf1p8($this$H1, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(2045091972, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-5.<anonymous> (Index.kt:115)');
+        traceEventStart(-1528648592, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-5.<anonymous> (Index.kt:161)');
       }
-      Text$composable('HIRE ME', $composer_0, 6);
+      var tmp = color(Companion_getInstance_1(), get_YellowColor());
+      SpanText$composable('About', tmp, null, null, $composer_0, 6, 12);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1803,14 +1804,13 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_6$lambda_807fcz($this$H1, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_6$lambda_807fcz($this$Span, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-1528648592, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-6.<anonymous> (Index.kt:141)');
+        traceEventStart(990488271, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-6.<anonymous> (Index.kt:177)');
       }
-      var tmp = color(Companion_getInstance_1(), get_YellowColor());
-      SpanText$composable('About', tmp, null, null, $composer_0, 6, 12);
+      Text$composable('I am Dilshad Muhammed, a seasoned software developer specializing in Native Android Development. With a proven track record of excellence, I bring a wealth of expertise and experience to the table. As a dedicated freelancer, I have had the privilege of working on a diverse range of projects, allowing me to refine my skills and deliver exceptional results. My proficiency in Native Android Development empowers me to create bespoke applications that seamlessly blend cutting-edge technology with elegant design. I pride myself on developing robust and scalable solutions that not only meet but exceed client expectations. From ideation to execution, I am committed to delivering flawless, user-centric experiences that drive business growth. By staying at the forefront of industry advancements, I ensure that my applications are equipped with the latest features and functionalities. I relentlessly pursue professional development opportunities, continuously expanding my technical knowledge to remain ahead of the curve. This commitment to innovation enables me to deliver solutions that are not only visually appealing but also optimized for performance and efficiency.', $composer_0, 6);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1824,13 +1824,13 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_7$lambda_y7a5jy($this$Span, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_7$lambda_y7a5jy($this$P, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(990488271, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-7.<anonymous> (Index.kt:157)');
+        traceEventStart(-69383695, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-7.<anonymous> (Index.kt:174)');
       }
-      Text$composable('I am Dilshad Muhammed, a seasoned software developer specializing in Native Android Development. With a proven track record of excellence, I bring a wealth of expertise and experience to the table. As a dedicated freelancer, I have had the privilege of working on a diverse range of projects, allowing me to refine my skills and deliver exceptional results. My proficiency in Native Android Development empowers me to create bespoke applications that seamlessly blend cutting-edge technology with elegant design. I pride myself on developing robust and scalable solutions that not only meet but exceed client expectations. From ideation to execution, I am committed to delivering flawless, user-centric experiences that drive business growth. By staying at the forefront of industry advancements, I ensure that my applications are equipped with the latest features and functionalities. I relentlessly pursue professional development opportunities, continuously expanding my technical knowledge to remain ahead of the curve. This commitment to innovation enables me to deliver solutions that are not only visually appealing but also optimized for performance and efficiency.', $composer_0, 6);
+      Span$composable(toAttrs(textAlign(Companion_getInstance_1(), Companion_getInstance_15().e22())), ComposableSingletons$IndexKt_getInstance().u2k_1, $composer_0, 48, 0);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1844,13 +1844,14 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_8$lambda_5dnohr($this$P, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_8$lambda_5dnohr($this$H1, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-69383695, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-8.<anonymous> (Index.kt:154)');
+        traceEventStart(-2036948865, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-8.<anonymous> (Index.kt:196)');
       }
-      Span$composable(toAttrs(textAlign(Companion_getInstance_1(), Companion_getInstance_15().e22())), ComposableSingletons$IndexKt_getInstance().t2k_1, $composer_0, 48, 0);
+      var tmp = color(Companion_getInstance_1(), get_YellowColor());
+      SpanText$composable('My Skills', tmp, null, null, $composer_0, 6, 12);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1864,34 +1865,13 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_9$lambda_nfyskg($this$H1, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_9$lambda_nfyskg($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-2036948865, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-9.<anonymous> (Index.kt:176)');
+        traceEventStart(1747165858, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-9.<anonymous> (Index.kt:195)');
       }
-      var tmp = color(Companion_getInstance_1(), get_YellowColor());
-      SpanText$composable('My Skills', tmp, null, null, $composer_0, 6, 12);
-      if (isTraceInProgress()) {
-        traceEventEnd();
-      }
-    } else {
-      $composer_0.pw();
-    }
-    return Unit_getInstance();
-  }
-  function ComposableLambda$invoke$ref_23($boundThis) {
-    return function (p0, p1, p2) {
-      return $boundThis.u1p(p0, p1, p2);
-    };
-  }
-  function ComposableSingletons$IndexKt$lambda_10$lambda_o4kwki($this$Column, $composer, $changed) {
-    var $composer_0 = $composer;
-    if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
-      if (isTraceInProgress()) {
-        traceEventStart(1747165858, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-10.<anonymous> (Index.kt:175)');
-      }
-      H1$composable(null, ComposableSingletons$IndexKt_getInstance().v2k_1, $composer_0, 48, 1);
+      H1$composable(null, ComposableSingletons$IndexKt_getInstance().w2k_1, $composer_0, 48, 1);
       skillSet$composable('Seamless Native App Development', 'By utilizing Java or Kotlin for Android and Swift or Objective-C for iOS, I ensure that your app runs seamlessly on the respective platforms, delivering a native user experience that engages and delights your target audience.', $composer_0, 54);
       skillSet$composable('Cross-Platform Proficiency', 'As a versatile developer, I possess expertise in cross-platform frameworks such as Kotlin Multiplatform, Compose Web. This allows me to leverage a single codebase to build apps that work flawlessly on multiple platforms, saving time and resources without compromising on quality or performance.', $composer_0, 54);
       skillSet$composable('Striking UI/UX Design', 'By carefully crafting intuitive interfaces and aesthetically pleasing designs, I create apps that not only look stunning but also ensure smooth navigation and effortless interaction. By integrating cutting-edge design tools like Figma, I deliver visually impactful and user-friendly apps that leave a lasting impression.', $composer_0, 54);
@@ -1905,18 +1885,39 @@
     }
     return Unit_getInstance();
   }
+  function ComposableLambda$invoke$ref_23($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.u1p(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$IndexKt$lambda_10$lambda_o4kwki($this$Box, $composer, $changed) {
+    var $composer_0 = $composer;
+    if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
+      if (isTraceInProgress()) {
+        traceEventStart(-526647445, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-10.<anonymous> (Index.kt:194)');
+      }
+      Column$composable(null, null, null, null, ComposableSingletons$IndexKt_getInstance().x2k_1, $composer_0, 24576, 15);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.pw();
+    }
+    return Unit_getInstance();
+  }
   function ComposableLambda$invoke$ref_24($boundThis) {
     return function (p0, p1, p2) {
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_11$lambda_4p1khp($this$Box, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_11$lambda_4p1khp($this$H1, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-526647445, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-11.<anonymous> (Index.kt:174)');
+        traceEventStart(-1282517642, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-11.<anonymous> (Index.kt:218)');
       }
-      Column$composable(null, null, null, null, ComposableSingletons$IndexKt_getInstance().w2k_1, $composer_0, 24576, 15);
+      var tmp = color(Companion_getInstance_1(), get_YellowColor());
+      SpanText$composable('My Projects', tmp, null, null, $composer_0, 6, 12);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1930,14 +1931,14 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_12$lambda_xio1jw($this$H1, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_12$lambda_xio1jw($this$Column, $composer, $changed) {
     var $composer_0 = $composer;
     if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(-1282517642, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-12.<anonymous> (Index.kt:198)');
+        traceEventStart(898698960, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-12.<anonymous> (Index.kt:230)');
       }
-      var tmp = color(Companion_getInstance_1(), get_YellowColor());
-      SpanText$composable('My Projects', tmp, null, null, $composer_0, 6, 12);
+      project$composable(null, null, '/img0.jpg', 'Quick Notes', 'with our aesthetically designed note app. Say goodbye to cluttered and uninspiring notes as our app provides a visually pleasing interface that sparks creativity and enhances focus. Capture your ideas, make to-do lists, and organize your thoughts effortlessly, all while enjoying the seamless and intuitive user experience. Simplify your life and elevate your productivity with our stunning note app.', $composer_0, 28032, 3);
+      project$composable(null, null, '/img1.jpg', 'Prayer Time Reminder', "PrayerTime Reminder is a powerful and intuitive mobile app designed to help you stay connected to your faith through timely and accurate prayer times. With precise calculations based on your location, customizable Adhan notifications, and a built-in Qibla compass, you'll never miss a prayer again. Seamlessly adjust prayer times to match your local conventions and track your prayer history for personal reflection. Stay informed about Islamic events with the integrated calendar and explore Quranic resources for spiritual guidance. With a user-friendly interface and multilingual support, PrayerTime Reminder is your ultimate prayer companion, ensuring you never lose touch with your daily prayers. Download PrayerTime Reminder now and experience a more fulfilling and organized prayer journey.", $composer_0, 28032, 3);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -1951,37 +1952,14 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_13$lambda_8otjd1($this$Column, $composer, $changed) {
-    var $composer_0 = $composer;
-    if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
-      if (isTraceInProgress()) {
-        traceEventStart(898698960, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous> (Index.kt:210)');
-      }
-      project$composable(null, null, '/img0.jpg', 'Quick Notes', 'with our aesthetically designed note app. Say goodbye to cluttered and uninspiring notes as our app provides a visually pleasing interface that sparks creativity and enhances focus. Capture your ideas, make to-do lists, and organize your thoughts effortlessly, all while enjoying the seamless and intuitive user experience. Simplify your life and elevate your productivity with our stunning note app.', $composer_0, 28032, 3);
-      var tmp0_imageWidth = get_px(250);
-      var tmp1_imageHeight = get_px(320);
-      project$composable(tmp1_imageHeight, tmp0_imageWidth, '/img1.jpg', 'Prayer Time Reminder', "PrayerTime Reminder is a powerful and intuitive mobile app designed to help you stay connected to your faith through timely and accurate prayer times. With precise calculations based on your location, customizable Adhan notifications, and a built-in Qibla compass, you'll never miss a prayer again. Seamlessly adjust prayer times to match your local conventions and track your prayer history for personal reflection. Stay informed about Islamic events with the integrated calendar and explore Quranic resources for spiritual guidance. With a user-friendly interface and multilingual support, PrayerTime Reminder is your ultimate prayer companion, ensuring you never lose touch with your daily prayers. Download PrayerTime Reminder now and experience a more fulfilling and organized prayer journey.", $composer_0, 28032, 0);
-      if (isTraceInProgress()) {
-        traceEventEnd();
-      }
-    } else {
-      $composer_0.pw();
-    }
-    return Unit_getInstance();
-  }
-  function ComposableLambda$invoke$ref_27($boundThis) {
-    return function (p0, p1, p2) {
-      return $boundThis.u1p(p0, p1, p2);
-    };
-  }
-  function ComposableSingletons$IndexKt$lambda_14$lambda_k4sxp6($this$Box, $composer, $changed) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda_8otjd1($this$Box, $composer, $changed) {
     var $composer_0 = $composer;
     var $dirty = $changed;
     if (($changed & 14) === 0)
       $dirty = $dirty | ($composer_0.iv($this$Box) ? 4 : 2);
     if (!(($dirty & 91) === 18) ? true : !$composer_0.q11()) {
       if (isTraceInProgress()) {
-        traceEventStart(1142896110, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous> (Index.kt:49)');
+        traceEventStart(1142896110, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous> (Index.kt:49)');
       }
       var br = rememberBreakpoint$composable($composer_0, 0);
       var tmp = textAlign(color(fillMaxSize(Companion_getInstance_1()), get_WhiteColor()), Companion_getInstance_15().l20());
@@ -1990,9 +1968,9 @@
       // Inline function 'kotlin.run' call
       // Inline function 'kotlin.contracts.contract' call
       var tmp$ret$5;
-      // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>' call
+      // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>' call
       var tmp_1 = $composer_0;
-      var dispatchReceiver = composableLambda(tmp_1, 321982181, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda_5w0str(br));
+      var dispatchReceiver = composableLambda(tmp_1, 321982181, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda_utkv8w(br));
       var tmp$ret$4;
       // Inline function 'androidx.compose.runtime.remember$composable' call
       var tmp3_remember$composable = $composer_0;
@@ -2012,7 +1990,7 @@
       var tmp_2;
       if (tmp2_cache ? true : tmp0_let === Companion_getInstance_0().uw_1) {
         var tmp$ret$0;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>' call
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>' call
         tmp$ret$0 = ComposableLambda$invoke$ref_35(dispatchReceiver);
         var value = tmp$ret$0;
         tmp1_cache.n13(value);
@@ -2030,7 +2008,7 @@
       tmp$ret$5 = tmp$ret$4;
       tmp$ret$6 = tmp$ret$5;
       Column$composable(tmp, null, tmp_0, null, tmp$ret$6, $composer_0, 24960, 10);
-      footer$composable(gridRowEnd(gridRowStart($this$Box.w25(Companion_getInstance_1(), Center_getInstance()), 2), 3), $composer_0, 0, 0);
+      footer$composable(gridRowEnd(gridRowStart($this$Box.y25(Companion_getInstance_1(), Center_getInstance()), 2), 3), $composer_0, 0, 0);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -2039,15 +2017,43 @@
     }
     return Unit_getInstance();
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda$lambda_13d7fe($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda$lambda_v5shvp($br) {
+    return function ($this$Span, $composer, $changed) {
+      var $composer_0 = $composer;
+      var tmp;
+      if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
+        if (isTraceInProgress()) {
+          traceEventStart(-412646067, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:79)');
+        }
+        Span$composable(toAttrs(color(margin_2(paddingInline(lineHeight(thenIf(thenIf(Companion_getInstance_1(), $br.i4(Breakpoint_SM_getInstance()) > 0, fontSize_0(Companion_getInstance_1(), get_px(50))), $br.i4(Breakpoint_SM_getInstance()) <= 0, fontSize_0(Companion_getInstance_1(), get_px(38))), get_px(0)), get_px(0)), get_px(0)), get_WhiteColor())), ComposableSingletons$IndexKt_getInstance().p2k_1, $composer_0, 48, 0);
+        Text$composable('Dilshad', $composer_0, 6);
+        var tmp_0;
+        if (isTraceInProgress()) {
+          traceEventEnd();
+          tmp_0 = Unit_getInstance();
+        }
+        tmp = tmp_0;
+      } else {
+        $composer_0.pw();
+        tmp = Unit_getInstance();
+      }
+      return Unit_getInstance();
+    };
+  }
+  function ComposableLambda$invoke$ref_27($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.u1p(p0, p1, p2);
+    };
+  }
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda$lambda_v5shvp_0($br) {
     return function ($this$Anchor, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(-1541705218, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:97)');
+          traceEventStart(-1541705218, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:117)');
         }
-        var tmp_0 = fontWeight(fontSize(width(thenIf(thenIf(height(cursor(Companion_getInstance_1(), Companion_getInstance_18().b23()), get_px(32)), $br.i4(Breakpoint_SM_getInstance()) > 0, margin_0(Companion_getInstance_1(), get_px(10))), $br.i4(Breakpoint_SM_getInstance()) <= 0, margin_0(Companion_getInstance_1(), get_px(5))), get_px(60)), Companion_getInstance_3().m23()), Companion_getInstance_6().u23());
+        var tmp_0 = fontWeight(fontSize(width(thenIf(thenIf(height(cursor(Companion_getInstance_1(), Companion_getInstance_18().b23()), get_px(32)), $br.i4(Breakpoint_SM_getInstance()) > 0, margin_0(Companion_getInstance_1(), get_px(10))), $br.i4(Breakpoint_SM_getInstance()) <= 0, margin_0(Companion_getInstance_1(), get_px(5))), get_px(60)), Companion_getInstance_3().m23()), Companion_getInstance_8().v23());
         var tmp$ret$3;
         // Inline function 'org.jetbrains.compose.web.css.Companion.None' call
         var tmp0__get_None__7x727t = Companion_getInstance_2();
@@ -2061,7 +2067,7 @@
         tmp$ret$1 = tmp$ret$0;
         tmp$ret$2 = tmp$ret$1;
         tmp$ret$3 = tmp$ret$2;
-        Button$composable(toAttrs(background(borderRadius_0(borderStyle(tmp_0, tmp$ret$3), get_px(50), get_px(50)), [new CSSBackground(VOID, get_YellowColor())])), ComposableSingletons$IndexKt_getInstance().r2k_1, $composer_0, 48, 0);
+        Button$composable(toAttrs(background(borderRadius_0(borderStyle(tmp_0, tmp$ret$3), get_px(50), get_px(50)), [new CSSBackground(VOID, get_YellowColor())])), ComposableSingletons$IndexKt_getInstance().s2k_1, $composer_0, 48, 0);
         var tmp_1;
         if (isTraceInProgress()) {
           traceEventEnd();
@@ -2080,24 +2086,22 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda_ycyv4f($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda_p7hm5s($br) {
     return function ($this$Column, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(-109479573, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:71)');
+          traceEventStart(-109479573, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:71)');
         }
-        Span$composable(toAttrs(fontSize_0(color(Companion_getInstance_1(), get_YellowColor()), get_px(50))), ComposableSingletons$IndexKt_getInstance().o2k_1, $composer_0, 48, 0);
-        Span$composable(toAttrs(margin_2(padding_0(fontSize_0(color(Companion_getInstance_1(), get_YellowColor()), get_px(50)), get_px(0)), get_px(0))), ComposableSingletons$IndexKt_getInstance().p2k_1, $composer_0, 48, 0);
-        Span$composable(toAttrs(fontWeight(fontSize_0(color(Companion_getInstance_1(), get_WhiteColor()), get_px(18)), Companion_getInstance_6().r23())), ComposableSingletons$IndexKt_getInstance().q2k_1, $composer_0, 48, 0);
+        var tmp_0 = toAttrs(thenIf(thenIf(color(Companion_getInstance_1(), get_YellowColor()), $br.i4(Breakpoint_SM_getInstance()) > 0, fontSize_0(Companion_getInstance_1(), get_px(50))), $br.i4(Breakpoint_SM_getInstance()) <= 0, fontSize_0(Companion_getInstance_1(), get_px(38))));
         var tmp$ret$6;
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$5;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
-        var tmp_0 = $composer_0;
-        var dispatchReceiver = composableLambda(tmp_0, -1541705218, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda$lambda_13d7fe($br));
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        var tmp_1 = $composer_0;
+        var dispatchReceiver = composableLambda(tmp_1, -412646067, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda$lambda_v5shvp($br));
         var tmp$ret$4;
         // Inline function 'androidx.compose.runtime.remember$composable' call
         var tmp3_remember$composable = $composer_0;
@@ -2114,33 +2118,79 @@
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$1;
         // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-        var tmp_1;
+        var tmp_2;
         if (tmp2_cache ? true : tmp0_let === Companion_getInstance_0().uw_1) {
           var tmp$ret$0;
-          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
-          tmp$ret$0 = ComposableLambda$invoke$ref_28(dispatchReceiver);
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          tmp$ret$0 = ComposableLambda$invoke$ref_27(dispatchReceiver);
           var value = tmp$ret$0;
           tmp1_cache.n13(value);
-          tmp_1 = value;
+          tmp_2 = value;
         } else {
-          tmp_1 = tmp0_let;
+          tmp_2 = tmp0_let;
         }
-        tmp$ret$1 = tmp_1;
+        tmp$ret$1 = tmp_2;
         tmp$ret$2 = tmp$ret$1;
-        var tmp_2 = tmp$ret$2;
-        tmp$ret$3 = (tmp_2 == null ? true : isObject(tmp_2)) ? tmp_2 : THROW_CCE();
+        var tmp_3 = tmp$ret$2;
+        tmp$ret$3 = (tmp_3 == null ? true : isObject(tmp_3)) ? tmp_3 : THROW_CCE();
         var tmp0 = tmp$ret$3;
         $composer_1.l11();
         tmp$ret$4 = tmp0;
         tmp$ret$5 = tmp$ret$4;
         tmp$ret$6 = tmp$ret$5;
-        Anchor$composable('https://mail.google.com/mail/?view=cm&to=dilshadmuhammed0101@gmail.com&su=&body=', null, null, null, false, tmp$ret$6, $composer_0, 196614, 30);
-        var tmp_3;
+        Span$composable(tmp_0, tmp$ret$6, $composer_0, 48, 0);
+        Span$composable(toAttrs(margin_2(padding_0(thenIf(thenIf(color(Companion_getInstance_1(), get_YellowColor()), $br.i4(Breakpoint_SM_getInstance()) > 0, fontSize_0(Companion_getInstance_1(), get_px(50))), $br.i4(Breakpoint_SM_getInstance()) <= 0, fontSize_0(Companion_getInstance_1(), get_px(38))), get_px(0)), get_px(0))), ComposableSingletons$IndexKt_getInstance().q2k_1, $composer_0, 48, 0);
+        Span$composable(toAttrs(fontWeight(thenIf(thenIf(color(Companion_getInstance_1(), get_WhiteColor()), $br.i4(Breakpoint_SM_getInstance()) > 0, fontSize_0(Companion_getInstance_1(), get_px(18))), $br.i4(Breakpoint_SM_getInstance()) <= 0, fontSize_0(Companion_getInstance_1(), get_px(14))), Companion_getInstance_8().s23())), ComposableSingletons$IndexKt_getInstance().r2k_1, $composer_0, 48, 0);
+        var tmp$ret$13;
+        // Inline function 'kotlin.run' call
+        // Inline function 'kotlin.contracts.contract' call
+        var tmp$ret$12;
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        var tmp_4 = $composer_0;
+        var dispatchReceiver_0 = composableLambda(tmp_4, -1541705218, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda$lambda_v5shvp_0($br));
+        var tmp$ret$11;
+        // Inline function 'androidx.compose.runtime.remember$composable' call
+        var tmp3_remember$composable_0 = $composer_0;
+        var $composer_2 = tmp3_remember$composable_0;
+        $composer_2.k11(-838505973);
+        sourceInformation($composer_2, 'CC(remember$composable)P(1):Composables.kt#9igjgp');
+        var tmp$ret$10;
+        // Inline function 'androidx.compose.runtime.cache' call
+        var tmp1_cache_0 = $composer_2;
+        var tmp2_cache_0 = $composer_2.iv(dispatchReceiver_0);
+        var tmp$ret$9;
+        // Inline function 'kotlin.let' call
+        var tmp0_let_0 = tmp1_cache_0.m13();
+        // Inline function 'kotlin.contracts.contract' call
+        var tmp$ret$8;
+        // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+        var tmp_5;
+        if (tmp2_cache_0 ? true : tmp0_let_0 === Companion_getInstance_0().uw_1) {
+          var tmp$ret$7;
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          tmp$ret$7 = ComposableLambda$invoke$ref_28(dispatchReceiver_0);
+          var value_0 = tmp$ret$7;
+          tmp1_cache_0.n13(value_0);
+          tmp_5 = value_0;
+        } else {
+          tmp_5 = tmp0_let_0;
+        }
+        tmp$ret$8 = tmp_5;
+        tmp$ret$9 = tmp$ret$8;
+        var tmp_6 = tmp$ret$9;
+        tmp$ret$10 = (tmp_6 == null ? true : isObject(tmp_6)) ? tmp_6 : THROW_CCE();
+        var tmp0_0 = tmp$ret$10;
+        $composer_2.l11();
+        tmp$ret$11 = tmp0_0;
+        tmp$ret$12 = tmp$ret$11;
+        tmp$ret$13 = tmp$ret$12;
+        Anchor$composable('https://mail.google.com/mail/?view=cm&to=dilshadmuhammed0101@gmail.com&su=&body=', null, null, null, false, tmp$ret$13, $composer_0, 196614, 30);
+        var tmp_7;
         if (isTraceInProgress()) {
           traceEventEnd();
-          tmp_3 = Unit_getInstance();
+          tmp_7 = Unit_getInstance();
         }
-        tmp = tmp_3;
+        tmp = tmp_7;
       } else {
         $composer_0.pw();
         tmp = Unit_getInstance();
@@ -2153,21 +2203,21 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda_yqjvsq($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda_2l5jvp($br) {
     return function ($this$H1, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(942603266, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous> (Index.kt:69)');
+          traceEventStart(942603266, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous> (Index.kt:69)');
         }
         var tmp$ret$6;
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$5;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
         var tmp_0 = $composer_0;
-        var dispatchReceiver = composableLambda(tmp_0, -109479573, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda_ycyv4f($br));
+        var dispatchReceiver = composableLambda(tmp_0, -109479573, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda_p7hm5s($br));
         var tmp$ret$4;
         // Inline function 'androidx.compose.runtime.remember$composable' call
         var tmp3_remember$composable = $composer_0;
@@ -2187,7 +2237,7 @@
         var tmp_1;
         if (tmp2_cache ? true : tmp0_let === Companion_getInstance_0().uw_1) {
           var tmp$ret$0;
-          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
           tmp$ret$0 = ComposableLambda$invoke$ref_29(dispatchReceiver);
           var value = tmp$ret$0;
           tmp1_cache.n13(value);
@@ -2223,16 +2273,16 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda_ycyv4f_0($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda_p7hm5s_0($br) {
     return function ($this$Column, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(1889552467, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:140)');
+          traceEventStart(1889552467, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:160)');
         }
-        H1$composable(null, ComposableSingletons$IndexKt_getInstance().s2k_1, $composer_0, 48, 1);
-        P$composable(toAttrs(thenIf(thenIf(textAlign(Companion_getInstance_1(), Companion_getInstance_15().v20()), $br.i4(Breakpoint_SM_getInstance()) > 0, margin_1(Companion_getInstance_1(), VOID, get_px(60))), $br.i4(Breakpoint_SM_getInstance()) <= 0, Companion_getInstance_1())), ComposableSingletons$IndexKt_getInstance().u2k_1, $composer_0, 48, 0);
+        H1$composable(null, ComposableSingletons$IndexKt_getInstance().t2k_1, $composer_0, 48, 1);
+        P$composable(toAttrs(thenIf(thenIf(textAlign(Companion_getInstance_1(), Companion_getInstance_15().v20()), $br.i4(Breakpoint_SM_getInstance()) > 0, margin_1(Companion_getInstance_1(), VOID, get_px(60))), $br.i4(Breakpoint_SM_getInstance()) <= 0, Companion_getInstance_1())), ComposableSingletons$IndexKt_getInstance().v2k_1, $composer_0, 48, 0);
         var tmp_0;
         if (isTraceInProgress()) {
           traceEventEnd();
@@ -2251,13 +2301,13 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda_yqjvsq_0($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda_2l5jvp_0($br) {
     return function ($this$Column, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(-181917092, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous> (Index.kt:132)');
+          traceEventStart(-181917092, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous> (Index.kt:152)');
         }
         var tmp_0 = Companion_getInstance_1();
         var tmp_1 = $br.i4(Breakpoint_SM_getInstance()) > 0;
@@ -2270,9 +2320,9 @@
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$5;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
         var tmp_3 = $composer_0;
-        var dispatchReceiver = composableLambda(tmp_3, 1889552467, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda_ycyv4f_0($br));
+        var dispatchReceiver = composableLambda(tmp_3, 1889552467, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda_p7hm5s_0($br));
         var tmp$ret$4;
         // Inline function 'androidx.compose.runtime.remember$composable' call
         var tmp3_remember$composable = $composer_0;
@@ -2292,7 +2342,7 @@
         var tmp_4;
         if (tmp2_cache ? true : tmp0_let === Companion_getInstance_0().uw_1) {
           var tmp$ret$0;
-          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
           tmp$ret$0 = ComposableLambda$invoke$ref_31(dispatchReceiver);
           var value = tmp$ret$0;
           tmp1_cache.n13(value);
@@ -2328,17 +2378,17 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda_ycyv4f_1($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda_p7hm5s_1($br) {
     return function ($this$Column, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(1709398745, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:197)');
+          traceEventStart(1709398745, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous> (Index.kt:217)');
         }
-        H1$composable(toAttrs(id(Companion_getInstance_1(), 'project')), ComposableSingletons$IndexKt_getInstance().y2k_1, $composer_0, 48, 0);
+        H1$composable(toAttrs(id(Companion_getInstance_1(), 'project')), ComposableSingletons$IndexKt_getInstance().z2k_1, $composer_0, 48, 0);
         var tmp_0 = thenIf(thenIf(textAlign(Companion_getInstance_1(), Companion_getInstance_15().v20()), $br.i4(Breakpoint_SM_getInstance()) > 0, margin_1(Companion_getInstance_1(), VOID, get_px(60))), $br.i4(Breakpoint_SM_getInstance()) <= 0, Companion_getInstance_1());
-        Column$composable(tmp_0, null, null, null, ComposableSingletons$IndexKt_getInstance().z2k_1, $composer_0, 24576, 14);
+        Column$composable(tmp_0, null, null, null, ComposableSingletons$IndexKt_getInstance().a2l_1, $composer_0, 24576, 14);
         var tmp_1;
         if (isTraceInProgress()) {
           traceEventEnd();
@@ -2357,21 +2407,21 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda_yqjvsq_1($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda_2l5jvp_1($br) {
     return function ($this$Box, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(-1581799070, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous> (Index.kt:196)');
+          traceEventStart(-1581799070, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous> (Index.kt:216)');
         }
         var tmp$ret$6;
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$5;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
         var tmp_0 = $composer_0;
-        var dispatchReceiver = composableLambda(tmp_0, 1709398745, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda$lambda_ycyv4f_1($br));
+        var dispatchReceiver = composableLambda(tmp_0, 1709398745, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda$lambda_p7hm5s_1($br));
         var tmp$ret$4;
         // Inline function 'androidx.compose.runtime.remember$composable' call
         var tmp3_remember$composable = $composer_0;
@@ -2391,7 +2441,7 @@
         var tmp_1;
         if (tmp2_cache ? true : tmp0_let === Companion_getInstance_0().uw_1) {
           var tmp$ret$0;
-          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
           tmp$ret$0 = ComposableLambda$invoke$ref_33(dispatchReceiver);
           var value = tmp$ret$0;
           tmp1_cache.n13(value);
@@ -2427,13 +2477,13 @@
       return $boundThis.u1p(p0, p1, p2);
     };
   }
-  function ComposableSingletons$IndexKt$lambda_14$lambda$lambda_5w0str($br) {
+  function ComposableSingletons$IndexKt$lambda_13$lambda$lambda_utkv8w($br) {
     return function ($this$Column, $composer, $changed) {
       var $composer_0 = $composer;
       var tmp;
       if (!(($changed & 81) === 16) ? true : !$composer_0.q11()) {
         if (isTraceInProgress()) {
-          traceEventStart(321982181, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous> (Index.kt:55)');
+          traceEventStart(321982181, $changed, -1, 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous> (Index.kt:55)');
         }
         navHeader$composable($composer_0, 0);
         var tmp_0 = Companion_getInstance_1();
@@ -2477,9 +2527,9 @@
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$13;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
         var tmp_7 = $composer_0;
-        var dispatchReceiver = composableLambda(tmp_7, 942603266, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda_yqjvsq($br));
+        var dispatchReceiver = composableLambda(tmp_7, 942603266, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda_2l5jvp($br));
         var tmp$ret$12;
         // Inline function 'androidx.compose.runtime.remember$composable' call
         var tmp3_remember$composable = $composer_0;
@@ -2499,7 +2549,7 @@
         var tmp_8;
         if (tmp2_cache ? true : tmp0_let === Companion_getInstance_0().uw_1) {
           var tmp$ret$8;
-          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
           tmp$ret$8 = ComposableLambda$invoke$ref_30(dispatchReceiver);
           var value = tmp$ret$8;
           tmp1_cache.n13(value);
@@ -2536,9 +2586,9 @@
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$24;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
         var tmp_12 = $composer_0;
-        var dispatchReceiver_0 = composableLambda(tmp_12, -181917092, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda_yqjvsq_0($br));
+        var dispatchReceiver_0 = composableLambda(tmp_12, -181917092, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda_2l5jvp_0($br));
         var tmp$ret$23;
         // Inline function 'androidx.compose.runtime.remember$composable' call
         var tmp3_remember$composable_0 = $composer_0;
@@ -2558,7 +2608,7 @@
         var tmp_13;
         if (tmp2_cache_0 ? true : tmp0_let_0 === Companion_getInstance_0().uw_1) {
           var tmp$ret$19;
-          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
           tmp$ret$19 = ComposableLambda$invoke$ref_32(dispatchReceiver_0);
           var value_0 = tmp$ret$19;
           tmp1_cache_0.n13(value_0);
@@ -2583,7 +2633,7 @@
         var tmp6_top = get_px(50);
         var tmp7_right = get_px(50);
         var tmp_17 = id(thenIf(thenIf(tmp_15, tmp_16, margin_1(tmp4_$receiver, tmp6_top, tmp7_right, VOID, tmp5_left)), $br.i4(Breakpoint_SM_getInstance()) <= 0, margin(Companion_getInstance_1(), VOID, get_px(15))), 'skill');
-        Box$composable(tmp_17, null, null, ComposableSingletons$IndexKt_getInstance().x2k_1, $composer_0, 3072, 6);
+        Box$composable(tmp_17, null, null, ComposableSingletons$IndexKt_getInstance().y2k_1, $composer_0, 3072, 6);
         var tmp_18 = Companion_getInstance_1();
         var tmp_19 = $br.i4(Breakpoint_SM_getInstance()) > 0;
         var tmp8_$receiver = Companion_getInstance_1();
@@ -2595,9 +2645,9 @@
         // Inline function 'kotlin.run' call
         // Inline function 'kotlin.contracts.contract' call
         var tmp$ret$31;
-        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+        // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
         var tmp_21 = $composer_0;
-        var dispatchReceiver_1 = composableLambda(tmp_21, -1581799070, true, ComposableSingletons$IndexKt$lambda_14$lambda$lambda$lambda_yqjvsq_1($br));
+        var dispatchReceiver_1 = composableLambda(tmp_21, -1581799070, true, ComposableSingletons$IndexKt$lambda_13$lambda$lambda$lambda_2l5jvp_1($br));
         var tmp$ret$30;
         // Inline function 'androidx.compose.runtime.remember$composable' call
         var tmp3_remember$composable_1 = $composer_0;
@@ -2617,7 +2667,7 @@
         var tmp_22;
         if (tmp2_cache_1 ? true : tmp0_let_1 === Companion_getInstance_0().uw_1) {
           var tmp$ret$26;
-          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-14.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+          // Inline function 'com.app.composeweb.pages.ComposableSingletons$IndexKt.lambda-13.<anonymous>.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
           tmp$ret$26 = ComposableLambda$invoke$ref_34(dispatchReceiver_1);
           var value_1 = tmp$ret$26;
           tmp1_cache_1.n13(value_1);
@@ -2656,33 +2706,31 @@
   function ComposableSingletons$IndexKt() {
     ComposableSingletons$IndexKt_instance = this;
     var tmp = this;
-    tmp.n2k_1 = ComposableLambda$invoke$ref_14(composableLambdaInstance(647225899, false, ComposableSingletons$IndexKt$lambda_1$lambda_5yb608));
+    tmp.p2k_1 = ComposableLambda$invoke$ref_14(composableLambdaInstance(647225899, false, ComposableSingletons$IndexKt$lambda_1$lambda_5yb608));
     var tmp_0 = this;
-    tmp_0.o2k_1 = ComposableLambda$invoke$ref_15(composableLambdaInstance(-412646067, false, ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f));
+    tmp_0.q2k_1 = ComposableLambda$invoke$ref_15(composableLambdaInstance(-1401075786, false, ComposableSingletons$IndexKt$lambda_2$lambda_yrxn2f));
     var tmp_1 = this;
-    tmp_1.p2k_1 = ComposableLambda$invoke$ref_16(composableLambdaInstance(-1401075786, false, ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui));
+    tmp_1.r2k_1 = ComposableLambda$invoke$ref_16(composableLambdaInstance(-916438955, false, ComposableSingletons$IndexKt$lambda_3$lambda_7fjxui));
     var tmp_2 = this;
-    tmp_2.q2k_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(-916438955, false, ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p));
+    tmp_2.s2k_1 = ComposableLambda$invoke$ref_17(composableLambdaInstance(2045091972, false, ComposableSingletons$IndexKt$lambda_4$lambda_le2j7p));
     var tmp_3 = this;
-    tmp_3.r2k_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(2045091972, false, ComposableSingletons$IndexKt$lambda_5$lambda_ktf1p8));
+    tmp_3.t2k_1 = ComposableLambda$invoke$ref_18(composableLambdaInstance(-1528648592, false, ComposableSingletons$IndexKt$lambda_5$lambda_ktf1p8));
     var tmp_4 = this;
-    tmp_4.s2k_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(-1528648592, false, ComposableSingletons$IndexKt$lambda_6$lambda_807fcz));
+    tmp_4.u2k_1 = ComposableLambda$invoke$ref_19(composableLambdaInstance(990488271, false, ComposableSingletons$IndexKt$lambda_6$lambda_807fcz));
     var tmp_5 = this;
-    tmp_5.t2k_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(990488271, false, ComposableSingletons$IndexKt$lambda_7$lambda_y7a5jy));
+    tmp_5.v2k_1 = ComposableLambda$invoke$ref_20(composableLambdaInstance(-69383695, false, ComposableSingletons$IndexKt$lambda_7$lambda_y7a5jy));
     var tmp_6 = this;
-    tmp_6.u2k_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(-69383695, false, ComposableSingletons$IndexKt$lambda_8$lambda_5dnohr));
+    tmp_6.w2k_1 = ComposableLambda$invoke$ref_21(composableLambdaInstance(-2036948865, false, ComposableSingletons$IndexKt$lambda_8$lambda_5dnohr));
     var tmp_7 = this;
-    tmp_7.v2k_1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(-2036948865, false, ComposableSingletons$IndexKt$lambda_9$lambda_nfyskg));
+    tmp_7.x2k_1 = ComposableLambda$invoke$ref_22(composableLambdaInstance(1747165858, false, ComposableSingletons$IndexKt$lambda_9$lambda_nfyskg));
     var tmp_8 = this;
-    tmp_8.w2k_1 = ComposableLambda$invoke$ref_23(composableLambdaInstance(1747165858, false, ComposableSingletons$IndexKt$lambda_10$lambda_o4kwki));
+    tmp_8.y2k_1 = ComposableLambda$invoke$ref_23(composableLambdaInstance(-526647445, false, ComposableSingletons$IndexKt$lambda_10$lambda_o4kwki));
     var tmp_9 = this;
-    tmp_9.x2k_1 = ComposableLambda$invoke$ref_24(composableLambdaInstance(-526647445, false, ComposableSingletons$IndexKt$lambda_11$lambda_4p1khp));
+    tmp_9.z2k_1 = ComposableLambda$invoke$ref_24(composableLambdaInstance(-1282517642, false, ComposableSingletons$IndexKt$lambda_11$lambda_4p1khp));
     var tmp_10 = this;
-    tmp_10.y2k_1 = ComposableLambda$invoke$ref_25(composableLambdaInstance(-1282517642, false, ComposableSingletons$IndexKt$lambda_12$lambda_xio1jw));
+    tmp_10.a2l_1 = ComposableLambda$invoke$ref_25(composableLambdaInstance(898698960, false, ComposableSingletons$IndexKt$lambda_12$lambda_xio1jw));
     var tmp_11 = this;
-    tmp_11.z2k_1 = ComposableLambda$invoke$ref_26(composableLambdaInstance(898698960, false, ComposableSingletons$IndexKt$lambda_13$lambda_8otjd1));
-    var tmp_12 = this;
-    tmp_12.a2l_1 = ComposableLambda$invoke$ref_27(composableLambdaInstance(1142896110, false, ComposableSingletons$IndexKt$lambda_14$lambda_k4sxp6));
+    tmp_11.b2l_1 = ComposableLambda$invoke$ref_26(composableLambdaInstance(1142896110, false, ComposableSingletons$IndexKt$lambda_13$lambda_8otjd1));
   }
   var ComposableSingletons$IndexKt_instance;
   function ComposableSingletons$IndexKt_getInstance() {
@@ -2733,7 +2781,7 @@
       tmp$ret$4 = tmp0;
       LaunchedEffect$composable('Dilshad', tmp$ret$4, $composer_0, 6);
       var tmp_1 = gridTemplateRows(fillMaxSize(margin_2(padding_0(background(Companion_getInstance_1(), [new CSSBackground(VOID, get_BlackColor())]), get_px(0)), get_px(0))), 'minmax(0, 1fr) min-content');
-      Box$composable(tmp_1, null, null, ComposableSingletons$IndexKt_getInstance().a2l_1, $composer_0, 3072, 6);
+      Box$composable(tmp_1, null, null, ComposableSingletons$IndexKt_getInstance().b2l_1, $composer_0, 3072, 6);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
@@ -2779,7 +2827,7 @@
   };
   protoOf(HomePage$composable$slambda).w18 = function ($this$LaunchedEffect, completion) {
     var i = new HomePage$composable$slambda(completion);
-    i.j2l_1 = $this$LaunchedEffect;
+    i.k2l_1 = $this$LaunchedEffect;
     return i;
   };
   function HomePage$composable$slambda_0(resultContinuation) {
