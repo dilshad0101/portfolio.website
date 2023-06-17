@@ -235,6 +235,11 @@ fun HomePage() {
                         project(
                             imgPath = "/img1.jpg", title = "Prayer Time Reminder", Description =  "PrayerTime Reminder is a powerful and intuitive mobile app designed to help you stay connected to your faith through timely and accurate prayer times. With precise calculations based on your location, customizable Adhan notifications, and a built-in Qibla compass, you'll never miss a prayer again. Seamlessly adjust prayer times to match your local conventions and track your prayer history for personal reflection. Stay informed about Islamic events with the integrated calendar and explore Quranic resources for spiritual guidance. With a user-friendly interface and multilingual support, PrayerTime Reminder is your ultimate prayer companion, ensuring you never lose touch with your daily prayers. Download PrayerTime Reminder now and experience a more fulfilling and organized prayer journey.")
 
+                        project(
+                            imgPath = "/spendrPoster.jpg",
+                            title = "Wallet Tracker",
+                            Description = "Spendr, the ultimate wallet tracking app for effortless expense and savings management. Keep a close eye on your finances with Spendr's intuitive interface. Gain insights through interactive graphs that beautifully depict your spending habits. Personalized financial advice is just a tap away, helping you make informed decisions and reach your goals faster. Track your expenses, savings, and stay in control of your financial journey like never before. Spendr empowers you with actionable recommendations to optimize your budget and maximize savings. Simplify money management and achieve financial freedom with Spendr."
+                            )
 
 
                     }
