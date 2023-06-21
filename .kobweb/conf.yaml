@@ -1,6 +1,5 @@
 site:
   title: "Dilshad"
-  routePrefix: "portfolio.website"
 
 server:
   files:
@@ -10,6 +9,6 @@ server:
       api: "build/libs/composeweb.jar"
     prod:
       script: "build/distributions/composeweb.js"
-      siteRoot: "../docs"
+      siteRoot: ".kobweb/site"
 
   port: 8080
