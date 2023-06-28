@@ -10,16 +10,17 @@ ENV KOBWEB_CLI_VERSION=0.9.12
 
 # Copy the project code to an arbitrary subdir so we can install stuff in the
 # Docker container root without worrying about clobbering project files.
-COPY . /project
+COPY . /project/site
 
 # Update and install required OS packages to continue
 # Note: Playwright is a system for running browsers, and here we use it to
 # install Chromium.
-RUN apt-get install -y curl gnupg unzip wget openjdk-11-jdk \
-RUN curl -sL https://deb.nodesource.com/setup_19.x | bash - \
-RUN apt-get install -y nodejs \
-RUN npm init -y \
-RUN npx playwright install --with-deps chromium
+RUN apt-get update \
+    && apt-get install -y curl gnupg unzip wget openjdk-11-jdk \
+    && curl -sL https://deb.nodesource.com/setup_19.x | bash - \
+    && apt-get install -y nodejs \
+    && npm init -y \
+    && npx playwright install --with-deps chromium
 
 # Fetch the latest version of the Kobweb CLI
 RUN wget https://github.com/varabyte/kobweb-cli/releases/download/v${KOBWEB_CLI_VERSION}/kobweb-${KOBWEB_CLI_VERSION}.zip \
