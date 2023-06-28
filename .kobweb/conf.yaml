@@ -11,5 +11,9 @@ server:
     prod:
       script: "build/distributions/composeweb.js"
       siteRoot: "../docs"
-
+  cors:
+    hosts:
+      - name: "dilshad-portfolio.onrender.com"
+        schemes:
+          - "https"
   port: 8080

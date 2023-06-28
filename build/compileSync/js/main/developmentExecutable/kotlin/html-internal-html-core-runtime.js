@@ -20,15 +20,15 @@
   //region block: imports
   var protoOf = kotlin_kotlin.$_$.y6;
   var interfaceMeta = kotlin_kotlin.$_$.m6;
-  var VOID = kotlin_kotlin.$_$.v9;
+  var VOID = kotlin_kotlin.$_$.z9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
-  var THROW_CCE = kotlin_kotlin.$_$.b9;
-  var Annotation = kotlin_kotlin.$_$.q8;
+  var THROW_CCE = kotlin_kotlin.$_$.d9;
+  var Annotation = kotlin_kotlin.$_$.s8;
   var classMeta = kotlin_kotlin.$_$.c6;
   var Unit_getInstance = kotlin_kotlin.$_$.w1;
-  var ensureNotNull = kotlin_kotlin.$_$.j9;
+  var ensureNotNull = kotlin_kotlin.$_$.l9;
   var AbstractApplier = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d;
-  var clear = kotlin_kotlin.$_$.u9;
+  var clear = kotlin_kotlin.$_$.w9;
   var onBeginChanges = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e;
   var onEndChanges = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.u;

@@ -36,30 +36,30 @@
   var initSilk = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.o;
   var Unit_getInstance = kotlin_kotlin.$_$.w1;
   var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.l1;
-  var THROW_CCE = kotlin_kotlin.$_$.b9;
+  var THROW_CCE = kotlin_kotlin.$_$.d9;
   var isObject = kotlin_kotlin.$_$.q6;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
-  var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.c;
+  var KobwebApp$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
   var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.d1;
   var KobwebComposeStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.w2;
   var Style$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.x8;
   var SilkStyleSheet_getInstance = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.y;
   var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.f1;
   var Companion_getInstance_0 = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.b3;
-  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
-  var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.f;
+  var Companion_getInstance_1 = kotlin_com_varabyte_kobweb_kobweb_core.$_$.h;
+  var prependIf = kotlin_com_varabyte_kobweb_kobweb_core.$_$.g;
   var get_ImageStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.b;
   var toModifier$composable = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.k;
   var toAttrs = kotlin_com_varabyte_kobweb_kobweb_compose.$_$.s2;
   var Img$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.t8;
   var get_LinkStyle = kotlin_com_varabyte_kobweb_kobweb_silk_widgets.$_$.d;
-  var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.d;
+  var Anchor$composable = kotlin_com_varabyte_kobweb_kobweb_core.$_$.e;
   var Text$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.y8;
   var registerRefScope$composable = kotlin_com_varabyte_kobweb_compose_html_ext.$_$.y;
   var protoOf = kotlin_kotlin.$_$.y6;
-  var Annotation = kotlin_kotlin.$_$.q8;
+  var Annotation = kotlin_kotlin.$_$.s8;
   var classMeta = kotlin_kotlin.$_$.c6;
-  var VOID = kotlin_kotlin.$_$.v9;
+  var VOID = kotlin_kotlin.$_$.z9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   //endregion
   //region block: pre-declaration

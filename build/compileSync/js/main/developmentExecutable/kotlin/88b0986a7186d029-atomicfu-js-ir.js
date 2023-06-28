@@ -17,11 +17,11 @@
   var protoOf = kotlin_kotlin.$_$.y6;
   var defineProp = kotlin_kotlin.$_$.e6;
   var classMeta = kotlin_kotlin.$_$.c6;
-  var VOID = kotlin_kotlin.$_$.v9;
+  var VOID = kotlin_kotlin.$_$.z9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   var objectMeta = kotlin_kotlin.$_$.x6;
   var toString = kotlin_kotlin.$_$.b7;
-  var toString_0 = kotlin_kotlin.$_$.s9;
+  var toString_0 = kotlin_kotlin.$_$.u9;
   //endregion
   //region block: pre-declaration
   setMetadataFor(atomicfu$AtomicRefArray$ref, 'AtomicArray', classMeta);

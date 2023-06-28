@@ -25,14 +25,14 @@
   var Unit_getInstance = kotlin_kotlin.$_$.w1;
   var asCoroutineDispatcher = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.r;
   var CoroutineScope = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.m;
-  var VOID = kotlin_kotlin.$_$.v9;
+  var VOID = kotlin_kotlin.$_$.z9;
   var launch = kotlin_org_jetbrains_kotlinx_kotlinx_coroutines_core.$_$.u;
-  var Exception = kotlin_kotlin.$_$.v8;
+  var Exception = kotlin_kotlin.$_$.x8;
   var StringBuilder_init_$Create$ = kotlin_kotlin.$_$.s;
   var decodeToString = kotlin_kotlin.$_$.t7;
-  var THROW_CCE = kotlin_kotlin.$_$.b9;
+  var THROW_CCE = kotlin_kotlin.$_$.d9;
   var isCharSequence = kotlin_kotlin.$_$.o6;
-  var trim = kotlin_kotlin.$_$.o8;
+  var trim = kotlin_kotlin.$_$.q8;
   var toString = kotlin_kotlin.$_$.b7;
   var isBlank = kotlin_kotlin.$_$.y7;
   var _Char___init__impl__6a9atx = kotlin_kotlin.$_$.n1;
@@ -55,7 +55,7 @@
   var SafeContinuation_init_$Create$ = kotlin_kotlin.$_$.r;
   var returnIfSuspended = kotlin_kotlin.$_$.d;
   var SuspendFunction1 = kotlin_kotlin.$_$.r5;
-  var Annotation = kotlin_kotlin.$_$.q8;
+  var Annotation = kotlin_kotlin.$_$.s8;
   var sourceInformation = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b1;
   var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.e1;
   var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
@@ -173,7 +173,7 @@
   var plus_1 = kotlin_kotlin.$_$.h4;
   var equals = kotlin_kotlin.$_$.f6;
   var hashCode = kotlin_kotlin.$_$.k6;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.r9;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.t9;
   var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
   var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.c1;
   var sourceInformationMarkerStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.a1;
@@ -181,8 +181,8 @@
   var staticCompositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.c1;
   var interfaceMeta = kotlin_kotlin.$_$.m6;
   var A$composable = kotlin_org_jetbrains_compose_html_html_core.$_$.p8;
-  var THROW_ISE = kotlin_kotlin.$_$.c9;
-  var Enum = kotlin_kotlin.$_$.t8;
+  var THROW_ISE = kotlin_kotlin.$_$.e9;
+  var Enum = kotlin_kotlin.$_$.v8;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.e;
   var charSequenceLength = kotlin_kotlin.$_$.b6;
   var joinToString = kotlin_kotlin.$_$.u3;
@@ -191,12 +191,12 @@
   var startsWith = kotlin_kotlin.$_$.g8;
   var drop = kotlin_kotlin.$_$.v7;
   var first = kotlin_kotlin.$_$.x7;
-  var Char = kotlin_kotlin.$_$.r8;
+  var Char = kotlin_kotlin.$_$.t8;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.l;
   var charArrayOf = kotlin_kotlin.$_$.z5;
   var split_0 = kotlin_kotlin.$_$.e8;
   var getOrNull = kotlin_kotlin.$_$.r3;
-  var ensureNotNull = kotlin_kotlin.$_$.j9;
+  var ensureNotNull = kotlin_kotlin.$_$.l9;
   var startsWith_0 = kotlin_kotlin.$_$.h8;
   var endsWith = kotlin_kotlin.$_$.w7;
   var dropLast = kotlin_kotlin.$_$.u7;
@@ -270,6 +270,10 @@
     return apiFetcherInstance;
   }
   var apiFetcherInstance;
+  function get_api(_this__u8e3s4) {
+    _init_properties_ApiFetcher_kt__epxlpv();
+    return get_apiFetcherInstance();
+  }
   function get_$stableprop() {
     return 0;
   }
@@ -3064,13 +3068,14 @@
   //endregion
   //region block: exports
   _.$_$ = _.$_$ || {};
-  _.$_$.a = initKobweb;
-  _.$_$.b = get_AppGlobalsLocal;
-  _.$_$.c = KobwebApp$composable;
-  _.$_$.d = Anchor$composable;
-  _.$_$.e = Router;
-  _.$_$.f = prependIf;
-  _.$_$.g = Companion_getInstance_4;
+  _.$_$.a = get_api;
+  _.$_$.b = initKobweb;
+  _.$_$.c = get_AppGlobalsLocal;
+  _.$_$.d = KobwebApp$composable;
+  _.$_$.e = Anchor$composable;
+  _.$_$.f = Router;
+  _.$_$.g = prependIf;
+  _.$_$.h = Companion_getInstance_4;
   //endregion
   return _;
 }));

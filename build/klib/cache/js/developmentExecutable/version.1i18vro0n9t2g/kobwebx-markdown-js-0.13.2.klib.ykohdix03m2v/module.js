@@ -17,7 +17,7 @@
   //region block: imports
   var protoOf = kotlin_kotlin.$_$.y6;
   var classMeta = kotlin_kotlin.$_$.c6;
-  var VOID = kotlin_kotlin.$_$.v9;
+  var VOID = kotlin_kotlin.$_$.z9;
   var setMetadataFor = kotlin_kotlin.$_$.z6;
   var compositionLocalOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
   //endregion
