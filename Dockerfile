@@ -15,7 +15,6 @@ COPY . /project
 # Update and install required OS packages to continue
 # Note: Playwright is a system for running browsers, and here we use it to
 # install Chromium.
-RUN apt-get update \
 RUN apt-get install -y curl gnupg unzip wget openjdk-11-jdk \
 RUN curl -sL https://deb.nodesource.com/setup_19.x | bash - \
 RUN apt-get install -y nodejs \
