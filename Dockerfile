@@ -10,7 +10,7 @@ ENV KOBWEB_CLI_VERSION=0.9.12
 
 # Copy the project code to an arbitrary subdir so we can install stuff in the
 # Docker container root without worrying about clobbering project files.
-COPY .. /project
+COPY . /project
 
 # Update and install required OS packages to continue
 # Note: Playwright is a system for running browsers, and here we use it to
@@ -29,7 +29,7 @@ RUN wget https://github.com/varabyte/kobweb-cli/releases/download/v${KOBWEB_CLI_
 
 ENV PATH="/kobweb-${KOBWEB_CLI_VERSION}/bin:${PATH}"
 
-WORKDIR /project
+WORKDIR /project/site
 
 # Decrease Gradle memory usage to avoid OOM situations in tight environments
 # (many free Cloud tiers only give you 512M of RAM). The following amount
@@ -44,7 +44,7 @@ RUN kobweb export --notty
 # server.
 FROM base as run
 
-COPY --from=export /project/.kobweb .kobweb
+COPY --from=export /project/site.kobweb .kobweb
 
 RUN apt-get update \
     && apt-get install -y openjdk-11-jre-headless
