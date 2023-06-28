@@ -6,11 +6,11 @@ FROM debian:stable-slim as base
 # of space.
 FROM base as export
 
-ENV KOBWEB_CLI_VERSION=0.9.12
+ENV KOBWEB_CLI_VERSION=0.13.2
 
 # Copy the project code to an arbitrary subdir so we can install stuff in the
 # Docker container root without worrying about clobbering project files.
-COPY . /project/site
+COPY . /project
 
 # Update and install required OS packages to continue
 # Note: Playwright is a system for running browsers, and here we use it to
