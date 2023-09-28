@@ -231,8 +231,14 @@ fun HomePage() {
                         modifier = Modifier
                     ){
                         project(
+                            imgPath = "/Music player.jpg",
+                            title = ":Music Player: TuneCast",
+                            Description = "Tunecast is a native Android music player app developed using Kotlin and Compose. It features lyrics display and utilizes Cloud Firestore for remote database access. The app follows MVVM architecture and adheres to Material3 UI patterns for a modern look and feel. Tunecast provides personalized music recommendations and allows users to select their music, after which the app recommends similar tracks. Dynamic colors are displayed using the Palette API, and audio playback is powered by the media3 library."
+                        )
+                        
+                        project(
                             imgPath = "/spendrPoster.jpg",
-                            title = "Wallet Tracker",
+                            title = "Wallet Tracker: Spendr",
                             Description = "Spendr, the ultimate wallet tracking app for effortless expense and savings management. Keep a close eye on your finances with Spendr's intuitive interface. Gain insights through interactive graphs that beautifully depict your spending habits. Personalized financial advice is just a tap away, helping you make informed decisions and reach your goals faster. Track your expenses, savings, and stay in control of your financial journey like never before. Spendr empowers you with actionable recommendations to optimize your budget and maximize savings. Simplify money management and achieve financial freedom with Spendr."
                         )
 
