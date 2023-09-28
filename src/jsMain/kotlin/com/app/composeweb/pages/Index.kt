@@ -231,7 +231,7 @@ fun HomePage() {
                         modifier = Modifier
                     ){
                         project(
-                            imgPath = "/Music player.jpg",
+                            imgPath = "/musicplayer.jpg",
                             title = "Music Player: TuneCast",
                             Description = "Tunecast is a native Android music player app developed using Kotlin and Compose. It features lyrics display and utilizes Cloud Firestore for remote database access. The app follows MVVM architecture and adheres to Material3 UI patterns for a modern look and feel. Tunecast provides personalized music recommendations and allows users to select their music, after which the app recommends similar tracks. Dynamic colors are displayed using the Palette API, and audio playback is powered by the media3 library."
                         )
